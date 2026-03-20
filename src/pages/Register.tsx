@@ -11,7 +11,7 @@ export const Register: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    login(email);
+    login();
     navigate('/dashboard');
   };
 

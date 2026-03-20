@@ -6,6 +6,7 @@ export interface User {
   email: string;
   role: Role;
   avatar?: string;
+  createdAt?: string;
 }
 
 export interface Village {
@@ -34,6 +35,30 @@ export interface RelatedProject {
   id: string;
   title: string;
   similarity: number;
+}
+
+export type AwardType = 'Grand Prize' | 'Finalist' | 'Village Award' | 'Special Prize';
+export type Division = 'High School' | 'Undergraduate' | 'Overgraduate';
+
+export interface AwardEntry {
+  id: string;
+  year: number;
+  teamName: string;
+  projectTitle: string;
+  awardType: AwardType;
+  awardName: string;
+  village: string;
+  summary: string;
+  wikiLink: string;
+  tags: string[];
+  country: string;
+  division: Division;
+  whyThisProjectWon: {
+    problem: string;
+    solution: string;
+    innovation: string;
+    judgeAppeal: string;
+  };
 }
 
 export type IdeaStatus = 'draft' | 'pending' | 'published' | 'featured';

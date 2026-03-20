@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { MOCK_USERS } from '../data';
-import { Village } from '../types';
+import React, { useState, useEffect } from 'react';
+import { db } from '../firebase';
+import { collection, onSnapshot } from 'firebase/firestore';
+import { Village, Idea, User } from '../types';
 import { useIdeas } from '../context/IdeaContext';
 import { useVillages } from '../context/VillageContext';
 import { Card, Button, Badge } from '../components/UI';
@@ -22,17 +23,45 @@ import {
 export const AdminDashboard: React.FC = () => {
   const { ideas, updateIdeaStatus, loading: ideasLoading } = useIdeas();
   const { villages, addVillage, updateVillage, deleteVillage, loading: villagesLoading } = useVillages();
+  const [users, setUsers] = useState<User[]>([]);
+  const [usersLoading, setUsersLoading] = useState(true);
   const [isAddingVillage, setIsAddingVillage] = useState(false);
   const [editingVillage, setEditingVillage] = useState<Village | null>(null);
   const [newVillage, setNewVillage] = useState({ name: '', description: '', color: 'emerald' });
 
+  useEffect(() => {
+    const unsub = onSnapshot(collection(db, 'users'), (snapshot) => {
+      const fetchedUsers = snapshot.docs.map(doc => ({
+        id: doc.id,
+        ...doc.data()
+      })) as User[];
+      setUsers(fetchedUsers);
+      setUsersLoading(false);
+    }, (error) => {
+      console.error("Users fetch error:", error);
+      setUsersLoading(false);
+    });
+    return () => unsub();
+  }, []);
+
   const pendingIdeas = ideas.filter(i => i.status === 'pending');
   
+  const getGrowth = (items: any[]) => {
+    const oneWeekAgo = new Date();
+    oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+    const newItems = items.filter(item => {
+      const createdAt = item.createdAt ? new Date(item.createdAt) : new Date(0);
+      return createdAt > oneWeekAgo;
+    });
+    if (items.length === 0) return 0;
+    return Math.round((newItems.length / items.length) * 100);
+  };
+
   const stats = [
-    { label: 'Total Ideas', value: ideas.length, icon: FileText, color: 'emerald' },
-    { label: 'Pending Review', value: pendingIdeas.length, icon: Clock, color: 'amber' },
-    { label: 'Published', value: ideas.filter(i => i.status === 'published' || i.status === 'featured').length, icon: CheckCircle2, color: 'blue' },
-    { label: 'Villages', value: villages.length, icon: Layers, color: 'purple' },
+    { label: 'Total Ideas', value: ideas.length, icon: FileText, color: 'emerald', growth: getGrowth(ideas) },
+    { label: 'Total Users', value: users.length, icon: Users, color: 'indigo', growth: getGrowth(users) },
+    { label: 'Pending Review', value: pendingIdeas.length, icon: Clock, color: 'amber', growth: 0 },
+    { label: 'Villages', value: villages.length, icon: Layers, color: 'purple', growth: getGrowth(villages) },
   ];
 
   const handleApprove = async (id: string) => {
@@ -60,7 +89,7 @@ export const AdminDashboard: React.FC = () => {
     }
   };
 
-  if (ideasLoading || villagesLoading) {
+  if (ideasLoading || villagesLoading || usersLoading) {
     return (
       <div className="flex items-center justify-center h-screen">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
@@ -89,10 +118,12 @@ export const AdminDashboard: React.FC = () => {
               <div className={`w-12 h-12 rounded-2xl bg-${stat.color}-50 flex items-center justify-center text-${stat.color}-600`}>
                 <stat.icon className="w-6 h-6" />
               </div>
-              <div className="flex items-center gap-1 text-emerald-600 text-xs font-bold">
-                <TrendingUp className="w-3 h-3" />
-                +12%
-              </div>
+              {stat.growth > 0 && (
+                <div className="flex items-center gap-1 text-emerald-600 text-xs font-bold">
+                  <TrendingUp className="w-3 h-3" />
+                  +{stat.growth}%
+                </div>
+              )}
             </div>
             <p className="text-sm font-medium text-slate-500">{stat.label}</p>
             <p className="text-3xl font-bold text-slate-900">{stat.value}</p>

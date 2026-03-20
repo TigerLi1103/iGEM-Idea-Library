@@ -15,6 +15,7 @@ import { Login } from './pages/Login';
 import { Register } from './pages/Register';
 import { SearchResults } from './pages/SearchResults';
 import { IdeasLibrary } from './pages/IdeasLibrary';
+import { AwardsArchive } from './pages/AwardsArchive';
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode; adminOnly?: boolean }> = ({ children, adminOnly }) => {
   const { user, loading, isAdmin } = useAuth();
@@ -37,6 +38,7 @@ const AppContent: React.FC = () => {
           <Route path="/villages/:id" element={<VillageDetail />} />
           <Route path="/ideas" element={<IdeasLibrary />} />
           <Route path="/ideas/:id" element={<IdeaDetail />} />
+          <Route path="/awards" element={<AwardsArchive />} />
           <Route path="/search" element={<SearchResults />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />

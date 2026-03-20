@@ -33,6 +33,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
             email: firebaseUser.email || '',
             role: firebaseUser.email === 'lichengxi1103@gmail.com' ? 'admin' : 'user',
             avatar: firebaseUser.photoURL || undefined,
+            createdAt: new Date().toISOString(),
           };
           await setDoc(doc(db, 'users', firebaseUser.uid), newUser);
           setUser(newUser);

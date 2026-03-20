@@ -31,6 +31,7 @@ export const Navbar: React.FC = () => {
             <div className="hidden md:flex items-center gap-6">
               <Link to="/villages" className="text-sm font-medium text-slate-600 hover:text-emerald-600 transition-colors">Villages</Link>
               <Link to="/ideas" className="text-sm font-medium text-slate-600 hover:text-emerald-600 transition-colors">Browse Ideas</Link>
+              <Link to="/awards" className="text-sm font-medium text-slate-600 hover:text-emerald-600 transition-colors">Awards Archive</Link>
             </div>
           </div>
 
