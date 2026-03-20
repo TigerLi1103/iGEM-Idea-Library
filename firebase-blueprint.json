@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Application user profile",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "role": { "type": "string", "enum": ["visitor", "user", "admin"] },
+        "avatar": { "type": "string" }
+      },
+      "required": ["id", "name", "email", "role"]
+    },
+    "Idea": {
+      "title": "Idea",
+      "description": "iGEM project idea",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "summary": { "type": "string" },
+        "description": { "type": "string" },
+        "villageId": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "problemStatement": { "type": "string" },
+        "proposedSolution": { "type": "string" },
+        "innovationPoints": { "type": "array", "items": { "type": "string" } },
+        "risks": { "type": "array", "items": { "type": "string" } },
+        "authorId": { "type": "string" },
+        "authorName": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "status": { "type": "string", "enum": ["draft", "pending", "published", "featured"] },
+        "sourceType": { "type": "string", "enum": ["manual", "ai_matched", "verified"] },
+        "aiMatchedTeams": { "type": "array" },
+        "potentialAwards": { "type": "array" },
+        "relatedProjects": { "type": "array" },
+        "confidenceScore": { "type": "number" },
+        "verifiedStatus": { "type": "boolean" },
+        "chassis": { "type": "string" },
+        "applicationArea": { "type": "string" }
+      },
+      "required": ["id", "title", "summary", "description", "villageId", "authorId", "status"]
+    },
+    "Village": {
+      "title": "Village",
+      "description": "iGEM village track",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "icon": { "type": "string" },
+        "color": { "type": "string" },
+        "ideaCount": { "type": "number" }
+      },
+      "required": ["id", "name", "description"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profiles"
+    },
+    "/ideas/{ideaId}": {
+      "schema": "Idea",
+      "description": "Project ideas"
+    },
+    "/villages/{villageId}": {
+      "schema": "Village",
+      "description": "Competition tracks"
+    }
+  }
+}
