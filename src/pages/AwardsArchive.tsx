@@ -43,7 +43,8 @@ export const AwardsArchive: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('overview');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedYear, setSelectedYear] = useState<string>('All');
-  const [selectedType, setSelectedType] = useState<string>('All');
+  const [selectedAwardType, setSelectedAwardType] = useState<string>('All');
+  const [selectedPrize, setSelectedPrize] = useState<string>('All');
   const [selectedVillage, setSelectedVillage] = useState<string>('All');
   const [selectedDivision, setSelectedDivision] = useState<string>('All');
   const [expandedAwardId, setExpandedAwardId] = useState<string | null>(null);
@@ -52,7 +53,7 @@ export const AwardsArchive: React.FC = () => {
   const years = ['All', ...Array.from(new Set(MOCK_AWARDS.map(a => a.year.toString()))).sort((a, b) => b.localeCompare(a))];
   const awardTypes = ['All', 'Grand Prize', 'Finalist', 'Village Award', 'Special Prize'];
   const villages = ['All', ...Array.from(new Set(MOCK_AWARDS.map(a => a.village))).sort()];
-  const divisions = ['All', 'Collegiate', 'High School'];
+  const divisions = ['All', 'High School', 'Undergraduate', 'Overgraduate'];
 
   const specificPrizes = [
     'All',
@@ -80,14 +81,14 @@ export const AwardsArchive: React.FC = () => {
         award.awardName.toLowerCase().includes(searchQuery.toLowerCase());
       
       const matchesYear = selectedYear === 'All' || award.year.toString() === selectedYear;
-      const matchesType = selectedType === 'All' || award.awardType === selectedType;
+      const matchesType = selectedAwardType === 'All' || award.awardType === selectedAwardType;
       const matchesVillage = selectedVillage === 'All' || award.village === selectedVillage;
       const matchesDivision = selectedDivision === 'All' || award.division === selectedDivision;
-      const matchesSpecificPrize = activeTab !== 'prize' || selectedType === 'All' || award.awardName === selectedType;
+      const matchesSpecificPrize = activeTab !== 'prize' || selectedPrize === 'All' || award.awardName === selectedPrize;
 
       return matchesSearch && matchesYear && matchesType && matchesVillage && matchesDivision && matchesSpecificPrize;
     });
-  }, [searchQuery, selectedYear, selectedType, selectedVillage, selectedDivision, activeTab]);
+  }, [searchQuery, selectedYear, selectedAwardType, selectedVillage, selectedDivision, activeTab, selectedPrize]);
 
   // Data for trends
   const villageDistribution = useMemo(() => {
@@ -127,8 +128,8 @@ export const AwardsArchive: React.FC = () => {
           <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-1">Award Type</label>
           <select 
             className="w-full bg-white border border-slate-200 rounded-xl px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-emerald-500"
-            value={selectedType}
-            onChange={(e) => setSelectedType(e.target.value)}
+            value={selectedAwardType}
+            onChange={(e) => setSelectedAwardType(e.target.value)}
           >
             {awardTypes.map(t => <option key={t} value={t}>{t}</option>)}
           </select>
@@ -445,14 +446,14 @@ export const AwardsArchive: React.FC = () => {
           {activeTab === 'overview' && renderOverview()}
           {activeTab === 'prize' && (
             <div className="space-y-6">
-              <div className="flex items-center gap-4 mb-8 overflow-x-auto pb-2 scrollbar-hide">
+              <div className="flex flex-wrap items-center gap-3 mb-8">
                 {specificPrizes.map(type => (
                   <button
                     key={type}
-                    onClick={() => setSelectedType(type)}
+                    onClick={() => setSelectedPrize(type)}
                     className={cn(
                       "px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap transition-all border",
-                      selectedType === type 
+                      selectedPrize === type 
                         ? "bg-emerald-600 border-emerald-600 text-white" 
                         : "bg-white border-slate-200 text-slate-500 hover:border-emerald-200"
                     )}
@@ -461,12 +462,17 @@ export const AwardsArchive: React.FC = () => {
                   </button>
                 ))}
               </div>
+              {selectedPrize !== 'All' && filteredAwards.length === 0 && (
+                <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-sm">
+                  No entries found for <span className="font-bold">{selectedPrize}</span> with current filters. Try setting “Award Type” to “All” or clearing other filters.
+                </div>
+              )}
               {renderOverview()}
             </div>
           )}
           {activeTab === 'village' && (
             <div className="space-y-6">
-              <div className="flex items-center gap-4 mb-8 overflow-x-auto pb-2 scrollbar-hide">
+              <div className="flex flex-wrap items-center gap-3 mb-8">
                 {villages.map(v => (
                   <button
                     key={v}

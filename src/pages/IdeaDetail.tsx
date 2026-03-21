@@ -4,6 +4,8 @@ import { useIdeas } from '../context/IdeaContext';
 import { useAuth } from '../context/AuthContext';
 import { useVillages } from '../context/VillageContext';
 import { Badge, Card, Button, cn } from '../components/UI';
+import { AIScoreBreakdown } from '../components/AIScoreBreakdown';
+import { computeIdeaAIScore, formatPercent } from '../utils/aiScore';
 import { 
   Calendar, 
   User, 
@@ -31,6 +33,7 @@ export const IdeaDetail: React.FC = () => {
   const village = villages.find(v => v.id === idea?.villageId);
   const [isBookmarked, setIsBookmarked] = useState(false);
   const [isUpdating, setIsUpdating] = useState(false);
+  const [showAllMatches, setShowAllMatches] = useState(false);
 
   const handleApprove = async () => {
     if (idea) {
@@ -64,6 +67,18 @@ export const IdeaDetail: React.FC = () => {
       </div>
     );
   }
+
+  const aiScore = computeIdeaAIScore(idea);
+  const COLLAPSE_MATCHES_AT = 6;
+  const sortedMatchedTeams = [...idea.aiMatchedTeams].sort((a, b) => {
+    const tierDiff = (b.awardTier ?? 0) - (a.awardTier ?? 0);
+    if (tierDiff !== 0) return tierDiff;
+    const simDiff = (b.similarity ?? 0) - (a.similarity ?? 0);
+    if (simDiff !== 0) return simDiff;
+    return (b.year ?? 0) - (a.year ?? 0);
+  });
+  const visibleMatchedTeams = showAllMatches ? sortedMatchedTeams : sortedMatchedTeams.slice(0, COLLAPSE_MATCHES_AT);
+  const hasHiddenMatches = sortedMatchedTeams.length > COLLAPSE_MATCHES_AT;
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-10">
@@ -211,23 +226,54 @@ export const IdeaDetail: React.FC = () => {
               </div>
               <div className="ml-auto">
                 <div className="text-right">
-                  <p className="text-emerald-500 font-bold text-lg">{(idea.confidenceScore * 100).toFixed(0)}%</p>
-                  <p className="text-slate-500 text-[10px] uppercase tracking-widest">Confidence</p>
+                  <p className="text-emerald-500 font-bold text-lg">{formatPercent(aiScore.overall01, 1)}</p>
+                  <p className="text-slate-500 text-[10px] uppercase tracking-widest">
+                    Village: {formatPercent(idea.confidenceScore, 0)}
+                  </p>
                 </div>
               </div>
             </div>
 
             <div className="space-y-6">
+              <AIScoreBreakdown overall01={aiScore.overall01} metrics={aiScore.metrics} />
               <div>
                 <h4 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">Matched iGEM Teams</h4>
                 <div className="grid grid-cols-1 gap-4">
-                  {idea.aiMatchedTeams.map((team, idx) => (
+                  {visibleMatchedTeams.map((team, idx) => (
                     <div key={idx} className="p-4 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-colors group">
                       <div className="flex justify-between items-start mb-2">
-                        <h5 className="font-bold text-white group-hover:text-emerald-400 transition-colors">{team.teamName} ({team.year})</h5>
+                        <div className="min-w-0">
+                          <h5 className="font-bold text-white group-hover:text-emerald-400 transition-colors truncate">
+                            {team.teamName} ({team.year})
+                          </h5>
+                          {team.awards && team.awards.length > 0 && (
+                            <div className="flex flex-wrap gap-2 mt-2">
+                              {team.awards.slice(0, 2).map((award, awardIdx) => (
+                                <span
+                                  key={awardIdx}
+                                  className="px-2 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-[10px] font-bold text-amber-200"
+                                >
+                                  {award}
+                                </span>
+                              ))}
+                              {team.awards.length > 2 && (
+                                <span className="px-2 py-1 rounded-md bg-white/5 border border-white/10 text-[10px] font-semibold text-slate-300">
+                                  +{team.awards.length - 2} more
+                                </span>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                        <div className="flex items-center gap-3 shrink-0">
+                          {typeof team.similarity === 'number' && (
+                            <div className="text-[11px] font-extrabold text-emerald-400 tabular-nums">
+                              {(team.similarity * 100).toFixed(0)}%
+                            </div>
+                          )}
                         <a href={team.link} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white">
                           <ExternalLink className="w-4 h-4" />
                         </a>
+                        </div>
                       </div>
                       <p className="text-xs text-slate-400 mb-2 italic">"{team.projectTitle}"</p>
                       <p className="text-xs text-slate-300 bg-emerald-500/10 p-2 rounded border border-emerald-500/20">
@@ -236,6 +282,26 @@ export const IdeaDetail: React.FC = () => {
                     </div>
                   ))}
                 </div>
+                {sortedMatchedTeams.length === 0 && (
+                  <div className="text-xs text-slate-500 italic">
+                    No sufficiently similar historical matches were found.
+                  </div>
+                )}
+
+                {hasHiddenMatches && (
+                  <div className="mt-4 flex items-center justify-between gap-4">
+                    <div className="text-xs text-slate-500">
+                      Showing {visibleMatchedTeams.length} of {sortedMatchedTeams.length}
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => setShowAllMatches((v) => !v)}
+                      className="text-xs font-bold text-emerald-400 hover:text-emerald-300 underline underline-offset-4"
+                    >
+                      {showAllMatches ? 'Show less' : 'Show all matches'}
+                    </button>
+                  </div>
+                )}
               </div>
 
               {idea.relatedProjects.length > 0 && (

@@ -24,6 +24,9 @@ export interface AIMatchedTeam {
   projectTitle: string;
   link: string;
   matchReason: string;
+  similarity?: number; // 0..1, higher is more similar
+  awards?: string[]; // optional: medals / prizes / recognitions
+  awardTier?: number; // 0..3 (3 = top-tier like Grand Prize/Winner)
 }
 
 export interface PotentialAward {
