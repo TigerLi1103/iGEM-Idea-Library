@@ -24,9 +24,6 @@ export interface AIMatchedTeam {
   projectTitle: string;
   link: string;
   matchReason: string;
-  similarity?: number; // 0..1, higher is more similar
-  awards?: string[]; // optional: medals / prizes / recognitions
-  awardTier?: number; // 0..3 (3 = top-tier like Grand Prize/Winner)
 }
 
 export interface PotentialAward {
@@ -40,7 +37,7 @@ export interface RelatedProject {
   similarity: number;
 }
 
-export type AwardType = 'Grand Prize' | 'Finalist' | 'Village Award' | 'Special Prize';
+export type AwardType = 'Grand Prize' | 'Finalist' | 'Village Award' | 'Special Prize' | 'Top 10' | 'Track Award';
 export type Division = 'High School' | 'Undergraduate' | 'Overgraduate';
 
 export interface AwardEntry {
@@ -56,6 +53,7 @@ export interface AwardEntry {
   tags: string[];
   country: string;
   division: Division;
+  status: 'Winner' | 'Nominee';
   whyThisProjectWon: {
     problem: string;
     solution: string;

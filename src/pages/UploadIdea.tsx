@@ -21,12 +21,8 @@ import { motion, AnimatePresence } from 'motion/react';
 import { GoogleGenAI } from "@google/genai";
 import { useAuth } from '../context/AuthContext';
 import { useIdeas } from '../context/IdeaContext';
-import type { AIMatchedTeam, PotentialAward } from '../types';
 
 export const UploadIdea: React.FC = () => {
-  const MATCH_SIMILARITY_THRESHOLD = 0.72;
-  const MAX_MATCHED_TEAMS_TO_STORE = 50; // Firestore doc size safety cap; UI can still fold/unfold within this.
-
   const [step, setStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
@@ -37,8 +33,8 @@ export const UploadIdea: React.FC = () => {
   const [aiInput, setAiInput] = useState('');
   const [showAiInput, setShowAiInput] = useState(false);
   const [aiAnalysisResult, setAiAnalysisResult] = useState<{
-    aiMatchedTeams: AIMatchedTeam[];
-    potentialAwards: PotentialAward[];
+    aiMatchedTeams: any[];
+    potentialAwards: any[];
     recommendedVillageId?: string;
     confidenceScore: number;
   } | null>(null);
@@ -229,15 +225,6 @@ export const UploadIdea: React.FC = () => {
         CRITICAL: You MUST use the Google Search tool to find REAL, SPECIFIC historical iGEM projects from the official iGEM archives (2004-2024). 
         DO NOT provide generic or hallucinated results. Every project you match must be a real team with a real project title.
         
-        Matching requirements for "aiMatchedTeams":
-        - Only include a historical team if it is sufficiently similar to the current idea (similarity must be >= ${MATCH_SIMILARITY_THRESHOLD}).
-        - The number of matches is NOT fixed. Return as many valid matches as you can find, prioritizing quality and correctness.
-        - Prioritize matches that have strong recognitions (Grand Prize/Winner/Finalist/Village Award/Special Prizes/Medals) when possible.
-        - For each match, you MUST provide:
-          - similarity (0-1): similarity score vs the current idea
-          - awards (array of strings): confirmed recognitions for that team/project, empty if unknown
-          - awardTier (0-3): 3=top-tier (Grand Prize/Winner), 2=Finalist/Village Award, 1=Special Prize/Medal, 0=none/unknown
-	        
         Project Details:
         Title: ${formData.title}
         Summary: ${formData.summary}
@@ -248,7 +235,7 @@ export const UploadIdea: React.FC = () => {
         Application Area: ${formData.applicationArea}
         
         Tasks:
-        1. Search for REAL, specific historical iGEM projects (Team Name, Year, Project Title) from the official iGEM archives that are highly relevant to this specific idea. Provide a real wiki link if possible. Only include those with similarity >= ${MATCH_SIMILARITY_THRESHOLD}.
+        1. Search for 3 REAL, specific historical iGEM projects (Team Name, Year, Project Title) from the official iGEM archives that are highly relevant to this specific idea. Provide a real wiki link if possible.
         2. Identify 5-6 potential iGEM Special Prizes from this OFFICIAL list: [Best Model, Best Measurement, Best Hardware, Best Software Tool, Best Integrated Human Practices, Best Education, Inclusivity Award, Sustainable Development Impact, Safety & Security Award, Best Entrepreneurship, Best New Basic Part, Best New Composite Part, Best Improved Part, Best Part Collection]. Explain WHY based on the project's unique features.
         3. Recommend the best village from this list: [${villageList}].
         4. Provide a confidence score (0-1) for the village recommendation.
@@ -256,7 +243,7 @@ export const UploadIdea: React.FC = () => {
         Return the results in the following JSON format:
         {
           "aiMatchedTeams": [
-            { "teamName": "...", "year": 2023, "projectTitle": "...", "link": "...", "matchReason": "...", "similarity": 0.86, "awards": ["..."], "awardTier": 2 }
+            { "teamName": "...", "year": 2023, "projectTitle": "...", "link": "...", "matchReason": "..." }
           ],
           "potentialAwards": [
             { "name": "...", "reason": "..." }
@@ -288,42 +275,11 @@ export const UploadIdea: React.FC = () => {
       }
 
       const result = {
-        aiMatchedTeams: Array.isArray(parsed.aiMatchedTeams) ? parsed.aiMatchedTeams : [],
-        potentialAwards: Array.isArray(parsed.potentialAwards) ? parsed.potentialAwards : [],
+        aiMatchedTeams: parsed.aiMatchedTeams || [],
+        potentialAwards: parsed.potentialAwards || [],
         recommendedVillageId: parsed.recommendedVillageId || formData.village,
         confidenceScore: parsed.confidenceScore || 0.85
       };
-
-      const sanitizedTeams: AIMatchedTeam[] = result.aiMatchedTeams
-        .map((t: any) => {
-          const similarityRaw = typeof t?.similarity === 'number' ? t.similarity : 0;
-          const similarity = Number.isFinite(similarityRaw) ? Math.max(0, Math.min(1, similarityRaw)) : 0;
-          const awardTierRaw = typeof t?.awardTier === 'number' ? t.awardTier : 0;
-          const awardTier = Number.isFinite(awardTierRaw) ? Math.max(0, Math.min(3, Math.round(awardTierRaw))) : 0;
-          const awards = Array.isArray(t?.awards) ? t.awards.filter((a: any) => typeof a === 'string' && a.trim() !== '') : [];
-
-          return {
-            teamName: typeof t?.teamName === 'string' ? t.teamName : 'Unknown Team',
-            year: typeof t?.year === 'number' && Number.isFinite(t.year) ? t.year : 0,
-            projectTitle: typeof t?.projectTitle === 'string' ? t.projectTitle : '',
-            link: typeof t?.link === 'string' ? t.link : '#',
-            matchReason: typeof t?.matchReason === 'string' ? t.matchReason : '',
-            similarity,
-            awards,
-            awardTier,
-          };
-        })
-        .filter((t) => t.similarity !== undefined && t.similarity >= MATCH_SIMILARITY_THRESHOLD)
-        .sort((a, b) => {
-          const tierDiff = (b.awardTier ?? 0) - (a.awardTier ?? 0);
-          if (tierDiff !== 0) return tierDiff;
-          const simDiff = (b.similarity ?? 0) - (a.similarity ?? 0);
-          if (simDiff !== 0) return simDiff;
-          return (b.year ?? 0) - (a.year ?? 0);
-        })
-        .slice(0, MAX_MATCHED_TEAMS_TO_STORE);
-
-      result.aiMatchedTeams = sanitizedTeams;
       
       setAiAnalysisResult(result);
       
@@ -343,10 +299,7 @@ export const UploadIdea: React.FC = () => {
             year: 2024,
             projectTitle: "Please try re-analyzing later",
             link: "#",
-            matchReason: "The AI search encountered an error.",
-            similarity: 0,
-            awards: [],
-            awardTier: 0,
+            matchReason: "The AI search encountered an error."
           }
         ],
         potentialAwards: [
@@ -814,3 +767,4 @@ export const UploadIdea: React.FC = () => {
     </div>
   );
 };
+

@@ -43,35 +43,38 @@ export const AwardsArchive: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('overview');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedYear, setSelectedYear] = useState<string>('All');
-  const [selectedAwardType, setSelectedAwardType] = useState<string>('All');
-  const [selectedPrize, setSelectedPrize] = useState<string>('All');
+  const [selectedType, setSelectedType] = useState<string>('All');
   const [selectedVillage, setSelectedVillage] = useState<string>('All');
   const [selectedDivision, setSelectedDivision] = useState<string>('All');
   const [expandedAwardId, setExpandedAwardId] = useState<string | null>(null);
   const [benchmarkId, setBenchmarkId] = useState<string | null>(null);
 
+  // Reset filters when switching tabs
+  const handleTabChange = (tab: TabType) => {
+    setActiveTab(tab);
+    setSelectedType('All');
+    setSelectedVillage('All');
+    setSearchQuery('');
+  };
+
   const years = ['All', ...Array.from(new Set(MOCK_AWARDS.map(a => a.year.toString()))).sort((a, b) => b.localeCompare(a))];
   const awardTypes = ['All', 'Grand Prize', 'Finalist', 'Village Award', 'Special Prize'];
   const villages = ['All', ...Array.from(new Set(MOCK_AWARDS.map(a => a.village))).sort()];
-  const divisions = ['All', 'High School', 'Undergraduate', 'Overgraduate'];
+  const divisions = ['All', 'Collegiate', 'High School'];
 
-  const specificPrizes = [
-    'All',
-    'Best Model',
-    'Best Measurement',
-    'Best Hardware',
-    'Best Software Tool',
-    'Best Integrated Human Practices',
-    'Best Education',
-    'Inclusivity Award',
-    'Sustainable Development Impact',
-    'Safety & Security Award',
-    'Best Entrepreneurship',
-    'Best New Basic Part',
-    'Best New Composite Part',
-    'Best Improved Part',
-    'Best Part Collection'
-  ];
+  const specificPrizes = useMemo(() => {
+    const prizes = new Set(
+      MOCK_AWARDS
+        .filter(a => a.awardType === 'Special Prize')
+        .map(a => a.awardName)
+    );
+    return Array.from(prizes).sort();
+  }, []);
+
+  const villageList = useMemo(() => {
+    const v = new Set(MOCK_AWARDS.map(a => a.village));
+    return Array.from(v).sort();
+  }, []);
 
   const filteredAwards = useMemo(() => {
     return MOCK_AWARDS.filter(award => {
@@ -81,14 +84,18 @@ export const AwardsArchive: React.FC = () => {
         award.awardName.toLowerCase().includes(searchQuery.toLowerCase());
       
       const matchesYear = selectedYear === 'All' || award.year.toString() === selectedYear;
-      const matchesType = selectedAwardType === 'All' || award.awardType === selectedAwardType;
+      
+      // Overview tab uses awardType, Prize tab uses awardName
+      const matchesType = activeTab === 'prize' 
+        ? (selectedType === 'All' || award.awardName === selectedType)
+        : (selectedType === 'All' || award.awardType === selectedType);
+        
       const matchesVillage = selectedVillage === 'All' || award.village === selectedVillage;
       const matchesDivision = selectedDivision === 'All' || award.division === selectedDivision;
-      const matchesSpecificPrize = activeTab !== 'prize' || selectedPrize === 'All' || award.awardName === selectedPrize;
 
-      return matchesSearch && matchesYear && matchesType && matchesVillage && matchesDivision && matchesSpecificPrize;
+      return matchesSearch && matchesYear && matchesType && matchesVillage && matchesDivision;
     });
-  }, [searchQuery, selectedYear, selectedAwardType, selectedVillage, selectedDivision, activeTab, selectedPrize]);
+  }, [searchQuery, selectedYear, selectedType, selectedVillage, selectedDivision, activeTab]);
 
   // Data for trends
   const villageDistribution = useMemo(() => {
@@ -111,6 +118,201 @@ export const AwardsArchive: React.FC = () => {
 
   const COLORS = ['#10b981', '#3b82f6', '#8b5cf6', '#f59e0b', '#ef4444', '#06b6d4'];
 
+  const renderPrizeView = () => {
+    if (specificPrizes.length === 0) {
+      return (
+        <div className="py-20 text-center">
+          <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <Award className="w-8 h-8 text-slate-300" />
+          </div>
+          <h3 className="text-lg font-bold text-slate-900">No Special Prizes recorded</h3>
+          <p className="text-slate-500">Check back later for more data.</p>
+        </div>
+      );
+    }
+
+    const currentPrize = (selectedType === 'All' || !specificPrizes.includes(selectedType)) ? specificPrizes[0] : selectedType;
+    const prizeAwards = MOCK_AWARDS.filter(a => a.awardName === currentPrize);
+    const yearsWithPrize = Array.from(new Set(prizeAwards.map(a => a.year))).sort((a, b) => b - a);
+
+    return (
+      <div className="space-y-8">
+        <div className="flex flex-wrap gap-3 mb-8">
+          {specificPrizes.map(prize => (
+            <button
+              key={prize}
+              onClick={() => setSelectedType(prize)}
+              className={cn(
+                "px-5 py-2.5 rounded-2xl text-xs font-bold transition-all border shadow-sm",
+                selectedType === prize || (selectedType === 'All' && prize === specificPrizes[0])
+                  ? "bg-emerald-600 border-emerald-600 text-white" 
+                  : "bg-white border-slate-200 text-slate-600 hover:border-emerald-300 hover:bg-emerald-50/30"
+              )}
+            >
+              {prize}
+            </button>
+          ))}
+        </div>
+
+        {yearsWithPrize.map(year => {
+          const yearAwards = prizeAwards.filter(a => a.year === year);
+          const winners = yearAwards.filter(a => a.status === 'Winner');
+          const nominees = yearAwards.filter(a => a.status === 'Nominee');
+
+          return (
+            <div key={year} className="space-y-4">
+              <div className="flex items-center gap-4">
+                <h3 className="text-2xl font-black text-slate-900">{year}</h3>
+                <div className="h-px flex-1 bg-slate-100" />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Winners */}
+                <div className="space-y-3">
+                  <h4 className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.2em] flex items-center gap-2">
+                    <Trophy className="w-3 h-3" />
+                    Winners
+                  </h4>
+                  <div className="space-y-3">
+                    {winners.map(award => (
+                      <Card key={award.id} className="p-5 border-emerald-100 bg-emerald-50/20">
+                        <div className="flex justify-between items-start mb-2">
+                          <button 
+                            onClick={() => {
+                              setActiveTab('overview');
+                              setSearchQuery(award.teamName);
+                            }}
+                            className="font-bold text-blue-600 hover:underline text-left"
+                          >
+                            {award.teamName}
+                          </button>
+                          <Badge className="bg-emerald-100 text-emerald-700 border-none text-[10px]">
+                            {award.division}
+                          </Badge>
+                        </div>
+                        <p className="text-xs text-slate-600 italic mb-2">"{award.projectTitle}"</p>
+                        <p className="text-xs text-slate-500 line-clamp-2">{award.summary}</p>
+                      </Card>
+                    ))}
+                    {winners.length === 0 && <p className="text-xs text-slate-400 italic">No winners recorded for this year.</p>}
+                  </div>
+                </div>
+
+                {/* Nominees */}
+                <div className="space-y-3">
+                  <h4 className="text-[10px] font-black text-blue-600 uppercase tracking-[0.2em] flex items-center gap-2">
+                    <Award className="w-3 h-3" />
+                    Nominees
+                  </h4>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {nominees.map(award => (
+                      <div key={award.id} className="p-3 bg-white border border-slate-100 rounded-xl flex items-center justify-between group hover:border-blue-200 transition-colors">
+                        <button 
+                          onClick={() => {
+                            setActiveTab('overview');
+                            setSearchQuery(award.teamName);
+                          }}
+                          className="text-xs font-medium text-slate-700 group-hover:text-blue-600 transition-colors text-left"
+                        >
+                          {award.teamName}
+                        </button>
+                        <span className="text-[9px] text-slate-400 font-bold uppercase">{award.division.charAt(0)}</span>
+                      </div>
+                    ))}
+                    {nominees.length === 0 && <p className="text-xs text-slate-400 italic">No nominees recorded for this year.</p>}
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
+  const renderVillageView = () => {
+    if (villageList.length === 0) {
+      return (
+        <div className="py-20 text-center">
+          <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <Globe className="w-8 h-8 text-slate-300" />
+          </div>
+          <h3 className="text-lg font-bold text-slate-900">No Villages recorded</h3>
+          <p className="text-slate-500">Check back later for more data.</p>
+        </div>
+      );
+    }
+
+    const currentVillage = selectedVillage === 'All' ? villageList[0] : selectedVillage;
+    const villageAwards = MOCK_AWARDS.filter(a => a.village === currentVillage);
+    const yearsWithVillage = Array.from(new Set(villageAwards.map(a => a.year))).sort((a, b) => b - a);
+
+    return (
+      <div className="space-y-8">
+        <div className="flex flex-wrap gap-3 mb-8">
+          {villageList.map(v => (
+            <button
+              key={v}
+              onClick={() => setSelectedVillage(v)}
+              className={cn(
+                "px-5 py-2.5 rounded-2xl text-xs font-bold transition-all border shadow-sm",
+                selectedVillage === v || (selectedVillage === 'All' && v === villageList[0])
+                  ? "bg-blue-600 border-blue-600 text-white" 
+                  : "bg-white border-slate-200 text-slate-600 hover:border-blue-300 hover:bg-blue-50/30"
+              )}
+            >
+              {v}
+            </button>
+          ))}
+        </div>
+
+        {yearsWithVillage.map(year => {
+          const yearAwards = villageAwards.filter(a => a.year === year);
+          
+          return (
+            <div key={year} className="space-y-4">
+              <div className="flex items-center gap-4">
+                <h3 className="text-2xl font-black text-slate-900">{year}</h3>
+                <div className="h-px flex-1 bg-slate-100" />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {yearAwards.map(award => (
+                  <Card key={award.id} className="p-5 hover:border-blue-200 transition-all group">
+                    <div className="flex justify-between items-start mb-3">
+                      <Badge className={cn(
+                        "text-[9px] font-black uppercase tracking-widest",
+                        award.awardType === 'Grand Prize' ? "bg-amber-100 text-amber-700" :
+                        award.awardType === 'Finalist' ? "bg-slate-100 text-slate-700" :
+                        "bg-blue-50 text-blue-700"
+                      )}>
+                        {award.awardType}
+                      </Badge>
+                      <span className="text-[10px] font-bold text-slate-400">{award.division}</span>
+                    </div>
+                    <button 
+                      onClick={() => {
+                        setActiveTab('overview');
+                        setSearchQuery(award.teamName);
+                      }}
+                      className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors text-left mb-1 block"
+                    >
+                      {award.teamName}
+                    </button>
+                    <p className="text-xs text-slate-500 italic mb-3 line-clamp-1">"{award.projectTitle}"</p>
+                    <div className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-widest">
+                      <Trophy className="w-3 h-3" />
+                      {award.awardName}
+                    </div>
+                  </Card>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
   const renderOverview = () => (
     <div className="space-y-6">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -128,8 +330,8 @@ export const AwardsArchive: React.FC = () => {
           <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-1">Award Type</label>
           <select 
             className="w-full bg-white border border-slate-200 rounded-xl px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-emerald-500"
-            value={selectedAwardType}
-            onChange={(e) => setSelectedAwardType(e.target.value)}
+            value={selectedType}
+            onChange={(e) => setSelectedType(e.target.value)}
           >
             {awardTypes.map(t => <option key={t} value={t}>{t}</option>)}
           </select>
@@ -174,9 +376,12 @@ export const AwardsArchive: React.FC = () => {
                       {award.awardName}
                     </Badge>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
+                  <button 
+                    onClick={() => setSearchQuery(award.teamName)}
+                    className="text-xl font-bold text-blue-600 hover:text-blue-800 transition-colors text-left"
+                  >
                     {award.teamName}
-                  </h3>
+                  </button>
                   <p className="text-sm font-medium text-slate-600 italic">"{award.projectTitle}"</p>
                   <p className="text-sm text-slate-500 max-w-3xl leading-relaxed">{award.summary}</p>
                 </div>
@@ -389,7 +594,7 @@ export const AwardsArchive: React.FC = () => {
       {/* Tabs */}
       <div className="flex items-center gap-1 p-1 bg-slate-100 rounded-2xl w-fit mb-10 overflow-x-auto max-w-full">
         <button 
-          onClick={() => setActiveTab('overview')}
+          onClick={() => handleTabChange('overview')}
           className={cn(
             "px-6 py-2.5 rounded-xl text-sm font-bold transition-all whitespace-nowrap",
             activeTab === 'overview' ? "bg-white text-emerald-600 shadow-sm" : "text-slate-500 hover:text-slate-700"
@@ -398,7 +603,7 @@ export const AwardsArchive: React.FC = () => {
           Awards Overview
         </button>
         <button 
-          onClick={() => setActiveTab('prize')}
+          onClick={() => handleTabChange('prize')}
           className={cn(
             "px-6 py-2.5 rounded-xl text-sm font-bold transition-all whitespace-nowrap",
             activeTab === 'prize' ? "bg-white text-emerald-600 shadow-sm" : "text-slate-500 hover:text-slate-700"
@@ -407,7 +612,7 @@ export const AwardsArchive: React.FC = () => {
           Browse by Prize
         </button>
         <button 
-          onClick={() => setActiveTab('village')}
+          onClick={() => handleTabChange('village')}
           className={cn(
             "px-6 py-2.5 rounded-xl text-sm font-bold transition-all whitespace-nowrap",
             activeTab === 'village' ? "bg-white text-emerald-600 shadow-sm" : "text-slate-500 hover:text-slate-700"
@@ -416,7 +621,7 @@ export const AwardsArchive: React.FC = () => {
           Browse by Village
         </button>
         <button 
-          onClick={() => setActiveTab('trends')}
+          onClick={() => handleTabChange('trends')}
           className={cn(
             "px-6 py-2.5 rounded-xl text-sm font-bold transition-all whitespace-nowrap",
             activeTab === 'trends' ? "bg-white text-emerald-600 shadow-sm" : "text-slate-500 hover:text-slate-700"
@@ -425,7 +630,7 @@ export const AwardsArchive: React.FC = () => {
           Award Trends
         </button>
         <button 
-          onClick={() => setActiveTab('benchmark')}
+          onClick={() => handleTabChange('benchmark')}
           className={cn(
             "px-6 py-2.5 rounded-xl text-sm font-bold transition-all whitespace-nowrap",
             activeTab === 'benchmark' ? "bg-white text-emerald-600 shadow-sm" : "text-slate-500 hover:text-slate-700"
@@ -444,53 +649,8 @@ export const AwardsArchive: React.FC = () => {
           transition={{ duration: 0.2 }}
         >
           {activeTab === 'overview' && renderOverview()}
-          {activeTab === 'prize' && (
-            <div className="space-y-6">
-              <div className="flex flex-wrap items-center gap-3 mb-8">
-                {specificPrizes.map(type => (
-                  <button
-                    key={type}
-                    onClick={() => setSelectedPrize(type)}
-                    className={cn(
-                      "px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap transition-all border",
-                      selectedPrize === type 
-                        ? "bg-emerald-600 border-emerald-600 text-white" 
-                        : "bg-white border-slate-200 text-slate-500 hover:border-emerald-200"
-                    )}
-                  >
-                    {type}
-                  </button>
-                ))}
-              </div>
-              {selectedPrize !== 'All' && filteredAwards.length === 0 && (
-                <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-sm">
-                  No entries found for <span className="font-bold">{selectedPrize}</span> with current filters. Try setting “Award Type” to “All” or clearing other filters.
-                </div>
-              )}
-              {renderOverview()}
-            </div>
-          )}
-          {activeTab === 'village' && (
-            <div className="space-y-6">
-              <div className="flex flex-wrap items-center gap-3 mb-8">
-                {villages.map(v => (
-                  <button
-                    key={v}
-                    onClick={() => setSelectedVillage(v)}
-                    className={cn(
-                      "px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap transition-all border",
-                      selectedVillage === v 
-                        ? "bg-blue-600 border-blue-600 text-white" 
-                        : "bg-white border-slate-200 text-slate-500 hover:border-blue-200"
-                    )}
-                  >
-                    {v}
-                  </button>
-                ))}
-              </div>
-              {renderOverview()}
-            </div>
-          )}
+          {activeTab === 'prize' && renderPrizeView()}
+          {activeTab === 'village' && renderVillageView()}
           {activeTab === 'trends' && renderTrends()}
           {activeTab === 'benchmark' && (
             <div className="space-y-8">
@@ -532,7 +692,15 @@ export const AwardsArchive: React.FC = () => {
                                 <Trophy className="w-5 h-5" />
                                 Benchmark Analysis
                               </div>
-                              <h2 className="text-3xl font-extrabold text-slate-900 mb-2">{award.teamName}</h2>
+                              <button 
+                                onClick={() => {
+                                  setActiveTab('overview');
+                                  setSearchQuery(award.teamName);
+                                }}
+                                className="text-3xl font-extrabold text-blue-600 hover:text-blue-800 transition-colors text-left mb-2"
+                              >
+                                {award.teamName}
+                              </button>
                               <p className="text-lg text-slate-600 italic mb-6">"{award.projectTitle}"</p>
                               
                               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
