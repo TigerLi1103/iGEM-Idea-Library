@@ -6,39 +6,18 @@ import { Card, Button, Badge, cn } from '../components/UI';
 import { 
   Trophy, 
   Search, 
-  Filter, 
-  BarChart3, 
   Globe, 
   ExternalLink, 
-  ChevronRight, 
   ChevronDown,
   Layers,
   Award,
-  Calendar,
-  Users,
   Info,
-  ChevronLeft,
   Beaker,
   Sparkles
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { 
-  BarChart, 
-  Bar, 
-  XAxis, 
-  YAxis, 
-  CartesianGrid, 
-  Tooltip, 
-  ResponsiveContainer, 
-  PieChart, 
-  Pie, 
-  Cell,
-  Legend,
-  LineChart,
-  Line
-} from 'recharts';
 
-type TabType = 'overview' | 'prize' | 'village' | 'trends' | 'benchmark';
+type TabType = 'overview' | 'prize' | 'village';
 
 export const AwardsArchive: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('overview');
@@ -48,7 +27,6 @@ export const AwardsArchive: React.FC = () => {
   const [selectedVillage, setSelectedVillage] = useState<string>('All');
   const [selectedDivision, setSelectedDivision] = useState<string>('All');
   const [expandedAwardId, setExpandedAwardId] = useState<string | null>(null);
-  const [benchmarkId, setBenchmarkId] = useState<string | null>(null);
 
   // Reset filters when switching tabs
   const handleTabChange = (tab: TabType) => {
@@ -72,8 +50,12 @@ export const AwardsArchive: React.FC = () => {
   }, []);
 
   const villageList = useMemo(() => {
-    const v = new Set(MOCK_AWARDS.map(a => a.village));
-    return Array.from(v).sort();
+    const villages = new Set<string>();
+    TEAM_AWARD_RECORDS.forEach(record => {
+      const hsVillageAllowed = record.division === 'High School' ? record.year >= 2025 : true;
+      if (record.village && hsVillageAllowed) villages.add(record.village);
+    });
+    return Array.from(villages).sort();
   }, []);
 
   const filteredAwards = useMemo(() => {
@@ -97,26 +79,6 @@ export const AwardsArchive: React.FC = () => {
     });
   }, [searchQuery, selectedYear, selectedType, selectedVillage, selectedDivision, activeTab]);
 
-  // Data for trends
-  const villageDistribution = useMemo(() => {
-    const counts: Record<string, number> = {};
-    MOCK_AWARDS.forEach(a => {
-      counts[a.village] = (counts[a.village] || 0) + 1;
-    });
-    return Object.entries(counts).map(([name, value]) => ({ name, value }));
-  }, []);
-
-  const awardsByYear = useMemo(() => {
-    const yearsMap: Record<number, number> = {};
-    MOCK_AWARDS.forEach(a => {
-      yearsMap[a.year] = (yearsMap[a.year] || 0) + 1;
-    });
-    return Object.entries(yearsMap)
-      .map(([year, count]) => ({ year: parseInt(year), count }))
-      .sort((a, b) => a.year - b.year);
-  }, []);
-
-  const COLORS = ['#10b981', '#3b82f6', '#8b5cf6', '#f59e0b', '#ef4444', '#06b6d4'];
 
   const renderPrizeView = () => {
     if (specificPrizes.length === 0) {
@@ -260,11 +222,18 @@ export const AwardsArchive: React.FC = () => {
     }
 
     const currentVillage = selectedVillage === 'All' ? villageList[0] : selectedVillage;
-    const villageAwards = MOCK_AWARDS.filter(a => a.village === currentVillage);
-    const yearsWithVillage = Array.from(new Set(villageAwards.map(a => a.year))).sort((a, b) => b - a);
+    const villageRecords = TEAM_AWARD_RECORDS.filter(record => {
+      const hsVillageAllowed = record.division === 'High School' ? record.year >= 2025 : true;
+      return record.village === currentVillage && hsVillageAllowed;
+    });
+    const yearsWithVillage = Array.from(new Set(villageRecords.map(record => record.year))).sort((a, b) => b - a);
 
     return (
       <div className="space-y-8">
+        <div className="rounded-2xl border border-blue-100 bg-blue-50/60 px-4 py-3 text-sm text-blue-900">
+          <strong>Note:</strong> High School village awards are shown only for <strong>2025+</strong>. For <strong>2020–2024</strong>, this view reflects only villages that had official village-award structure for collegiate / graduate teams.
+        </div>
+
         <div className="flex flex-wrap gap-3 mb-8">
           {villageList.map(v => (
             <button
@@ -273,7 +242,7 @@ export const AwardsArchive: React.FC = () => {
               className={cn(
                 "px-5 py-2.5 rounded-2xl text-xs font-bold transition-all border shadow-sm",
                 selectedVillage === v || (selectedVillage === 'All' && v === villageList[0])
-                  ? "bg-blue-600 border-blue-600 text-white" 
+                  ? "bg-blue-600 border-blue-600 text-white"
                   : "bg-white border-slate-200 text-slate-600 hover:border-blue-300 hover:bg-blue-50/30"
               )}
             >
@@ -283,8 +252,8 @@ export const AwardsArchive: React.FC = () => {
         </div>
 
         {yearsWithVillage.map(year => {
-          const yearAwards = villageAwards.filter(a => a.year === year);
-          
+          const yearRecords = villageRecords.filter(record => record.year === year);
+
           return (
             <div key={year} className="space-y-4">
               <div className="flex items-center gap-4">
@@ -293,32 +262,25 @@ export const AwardsArchive: React.FC = () => {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {yearAwards.map(award => (
-                  <Card key={award.id} className="p-5 hover:border-blue-200 transition-all group">
-                    <div className="flex justify-between items-start mb-3">
-                      <Badge className={cn(
-                        "text-[9px] font-black uppercase tracking-widest",
-                        award.awardType === 'Grand Prize' ? "bg-amber-100 text-amber-700" :
-                        award.awardType === 'Finalist' ? "bg-slate-100 text-slate-700" :
-                        "bg-blue-50 text-blue-700"
-                      )}>
-                        {award.awardType}
+                {yearRecords.map(record => (
+                  <Card key={record.id} className="p-5 hover:border-blue-200 transition-all group">
+                    <div className="flex justify-between items-start mb-3 gap-2">
+                      <Badge className="bg-blue-50 text-blue-700 border-none text-[9px] font-black uppercase tracking-widest">
+                        {record.division || 'Unknown Division'}
                       </Badge>
-                      <span className="text-[10px] font-bold text-slate-400">{award.division}</span>
+                      <span className="text-[10px] font-bold text-slate-400">{record.medal || 'No medal'}</span>
                     </div>
-                    <button 
-                      onClick={() => {
-                        setActiveTab('overview');
-                        setSearchQuery(award.teamName);
-                      }}
-                      className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors text-left mb-1 block"
-                    >
-                      {award.teamName}
-                    </button>
-                    <p className="text-xs text-slate-500 italic mb-3 line-clamp-1">"{award.projectTitle}"</p>
-                    <div className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-                      <Trophy className="w-3 h-3" />
-                      {award.awardName}
+                    <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2">
+                      {record.village}
+                    </div>
+                    <div className="text-lg font-bold text-slate-900 mb-1">{record.teamName}</div>
+                    <div className="text-xs text-slate-500 mb-3">
+                      {record.grandPrizeLevel || (record.top10 ? 'Top 10' : '—')}
+                    </div>
+                    <div className="text-[11px] text-slate-600 leading-relaxed">
+                      {(record.villageAwards && record.villageAwards.length > 0)
+                        ? record.villageAwards.map(a => `${a.name} (${a.status})`).join(' · ')
+                        : 'No village-award entry recorded'}
                     </div>
                   </Card>
                 ))}
@@ -493,94 +455,6 @@ export const AwardsArchive: React.FC = () => {
     </div>
   );
 
-  const renderTrends = () => (
-    <div className="space-y-8">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <Card className="p-6">
-          <h3 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2">
-            <Layers className="w-5 h-5 text-emerald-600" />
-            Awards Distribution by Village
-          </h3>
-          <div className="h-[300px]">
-            <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
-                <Pie
-                  data={villageDistribution}
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={60}
-                  outerRadius={100}
-                  paddingAngle={5}
-                  dataKey="value"
-                >
-                  {villageDistribution.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                  ))}
-                </Pie>
-                <Tooltip />
-                <Legend verticalAlign="bottom" height={36}/>
-              </PieChart>
-            </ResponsiveContainer>
-          </div>
-        </Card>
-
-        <Card className="p-6">
-          <h3 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2">
-            <Calendar className="w-5 h-5 text-blue-600" />
-            Awards Count Over Years
-          </h3>
-          <div className="h-[300px]">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={awardsByYear}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f1f5f9" />
-                <XAxis dataKey="year" axisLine={false} tickLine={false} tick={{fontSize: 12, fill: '#64748b'}} />
-                <YAxis axisLine={false} tickLine={false} tick={{fontSize: 12, fill: '#64748b'}} />
-                <Tooltip 
-                  contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)' }}
-                />
-                <Bar dataKey="count" fill="#3b82f6" radius={[4, 4, 0, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </Card>
-      </div>
-
-      <Card className="p-8 bg-slate-900 text-white overflow-hidden relative">
-        <div className="relative z-10">
-          <h3 className="text-2xl font-bold mb-4">Historical Benchmarking</h3>
-          <p className="text-slate-400 max-w-2xl mb-8 leading-relaxed">
-            Analyzing past winners helps you understand the "iGEM Standard." 
-            Successful projects typically excel in three areas: technical innovation, 
-            human practices integration, and thorough characterization of biological parts.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-4 bg-white/5 rounded-xl border border-white/10">
-              <div className="w-10 h-10 bg-emerald-500/20 rounded-lg flex items-center justify-center text-emerald-400 mb-4">
-                <Beaker className="w-5 h-5" />
-              </div>
-              <h4 className="font-bold mb-2">Engineering Rigor</h4>
-              <p className="text-xs text-slate-500 leading-relaxed">Winners often demonstrate multiple cycles of the Design-Build-Test-Learn loop with quantitative data.</p>
-            </div>
-            <div className="p-4 bg-white/5 rounded-xl border border-white/10">
-              <div className="w-10 h-10 bg-blue-500/20 rounded-lg flex items-center justify-center text-blue-400 mb-4">
-                <Users className="w-5 h-5" />
-              </div>
-              <h4 className="font-bold mb-2">Stakeholder Loop</h4>
-              <p className="text-xs text-slate-500 leading-relaxed">Top projects show how external feedback directly changed their laboratory experiments or project direction.</p>
-            </div>
-            <div className="p-4 bg-white/5 rounded-xl border border-white/10">
-              <div className="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center text-purple-400 mb-4">
-                <Globe className="w-5 h-5" />
-              </div>
-              <h4 className="font-bold mb-2">Global Impact</h4>
-              <p className="text-xs text-slate-500 leading-relaxed">Finalists usually address a specific, local problem with a solution that has global scalability potential.</p>
-            </div>
-          </div>
-        </div>
-        <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/10 blur-[100px] -mr-32 -mt-32" />
-      </Card>
-    </div>
-  );
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
@@ -625,7 +499,7 @@ export const AwardsArchive: React.FC = () => {
             activeTab === 'prize' ? "bg-white text-emerald-600 shadow-sm" : "text-slate-500 hover:text-slate-700"
           )}
         >
-          Browse by Prize
+          Special Prizes
         </button>
         <button 
           onClick={() => handleTabChange('village')}
@@ -635,24 +509,6 @@ export const AwardsArchive: React.FC = () => {
           )}
         >
           Browse by Village
-        </button>
-        <button 
-          onClick={() => handleTabChange('trends')}
-          className={cn(
-            "px-6 py-2.5 rounded-xl text-sm font-bold transition-all whitespace-nowrap",
-            activeTab === 'trends' ? "bg-white text-emerald-600 shadow-sm" : "text-slate-500 hover:text-slate-700"
-          )}
-        >
-          Award Trends
-        </button>
-        <button 
-          onClick={() => handleTabChange('benchmark')}
-          className={cn(
-            "px-6 py-2.5 rounded-xl text-sm font-bold transition-all whitespace-nowrap",
-            activeTab === 'benchmark' ? "bg-white text-emerald-600 shadow-sm" : "text-slate-500 hover:text-slate-700"
-          )}
-        >
-          Benchmarking
         </button>
       </div>
 
@@ -667,151 +523,6 @@ export const AwardsArchive: React.FC = () => {
           {activeTab === 'overview' && renderOverview()}
           {activeTab === 'prize' && renderPrizeView()}
           {activeTab === 'village' && renderVillageView()}
-          {activeTab === 'trends' && renderTrends()}
-          {activeTab === 'benchmark' && (
-            <div className="space-y-8">
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                <div className="lg:col-span-1 space-y-6">
-                  <h3 className="text-xl font-bold text-slate-900">Select Benchmark</h3>
-                  <div className="space-y-3 max-h-[600px] overflow-y-auto pr-2 scrollbar-hide">
-                    {MOCK_AWARDS.map(award => (
-                      <button
-                        key={award.id}
-                        onClick={() => setBenchmarkId(award.id)}
-                        className={cn(
-                          "w-full text-left p-4 rounded-2xl border transition-all",
-                          benchmarkId === award.id 
-                            ? "bg-emerald-50 border-emerald-200 ring-2 ring-emerald-500/20" 
-                            : "bg-white border-slate-200 hover:border-emerald-200"
-                        )}
-                      >
-                        <div className="flex justify-between items-start mb-1">
-                          <span className="text-[10px] font-bold text-emerald-600 uppercase tracking-widest">{award.year}</span>
-                          <Badge className="text-[10px] h-5">{award.awardType}</Badge>
-                        </div>
-                        <h4 className="font-bold text-slate-900 line-clamp-1">{award.teamName}</h4>
-                        <p className="text-xs text-slate-500 line-clamp-1 italic">"{award.projectTitle}"</p>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="lg:col-span-2">
-                  {benchmarkId ? (
-                    <div className="space-y-6">
-                      {(() => {
-                        const award = MOCK_AWARDS.find(a => a.id === benchmarkId)!;
-                        return (
-                          <>
-                            <Card className="p-8 border-emerald-100 bg-emerald-50/30">
-                              <div className="flex items-center gap-3 text-emerald-600 font-bold text-xs uppercase tracking-widest mb-4">
-                                <Trophy className="w-5 h-5" />
-                                Benchmark Analysis
-                              </div>
-                              <button 
-                                onClick={() => {
-                                  setActiveTab('overview');
-                                  setSearchQuery(award.teamName);
-                                }}
-                                className="text-3xl font-extrabold text-blue-600 hover:text-blue-800 transition-colors text-left mb-2"
-                              >
-                                {award.teamName}
-                              </button>
-                              <p className="text-lg text-slate-600 italic mb-6">"{award.projectTitle}"</p>
-                              
-                              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                                <div className="space-y-6">
-                                  <div>
-                                    <h4 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
-                                      <Info className="w-4 h-4 text-blue-500" />
-                                      Strategic Problem
-                                    </h4>
-                                    <p className="text-sm text-slate-600 leading-relaxed">{award.whyThisProjectWon.problem}</p>
-                                  </div>
-                                  <div>
-                                    <h4 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
-                                      <Beaker className="w-4 h-4 text-emerald-500" />
-                                      Technical Excellence
-                                    </h4>
-                                    <p className="text-sm text-slate-600 leading-relaxed">{award.whyThisProjectWon.solution}</p>
-                                  </div>
-                                </div>
-                                <div className="space-y-6">
-                                  <div>
-                                    <h4 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
-                                      <Sparkles className="w-4 h-4 text-amber-500" />
-                                      Innovation Factor
-                                    </h4>
-                                    <p className="text-sm text-slate-600 leading-relaxed">{award.whyThisProjectWon.innovation}</p>
-                                  </div>
-                                  <div className="p-4 bg-white rounded-xl border border-emerald-100 shadow-sm">
-                                    <h4 className="text-sm font-bold text-emerald-700 mb-2 flex items-center gap-2">
-                                      <Award className="w-4 h-4" />
-                                      Why it set the standard
-                                    </h4>
-                                    <p className="text-sm text-emerald-800 font-medium">{award.whyThisProjectWon.judgeAppeal}</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </Card>
-
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                              <Card className="p-6 text-center space-y-2">
-                                <div className="text-3xl font-bold text-emerald-600">9.8</div>
-                                <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Engineering Score</div>
-                                <p className="text-[10px] text-slate-500">Based on DBTL cycles and characterization data.</p>
-                              </Card>
-                              <Card className="p-6 text-center space-y-2">
-                                <div className="text-3xl font-bold text-blue-600">9.5</div>
-                                <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">HP Integration</div>
-                                <p className="text-[10px] text-slate-500">Based on stakeholder feedback loops.</p>
-                              </Card>
-                              <Card className="p-6 text-center space-y-2">
-                                <div className="text-3xl font-bold text-purple-600">9.2</div>
-                                <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Novelty Score</div>
-                                <p className="text-[10px] text-slate-500">Based on part design and logic complexity.</p>
-                              </Card>
-                            </div>
-
-                            <Card className="p-6 bg-slate-900 text-white">
-                              <h4 className="font-bold mb-4 flex items-center gap-2">
-                                <Search className="w-4 h-4 text-emerald-400" />
-                                How to use this benchmark
-                              </h4>
-                              <ul className="space-y-3 text-sm text-slate-400">
-                                <li className="flex items-start gap-3">
-                                  <div className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5 text-[10px]">1</div>
-                                  <span>Compare your **problem statement** with theirs. Is yours as specific and well-defined?</span>
-                                </li>
-                                <li className="flex items-start gap-3">
-                                  <div className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5 text-[10px]">2</div>
-                                  <span>Look at their **technical solution**. Do you have a similar level of modularity or precision?</span>
-                                </li>
-                                <li className="flex items-start gap-3">
-                                  <div className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5 text-[10px]">3</div>
-                                  <span>Check their **judge appeal**. What is the "one thing" that makes your project stand out like theirs?</span>
-                                </li>
-                              </ul>
-                            </Card>
-                          </>
-                        );
-                      })()}
-                    </div>
-                  ) : (
-                    <div className="h-full flex flex-col items-center justify-center text-center p-12 border-2 border-dashed border-slate-200 rounded-3xl">
-                      <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mb-4">
-                        <Trophy className="w-8 h-8 text-slate-300" />
-                      </div>
-                      <h3 className="text-xl font-bold text-slate-900">Select a project to benchmark</h3>
-                      <p className="text-slate-500 max-w-sm mx-auto mt-2">
-                        Choose a past winner from the list on the left to see a detailed breakdown of their success factors.
-                      </p>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          )}
         </motion.div>
       </AnimatePresence>
     </div>

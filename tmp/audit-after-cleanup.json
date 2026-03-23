@@ -1,0 +1,821 @@
+{
+  "villageEqualsDivision": 0,
+  "trackInSpecial": 0,
+  "missingCore": [
+    {
+      "year": 2020,
+      "teamName": "ASTWS-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "Baltimore_BioCrew",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "BHSF",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "CCA_San_Diego",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2020,
+      "teamName": "CLS_CLSG_UK",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2020,
+      "teamName": "DNHS_SanDiego_CA",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "GreatBay_SCIE",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "GreatBay_SZ",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "GunnVistaPingry_US",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "GZ_HFI",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "Hainan_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Bronze"
+    },
+    {
+      "year": 2020,
+      "teamName": "KEYSTONE",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "Korea_HS",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "Lambert_GA",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "Lethbridge_HS",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2020,
+      "teamName": "LINKS_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "Mingdao",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "PYMS_GZ_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "QHFZ-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "Shanghai_SFLS_SPBS",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "SHSBNU_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "SMS_Shenzhen",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "SZ-SHD",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2020,
+      "teamName": "TAS_Taipei",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "BJEA_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "CCA_San_Diego",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "City_of_London_UK",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "Fujian_United",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "GreatBay_SZ",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "GreatBay_United",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "HK_SSC",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "iBowu-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "IvyMaker-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "Korea_HS",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2021,
+      "teamName": "Lambert_GA",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "Lethbridge_HS",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "LINKS_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "Mingdao",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "NDNF_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "SHSBNU_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "SHSID",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "SJTang",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2021,
+      "teamName": "SMS_Shenzhen",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "SZ_SHD",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "TAS_Taipei",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2021,
+      "teamName": "Worldshaper-Nanjing",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "BFSU-ICUnited",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2022,
+      "teamName": "BJEA_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2022,
+      "teamName": "BS_United_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "City_of_London_UK",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2022,
+      "teamName": "Fujian_United",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "GEMS_Taiwan",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "GreatBay_SCIE",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "ICJFLS",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "KEYSTONE",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "Korea_HS",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "Lambert_GA",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "LINKS_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "Mingdao",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "Nanjing_NFLS",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "NYC_Empire_State",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "PuiChing_Macau",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "RDFZ-CHINA",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "Seoul_Korea",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "Sesame_Shenzhen",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "SHSBNU_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "Shym_BIL_NIS",
+      "division": "High School",
+      "village": null,
+      "medal": "Bronze"
+    },
+    {
+      "year": 2022,
+      "teamName": "SubCat_China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "Thailand_RIS",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2022,
+      "teamName": "THINKER_CHINA",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2022,
+      "teamName": "Wego_Taipei",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2022,
+      "teamName": "YkPaO",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "AIS-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "ASIJ-Tokyo",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "BAID-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "BASIS-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "BJEA-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "BJHS",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2023,
+      "teamName": "BNDS-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "BS-United-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2023,
+      "teamName": "BZK-SH",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "EastCoastBioCrew",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "GEMS-Taiwan",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "GreatBay-SCIE",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "Hangzhou-BioX",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "HK-Joint-School",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "HongKong-JSS",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "Japan-United",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "Korea-HS",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "Lambert-GA",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "LINKS-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "Nanjing-SDG",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2023,
+      "teamName": "NavarraBG",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2023,
+      "teamName": "NIS-Kazakhstan",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "OTIA-Hangzhou",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "PuiChing-Macau",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "RDFZ-CHINA",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "Shanghai-SDG",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "SHSID-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "Squirrel-Beijing-I",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "SZ-SHD",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "Taipei-KCISLK-V1",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "Thailand-RIS",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2023,
+      "teamName": "Thinker-Guangdong",
+      "division": "High School",
+      "village": null,
+      "medal": "Silver"
+    },
+    {
+      "year": 2023,
+      "teamName": "WIST",
+      "division": "High School",
+      "village": null,
+      "medal": null
+    },
+    {
+      "year": 2023,
+      "teamName": "XHD-WuHan-China",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2023,
+      "teamName": "ZJFH-Nanjing",
+      "division": "High School",
+      "village": null,
+      "medal": "Gold"
+    },
+    {
+      "year": 2025,
+      "teamName": "HSID",
+      "division": "High School",
+      "village": "HS Village (Climate/Conservation/Bioremediation)",
+      "medal": null
+    },
+    {
+      "year": 2025,
+      "teamName": "ISBICS",
+      "division": "High School",
+      "village": null,
+      "medal": null
+    },
+    {
+      "year": 2025,
+      "teamName": "KIS-BKK",
+      "division": "High School",
+      "village": null,
+      "medal": null
+    },
+    {
+      "year": 2025,
+      "teamName": "Tianjin",
+      "division": "Graduate",
+      "village": "Fashion & Cosmetics",
+      "medal": null
+    }
+  ],
+  "byYear": {
+    "2020": {
+      "total": 79,
+      "nullDivision": 0,
+      "nullVillage": 24,
+      "nullMedal": 0
+    },
+    "2021": {
+      "total": 105,
+      "nullDivision": 0,
+      "nullVillage": 22,
+      "nullMedal": 0
+    },
+    "2022": {
+      "total": 113,
+      "nullDivision": 0,
+      "nullVillage": 26,
+      "nullMedal": 0
+    },
+    "2023": {
+      "total": 126,
+      "nullDivision": 0,
+      "nullVillage": 35,
+      "nullMedal": 1
+    },
+    "2024": {
+      "total": 368,
+      "nullDivision": 0,
+      "nullVillage": 0,
+      "nullMedal": 0
+    },
+    "2025": {
+      "total": 143,
+      "nullDivision": 0,
+      "nullVillage": 2,
+      "nullMedal": 4
+    }
+  }
+}
