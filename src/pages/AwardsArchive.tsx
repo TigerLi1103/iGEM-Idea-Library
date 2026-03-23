@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { MOCK_AWARDS } from '../data/awards';
+import { TEAM_AWARD_RECORDS } from '../data/awards-v2';
 import { AwardEntry, AwardType, Division } from '../types';
 import { Card, Button, Badge, cn } from '../components/UI';
 import { 
@@ -63,11 +64,10 @@ export const AwardsArchive: React.FC = () => {
   const divisions = ['All', 'Collegiate', 'High School'];
 
   const specificPrizes = useMemo(() => {
-    const prizes = new Set(
-      MOCK_AWARDS
-        .filter(a => a.awardType === 'Special Prize')
-        .map(a => a.awardName)
-    );
+    const prizes = new Set<string>();
+    TEAM_AWARD_RECORDS.forEach(record => {
+      record.specialPrizes.forEach(prize => prizes.add(prize.name));
+    });
     return Array.from(prizes).sort();
   }, []);
 
@@ -125,15 +125,24 @@ export const AwardsArchive: React.FC = () => {
           <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
             <Award className="w-8 h-8 text-slate-300" />
           </div>
-          <h3 className="text-lg font-bold text-slate-900">No Special Prizes recorded</h3>
+          <h3 className="text-lg font-bold text-slate-900">No prize data recorded</h3>
           <p className="text-slate-500">Check back later for more data.</p>
         </div>
       );
     }
 
     const currentPrize = (selectedType === 'All' || !specificPrizes.includes(selectedType)) ? specificPrizes[0] : selectedType;
-    const prizeAwards = MOCK_AWARDS.filter(a => a.awardName === currentPrize);
-    const yearsWithPrize = Array.from(new Set(prizeAwards.map(a => a.year))).sort((a, b) => b - a);
+    const divisionOrder = ['High School', 'Undergraduate', 'Graduate'] as const;
+    const divisionLabels: Record<(typeof divisionOrder)[number], string> = {
+      'High School': 'High School',
+      'Undergraduate': 'Undergraduate',
+      'Graduate': 'Graduate',
+    };
+
+    const prizeRecords = TEAM_AWARD_RECORDS.filter(record =>
+      record.specialPrizes.some(prize => prize.name === currentPrize)
+    );
+    const yearsWithPrize = Array.from(new Set(prizeRecords.map(record => record.year))).sort((a, b) => b - a);
 
     return (
       <div className="space-y-8">
@@ -145,7 +154,7 @@ export const AwardsArchive: React.FC = () => {
               className={cn(
                 "px-5 py-2.5 rounded-2xl text-xs font-bold transition-all border shadow-sm",
                 selectedType === prize || (selectedType === 'All' && prize === specificPrizes[0])
-                  ? "bg-emerald-600 border-emerald-600 text-white" 
+                  ? "bg-emerald-600 border-emerald-600 text-white"
                   : "bg-white border-slate-200 text-slate-600 hover:border-emerald-300 hover:bg-emerald-50/30"
               )}
             >
@@ -154,78 +163,85 @@ export const AwardsArchive: React.FC = () => {
           ))}
         </div>
 
-        {yearsWithPrize.map(year => {
-          const yearAwards = prizeAwards.filter(a => a.year === year);
-          const winners = yearAwards.filter(a => a.status === 'Winner');
-          const nominees = yearAwards.filter(a => a.status === 'Nominee');
-
-          return (
-            <div key={year} className="space-y-4">
-              <div className="flex items-center gap-4">
-                <h3 className="text-2xl font-black text-slate-900">{year}</h3>
-                <div className="h-px flex-1 bg-slate-100" />
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {/* Winners */}
-                <div className="space-y-3">
-                  <h4 className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.2em] flex items-center gap-2">
-                    <Trophy className="w-3 h-3" />
-                    Winners
-                  </h4>
-                  <div className="space-y-3">
-                    {winners.map(award => (
-                      <Card key={award.id} className="p-5 border-emerald-100 bg-emerald-50/20">
-                        <div className="flex justify-between items-start mb-2">
-                          <button 
-                            onClick={() => {
-                              setActiveTab('overview');
-                              setSearchQuery(award.teamName);
-                            }}
-                            className="font-bold text-blue-600 hover:underline text-left"
-                          >
-                            {award.teamName}
-                          </button>
-                          <Badge className="bg-emerald-100 text-emerald-700 border-none text-[10px]">
-                            {award.division}
-                          </Badge>
-                        </div>
-                        <p className="text-xs text-slate-600 italic mb-2">"{award.projectTitle}"</p>
-                        <p className="text-xs text-slate-500 line-clamp-2">{award.summary}</p>
-                      </Card>
-                    ))}
-                    {winners.length === 0 && <p className="text-xs text-slate-400 italic">No winners recorded for this year.</p>}
-                  </div>
-                </div>
-
-                {/* Nominees */}
-                <div className="space-y-3">
-                  <h4 className="text-[10px] font-black text-blue-600 uppercase tracking-[0.2em] flex items-center gap-2">
-                    <Award className="w-3 h-3" />
-                    Nominees
-                  </h4>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                    {nominees.map(award => (
-                      <div key={award.id} className="p-3 bg-white border border-slate-100 rounded-xl flex items-center justify-between group hover:border-blue-200 transition-colors">
-                        <button 
-                          onClick={() => {
-                            setActiveTab('overview');
-                            setSearchQuery(award.teamName);
-                          }}
-                          className="text-xs font-medium text-slate-700 group-hover:text-blue-600 transition-colors text-left"
-                        >
-                          {award.teamName}
-                        </button>
-                        <span className="text-[9px] text-slate-400 font-bold uppercase">{award.division.charAt(0)}</span>
-                      </div>
-                    ))}
-                    {nominees.length === 0 && <p className="text-xs text-slate-400 italic">No nominees recorded for this year.</p>}
-                  </div>
-                </div>
-              </div>
+        {yearsWithPrize.map(year => (
+          <div key={year} className="space-y-4">
+            <div className="flex items-center gap-4">
+              <h3 className="text-2xl font-black text-slate-900">{year}</h3>
+              <div className="h-px flex-1 bg-slate-100" />
             </div>
-          );
-        })}
+
+            <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
+              {divisionOrder.map(division => {
+                const divisionRecords = prizeRecords
+                  .filter(record => record.year === year && record.division === division)
+                  .map(record => ({
+                    ...record,
+                    prizeStatus: record.specialPrizes.find(prize => prize.name === currentPrize)?.status,
+                  }))
+                  .filter(record => record.prizeStatus);
+
+                const winners = divisionRecords.filter(record => record.prizeStatus === 'Winner');
+                const nominees = divisionRecords.filter(record => record.prizeStatus === 'Nominee');
+
+                return (
+                  <Card key={`${year}-${division}`} className="p-5 border-slate-200 shadow-sm">
+                    <div className="flex items-center justify-between mb-5">
+                      <h4 className="text-sm font-black text-slate-900 uppercase tracking-[0.16em]">
+                        {divisionLabels[division]}
+                      </h4>
+                      <Badge className="bg-slate-100 text-slate-600 border-none text-[10px]">
+                        {divisionRecords.length} teams
+                      </Badge>
+                    </div>
+
+                    <div className="space-y-5">
+                      <div className="space-y-2">
+                        <div className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.2em] flex items-center gap-2">
+                          <Trophy className="w-3 h-3" />
+                          Winner
+                        </div>
+                        {winners.length > 0 ? (
+                          <div className="space-y-2">
+                            {winners.map(record => (
+                              <div key={record.id} className="rounded-2xl border border-emerald-100 bg-emerald-50/40 p-4">
+                                <div className="font-bold text-slate-900">{record.teamName}</div>
+                                <div className="mt-1 text-xs text-slate-500">
+                                  {record.village || 'Village TBA'}
+                                  {record.grandPrizeLevel ? ` · ${record.grandPrizeLevel}` : ''}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        ) : (
+                          <p className="text-xs text-slate-400 italic">No winner recorded.</p>
+                        )}
+                      </div>
+
+                      <div className="space-y-2">
+                        <div className="text-[10px] font-black text-blue-600 uppercase tracking-[0.2em] flex items-center gap-2">
+                          <Award className="w-3 h-3" />
+                          Nominees
+                        </div>
+                        {nominees.length > 0 ? (
+                          <div className="grid grid-cols-1 gap-2">
+                            {nominees.map(record => (
+                              <div key={record.id} className="rounded-xl border border-slate-100 bg-white px-3 py-2 text-sm text-slate-700">
+                                <div className="font-medium">{record.teamName}</div>
+                                <div className="text-[11px] text-slate-400 mt-0.5">{record.village || 'Village TBA'}</div>
+                              </div>
+                            ))}
+                          </div>
+                        ) : (
+                          <p className="text-xs text-slate-400 italic">No nominees recorded.</p>
+                        )}
+                      </div>
+                    </div>
+                  </Card>
+                );
+              })}
+            </div>
+          </div>
+        ))}
       </div>
     );
   };
