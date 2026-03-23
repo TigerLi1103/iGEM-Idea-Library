@@ -1,0 +1,5408 @@
+[
+  {
+    "year": 2022,
+    "teamName": "Aachen",
+    "teamId": 4138,
+    "href": "https://teams.igem.org/4138",
+    "wikiUrl": "https://2022.igem.wiki/aachen",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project",
+      "Best Hardware"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Aalto-Helsinki",
+    "teamId": 4159,
+    "href": "https://teams.igem.org/4159",
+    "wikiUrl": "https://2022.igem.wiki/aalto-helsinki",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Aboa",
+    "teamId": 4207,
+    "href": "https://teams.igem.org/4207",
+    "wikiUrl": "https://2022.igem.wiki/aboa",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "AFCM-Egypt",
+    "teamId": 4140,
+    "href": "https://teams.igem.org/4140",
+    "wikiUrl": "https://2022.igem.wiki/afcm-egypt",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Safety and Security Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "AHS_Peking",
+    "teamId": 4396,
+    "href": "https://teams.igem.org/4396",
+    "wikiUrl": "https://2022.igem.wiki/ahs-peking",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Aix-Marseille",
+    "teamId": 4189,
+    "href": "https://teams.igem.org/4189",
+    "wikiUrl": "https://2022.igem.wiki/aix-marseille",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Alma",
+    "teamId": 4166,
+    "href": "https://teams.igem.org/4166",
+    "wikiUrl": "https://2022.igem.wiki/alma",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Anatolia_College_HS",
+    "teamId": 4503,
+    "href": "https://teams.igem.org/4503",
+    "wikiUrl": "https://2022.igem.wiki/anatolia-college-hs",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "AshesiGhana",
+    "teamId": 4186,
+    "href": "https://teams.igem.org/4186",
+    "wikiUrl": "https://2022.igem.wiki/ashesighana",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "ASIJ_Tokyo",
+    "teamId": 4334,
+    "href": "https://teams.igem.org/4334",
+    "wikiUrl": "https://2022.igem.wiki/asij-tokyo",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "ASU",
+    "teamId": 4455,
+    "href": "https://teams.igem.org/4455",
+    "wikiUrl": "https://2022.igem.wiki/asu",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Athens",
+    "teamId": 4294,
+    "href": "https://teams.igem.org/4294",
+    "wikiUrl": "https://2022.igem.wiki/athens",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education",
+      "Safety and Security Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Austin_UTexas",
+    "teamId": 4342,
+    "href": "https://teams.igem.org/4342",
+    "wikiUrl": "https://2022.igem.wiki/austin-utexas",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "Best Foundational Advance Project",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Part Collection",
+      "Best Presentation"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Barcelona_UB",
+    "teamId": 4501,
+    "href": "https://teams.igem.org/4501",
+    "wikiUrl": "https://2022.igem.wiki/barcelona-ub",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Beijing_United",
+    "teamId": 4290,
+    "href": "https://teams.igem.org/4290",
+    "wikiUrl": "https://2022.igem.wiki/beijing-united",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BFSU-ICUnited",
+    "teamId": 4400,
+    "href": "https://teams.igem.org/4400",
+    "wikiUrl": "https://2022.igem.wiki/bfsu-icunited",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "BGU_Israel",
+    "teamId": 4120,
+    "href": "https://teams.igem.org/4120",
+    "wikiUrl": "https://2022.igem.wiki/bgu-israel",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Bilkent_UNAM",
+    "teamId": 4476,
+    "href": "https://teams.igem.org/4476",
+    "wikiUrl": "https://2022.igem.wiki/bilkent-unam",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Bio-Brussels",
+    "teamId": 4403,
+    "href": "https://teams.igem.org/4403",
+    "wikiUrl": "https://2022.igem.wiki/bio-brussels",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Bioplus-China",
+    "teamId": 4413,
+    "href": "https://teams.igem.org/4413",
+    "wikiUrl": "https://2022.igem.wiki/bioplus-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BIT",
+    "teamId": 4128,
+    "href": "https://teams.igem.org/4128",
+    "wikiUrl": "https://2022.igem.wiki/bit",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BIT-China",
+    "teamId": 4232,
+    "href": "https://teams.igem.org/4232",
+    "wikiUrl": "https://2022.igem.wiki/bit-china",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BJEA_China",
+    "teamId": 4221,
+    "href": "https://teams.igem.org/4221",
+    "wikiUrl": "https://2022.igem.wiki/bjea-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part",
+      "Inclusivity Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "BJWZ-China",
+    "teamId": 4203,
+    "href": "https://teams.igem.org/4203",
+    "wikiUrl": "https://2022.igem.wiki/bjwz-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BNDS_China",
+    "teamId": 4204,
+    "href": "https://teams.igem.org/4204",
+    "wikiUrl": "https://2022.igem.wiki/bnds-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BNSC_China",
+    "teamId": 4237,
+    "href": "https://teams.igem.org/4237",
+    "wikiUrl": "https://2022.igem.wiki/bnsc-china",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BNU-China",
+    "teamId": 4117,
+    "href": "https://teams.igem.org/4117",
+    "wikiUrl": "https://2022.igem.wiki/bnu-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BNUZH-China",
+    "teamId": 4211,
+    "href": "https://teams.igem.org/4211",
+    "wikiUrl": "https://2022.igem.wiki/bnuzh-china",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BOKU-Vienna",
+    "teamId": 4423,
+    "href": "https://teams.igem.org/4423",
+    "wikiUrl": "https://2022.igem.wiki/boku-vienna",
+    "division": "Graduate",
+    "village": "Climate Crisis",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Bonn-Rheinbach",
+    "teamId": 4510,
+    "href": "https://teams.igem.org/4510",
+    "wikiUrl": "https://2022.igem.wiki/bonn-rheinbach",
+    "division": "Graduate",
+    "village": "Climate Crisis",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BostonU_HW",
+    "teamId": 4485,
+    "href": "https://teams.igem.org/4485",
+    "wikiUrl": "https://2022.igem.wiki/bostonu-hw",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "BS_United_China",
+    "teamId": 4329,
+    "href": "https://teams.igem.org/4329",
+    "wikiUrl": "https://2022.igem.wiki/bs-united-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices",
+      "Best Part Collection",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "BUCT",
+    "teamId": 4146,
+    "href": "https://teams.igem.org/4146",
+    "wikiUrl": "https://2022.igem.wiki/buct",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "BUCT-China",
+    "teamId": 4194,
+    "href": "https://teams.igem.org/4194",
+    "wikiUrl": "https://2022.igem.wiki/buct-china",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Bulgaria",
+    "teamId": 4364,
+    "href": "https://teams.igem.org/4364",
+    "wikiUrl": "https://2022.igem.wiki/bulgaria",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "CAFA_China",
+    "teamId": 4226,
+    "href": "https://teams.igem.org/4226",
+    "wikiUrl": "https://2022.igem.wiki/cafa-china",
+    "division": "Graduate",
+    "village": "Conservation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Calgary",
+    "teamId": 4437,
+    "href": "https://teams.igem.org/4437",
+    "wikiUrl": "https://2022.igem.wiki/calgary",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "Best Sustainable Development Impact",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Cambridge",
+    "teamId": 4491,
+    "href": "https://teams.igem.org/4491",
+    "wikiUrl": "https://2022.igem.wiki/cambridge",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Canton_HS",
+    "teamId": 4291,
+    "href": "https://teams.igem.org/4291",
+    "wikiUrl": "https://2022.igem.wiki/canton-hs",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "CAU_China",
+    "teamId": 4192,
+    "href": "https://teams.igem.org/4192",
+    "wikiUrl": "https://2022.igem.wiki/cau-china",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "Best Biomanufacturing Project",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best New Composite Part",
+      "Best Part Collection",
+      "Best Software Tool"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "CCA_San_Diego",
+    "teamId": 4261,
+    "href": "https://teams.igem.org/4261",
+    "wikiUrl": "https://2022.igem.wiki/cca-san-diego",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "CCU_Taiwan",
+    "teamId": 4131,
+    "href": "https://teams.igem.org/4131",
+    "wikiUrl": "https://2022.igem.wiki/ccu-taiwan",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Chalmers-Gothenburg",
+    "teamId": 4367,
+    "href": "https://teams.igem.org/4367",
+    "wikiUrl": "https://2022.igem.wiki/chalmers-gothenburg",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Software Tool"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "CHINA-FAFU",
+    "teamId": 4112,
+    "href": "https://teams.igem.org/4112",
+    "wikiUrl": "https://2022.igem.wiki/china-fafu",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "City_of_London_UK",
+    "teamId": 4508,
+    "href": "https://teams.igem.org/4508",
+    "wikiUrl": "https://2022.igem.wiki/city-of-london-uk",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Model",
+      "Best Presentation"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "CityU_HongKong",
+    "teamId": 4154,
+    "href": "https://teams.igem.org/4154",
+    "wikiUrl": "https://2022.igem.wiki/cityu-hongkong",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Concordia-Montreal",
+    "teamId": 4136,
+    "href": "https://teams.igem.org/4136",
+    "wikiUrl": "https://2022.igem.wiki/concordia-montreal",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Cornell",
+    "teamId": 4322,
+    "href": "https://teams.igem.org/4322",
+    "wikiUrl": "https://2022.igem.wiki/cornell",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Costa_Rica",
+    "teamId": 4133,
+    "href": "https://teams.igem.org/4133",
+    "wikiUrl": "https://2022.igem.wiki/costa-rica",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "CPU_CHINA",
+    "teamId": 4308,
+    "href": "https://teams.igem.org/4308",
+    "wikiUrl": "https://2022.igem.wiki/cpu-china",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "CPU_Nanjing",
+    "teamId": 4257,
+    "href": "https://teams.igem.org/4257",
+    "wikiUrl": "https://2022.igem.wiki/cpu-nanjing",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Crete",
+    "teamId": 4495,
+    "href": "https://teams.igem.org/4495",
+    "wikiUrl": "https://2022.igem.wiki/crete",
+    "division": "Undergraduate",
+    "village": "Conservation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "CSMU_Taiwan",
+    "teamId": 4151,
+    "href": "https://teams.igem.org/4151",
+    "wikiUrl": "https://2022.igem.wiki/csmu-taiwan",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "CSU_CHINA",
+    "teamId": 4127,
+    "href": "https://teams.igem.org/4127",
+    "wikiUrl": "https://2022.igem.wiki/csu-china",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "CU_Egypt",
+    "teamId": 4165,
+    "href": "https://teams.igem.org/4165",
+    "wikiUrl": "https://2022.igem.wiki/cu-egypt",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "CU-Boulder",
+    "teamId": 4201,
+    "href": "https://teams.igem.org/4201",
+    "wikiUrl": "https://2022.igem.wiki/cu-boulder",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": [
+      "Best Plant Synthetic Biology"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "CUG-China",
+    "teamId": 4242,
+    "href": "https://teams.igem.org/4242",
+    "wikiUrl": "https://2022.igem.wiki/cug-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "CUHK-HongKong-SBS",
+    "teamId": 4469,
+    "href": "https://teams.igem.org/4469",
+    "wikiUrl": "https://2022.igem.wiki/cuhk-hongkong-sbs",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "CUHKSZ",
+    "teamId": 4459,
+    "href": "https://teams.igem.org/4459",
+    "wikiUrl": "https://2022.igem.wiki/cuhksz",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "DeNovoCastrians",
+    "teamId": 4431,
+    "href": "https://teams.igem.org/4431",
+    "wikiUrl": "https://2022.igem.wiki/denovocastrians",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "DKU",
+    "teamId": 4161,
+    "href": "https://teams.igem.org/4161",
+    "wikiUrl": "https://2022.igem.wiki/dku",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "DKU_China",
+    "teamId": 4494,
+    "href": "https://teams.igem.org/4494",
+    "wikiUrl": "https://2022.igem.wiki/dku-china",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "DNHS_SanDiego_CA",
+    "teamId": 4386,
+    "href": "https://teams.igem.org/4386",
+    "wikiUrl": "https://2022.igem.wiki/dnhs-sandiego-ca",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "DTU-Denmark",
+    "teamId": 4129,
+    "href": "https://teams.igem.org/4129",
+    "wikiUrl": "https://2022.igem.wiki/dtu-denmark",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Duesseldorf",
+    "teamId": 4369,
+    "href": "https://teams.igem.org/4369",
+    "wikiUrl": "https://2022.igem.wiki/duesseldorf",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Duke",
+    "teamId": 4234,
+    "href": "https://teams.igem.org/4234",
+    "wikiUrl": "https://2022.igem.wiki/duke",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "DUT_China",
+    "teamId": 4176,
+    "href": "https://teams.igem.org/4176",
+    "wikiUrl": "https://2022.igem.wiki/dut-china",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Foundational Advance Project",
+      "Best New Basic Part"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "East_China",
+    "teamId": 4515,
+    "href": "https://teams.igem.org/4515",
+    "wikiUrl": "https://2022.igem.wiki/east-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "East_Coast_BioCrew",
+    "teamId": 4458,
+    "href": "https://teams.igem.org/4458",
+    "wikiUrl": "https://2022.igem.wiki/east-coast-biocrew",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "ECNUAS",
+    "teamId": 4281,
+    "href": "https://teams.igem.org/4281",
+    "wikiUrl": "https://2022.igem.wiki/ecnuas",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Edinburgh-UHAS_Ghana",
+    "teamId": 4390,
+    "href": "https://teams.igem.org/4390",
+    "wikiUrl": "https://2022.igem.wiki/edinburgh-uhas-ghana",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "ELTE",
+    "teamId": 4375,
+    "href": "https://teams.igem.org/4375",
+    "wikiUrl": "https://2022.igem.wiki/elte",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "EPFL",
+    "teamId": 4439,
+    "href": "https://teams.igem.org/4439",
+    "wikiUrl": "https://2022.igem.wiki/epfl",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Biomanufacturing Project",
+      "Best Presentation",
+      "Best Sustainable Development Impact",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Estonia_TUIT",
+    "teamId": 4440,
+    "href": "https://teams.igem.org/4440",
+    "wikiUrl": "https://2022.igem.wiki/estonia-tuit",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Evry_Paris-Saclay",
+    "teamId": 4432,
+    "href": "https://teams.igem.org/4432",
+    "wikiUrl": "https://2022.igem.wiki/evry-paris-saclay",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Measurement"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Example",
+    "teamId": 4108,
+    "href": "https://teams.igem.org/4108",
+    "wikiUrl": "https://2022.igem.wiki/example",
+    "division": "Graduate",
+    "village": null,
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Example_CL",
+    "teamId": 4111,
+    "href": "https://teams.igem.org/4111",
+    "wikiUrl": "https://2022.igem.wiki/example-cl",
+    "division": "Undergraduate",
+    "village": null,
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Example_CM",
+    "teamId": 4110,
+    "href": "https://teams.igem.org/4110",
+    "wikiUrl": "https://2022.igem.wiki/example-cm",
+    "division": "High School",
+    "village": null,
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Example_HS",
+    "teamId": 4109,
+    "href": "https://teams.igem.org/4109",
+    "wikiUrl": "https://2022.igem.wiki/example-hs",
+    "division": "High School",
+    "village": null,
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Exeter",
+    "teamId": 4339,
+    "href": "https://teams.igem.org/4339",
+    "wikiUrl": "https://2022.igem.wiki/exeter",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "Inclusivity Award",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Biomanufacturing Project",
+      "Best Integrated Human Practices"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "FAFU",
+    "teamId": 4253,
+    "href": "https://teams.igem.org/4253",
+    "wikiUrl": "https://2022.igem.wiki/fafu",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "FAFU-China",
+    "teamId": 4113,
+    "href": "https://teams.igem.org/4113",
+    "wikiUrl": "https://2022.igem.wiki/fafu-china",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "FDR-HB_Peru",
+    "teamId": 4338,
+    "href": "https://teams.igem.org/4338",
+    "wikiUrl": "https://2022.igem.wiki/fdr-hb-peru",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Freiburg",
+    "teamId": 4229,
+    "href": "https://teams.igem.org/4229",
+    "wikiUrl": "https://2022.igem.wiki/freiburg",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "Best Foundational Advance Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "FSU",
+    "teamId": 4475,
+    "href": "https://teams.igem.org/4475",
+    "wikiUrl": "https://2022.igem.wiki/fsu",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Fudan",
+    "teamId": 4162,
+    "href": "https://teams.igem.org/4162",
+    "wikiUrl": "https://2022.igem.wiki/fudan",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "Best Measurement",
+      "Best New Basic Part",
+      "Best Part Collection",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part",
+      "Best Software Tool"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Fujian_United",
+    "teamId": 4288,
+    "href": "https://teams.igem.org/4288",
+    "wikiUrl": "https://2022.igem.wiki/fujian-united",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "GA_State_SW_Jiaotong",
+    "teamId": 4493,
+    "href": "https://teams.igem.org/4493",
+    "wikiUrl": "https://2022.igem.wiki/ga-state-sw-jiaotong",
+    "division": "Graduate",
+    "village": "Climate Crisis",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "GastonDay-Shangde",
+    "teamId": 4481,
+    "href": "https://teams.igem.org/4481",
+    "wikiUrl": "https://2022.igem.wiki/gastonday-shangde",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "GDSYZX",
+    "teamId": 4270,
+    "href": "https://teams.igem.org/4270",
+    "wikiUrl": "https://2022.igem.wiki/gdsyzx",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "GEMS_Taiwan",
+    "teamId": 4137,
+    "href": "https://teams.igem.org/4137",
+    "wikiUrl": "https://2022.igem.wiki/gems-taiwan",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Model",
+      "Best Supporting Entrepreneurship",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education",
+      "Best Wiki",
+      "Safety and Security Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "GO_Paris-Saclay",
+    "teamId": 4370,
+    "href": "https://teams.igem.org/4370",
+    "wikiUrl": "https://2022.igem.wiki/go-paris-saclay",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Goethe_Frankfurt",
+    "teamId": 4285,
+    "href": "https://teams.igem.org/4285",
+    "wikiUrl": "https://2022.igem.wiki/goethe-frankfurt",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Goettingen",
+    "teamId": 4404,
+    "href": "https://teams.igem.org/4404",
+    "wikiUrl": "https://2022.igem.wiki/goettingen",
+    "division": "Graduate",
+    "village": "Climate Crisis",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "GreatBay_SCIE",
+    "teamId": 4275,
+    "href": "https://teams.igem.org/4275",
+    "wikiUrl": "https://2022.igem.wiki/greatbay-scie",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part",
+      "Best Sustainable Development Impact"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Groningen",
+    "teamId": 4233,
+    "href": "https://teams.igem.org/4233",
+    "wikiUrl": "https://2022.igem.wiki/groningen",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Safety and Security Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Guangxi-U-China",
+    "teamId": 4157,
+    "href": "https://teams.igem.org/4157",
+    "wikiUrl": "https://2022.igem.wiki/guangxi-u-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Guelph",
+    "teamId": 4321,
+    "href": "https://teams.igem.org/4321",
+    "wikiUrl": "https://2022.igem.wiki/guelph",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "GXU-China",
+    "teamId": 4354,
+    "href": "https://teams.igem.org/4354",
+    "wikiUrl": "https://2022.igem.wiki/gxu-china",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "GYHS",
+    "teamId": 4430,
+    "href": "https://teams.igem.org/4430",
+    "wikiUrl": "https://2022.igem.wiki/gyhs",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HAGZGD-China",
+    "teamId": 4489,
+    "href": "https://teams.igem.org/4489",
+    "wikiUrl": "https://2022.igem.wiki/hagzgd-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HainanU_China",
+    "teamId": 4223,
+    "href": "https://teams.igem.org/4223",
+    "wikiUrl": "https://2022.igem.wiki/hainanu-china",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Harvard",
+    "teamId": 4480,
+    "href": "https://teams.igem.org/4480",
+    "wikiUrl": "https://2022.igem.wiki/harvard",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HBUT-China",
+    "teamId": 4249,
+    "href": "https://teams.igem.org/4249",
+    "wikiUrl": "https://2022.igem.wiki/hbut-china",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Heidelberg",
+    "teamId": 4344,
+    "href": "https://teams.igem.org/4344",
+    "wikiUrl": "https://2022.igem.wiki/heidelberg",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HiZJU-China",
+    "teamId": 4177,
+    "href": "https://teams.igem.org/4177",
+    "wikiUrl": "https://2022.igem.wiki/hizju-china",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HK_CPU-WYY",
+    "teamId": 4126,
+    "href": "https://teams.igem.org/4126",
+    "wikiUrl": "https://2022.igem.wiki/hk-cpu-wyy",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HK_SSC",
+    "teamId": 4384,
+    "href": "https://teams.igem.org/4384",
+    "wikiUrl": "https://2022.igem.wiki/hk-ssc",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HKU_HongKong",
+    "teamId": 4241,
+    "href": "https://teams.igem.org/4241",
+    "wikiUrl": "https://2022.igem.wiki/hku-hongkong",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HKUST",
+    "teamId": 4225,
+    "href": "https://teams.igem.org/4225",
+    "wikiUrl": "https://2022.igem.wiki/hkust",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "Safety and Security Award",
+      "GOLD MEDAL",
+      "TOP 10",
+      "SECOND RUNNER-UP"
+    ],
+    "nominations": [
+      "Best Food & Nutrition Project",
+      "Best Integrated Human Practices",
+      "Best Presentation",
+      "Best Sustainable Development Impact",
+      "Best Wiki",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "HNU_China",
+    "teamId": 4252,
+    "href": "https://teams.igem.org/4252",
+    "wikiUrl": "https://2022.igem.wiki/hnu-china",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Hopkins",
+    "teamId": 4452,
+    "href": "https://teams.igem.org/4452",
+    "wikiUrl": "https://2022.igem.wiki/hopkins",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Plant Synthetic Biology"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "HS_China",
+    "teamId": 4183,
+    "href": "https://teams.igem.org/4183",
+    "wikiUrl": "https://2022.igem.wiki/hs-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HUS_United",
+    "teamId": 4511,
+    "href": "https://teams.igem.org/4511",
+    "wikiUrl": "https://2022.igem.wiki/hus-united",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HUST-China",
+    "teamId": 4468,
+    "href": "https://teams.igem.org/4468",
+    "wikiUrl": "https://2022.igem.wiki/hust-china",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "HZAU-China",
+    "teamId": 4169,
+    "href": "https://teams.igem.org/4169",
+    "wikiUrl": "https://2022.igem.wiki/hzau-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "iBowu-China",
+    "teamId": 4236,
+    "href": "https://teams.igem.org/4236",
+    "wikiUrl": "https://2022.igem.wiki/ibowu-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "ICJFLS",
+    "teamId": 4167,
+    "href": "https://teams.igem.org/4167",
+    "wikiUrl": "https://2022.igem.wiki/icjfls",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices",
+      "Best Model",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "ICT-Mumbai",
+    "teamId": 4303,
+    "href": "https://teams.igem.org/4303",
+    "wikiUrl": "https://2022.igem.wiki/ict-mumbai",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "IISc-Bengaluru",
+    "teamId": 4462,
+    "href": "https://teams.igem.org/4462",
+    "wikiUrl": "https://2022.igem.wiki/iisc-bengaluru",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Climate Crisis Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "IISER_Berhampur",
+    "teamId": 4449,
+    "href": "https://teams.igem.org/4449",
+    "wikiUrl": "https://2022.igem.wiki/iiser-berhampur",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "IISER_Bhopal",
+    "teamId": 4382,
+    "href": "https://teams.igem.org/4382",
+    "wikiUrl": "https://2022.igem.wiki/iiser-bhopal",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "IISER_Mohali",
+    "teamId": 4391,
+    "href": "https://teams.igem.org/4391",
+    "wikiUrl": "https://2022.igem.wiki/iiser-mohali",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Foundational Advance Project",
+      "Best Software Tool"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "IISER_TVM",
+    "teamId": 4359,
+    "href": "https://teams.igem.org/4359",
+    "wikiUrl": "https://2022.igem.wiki/iiser-tvm",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education",
+      "Best Therapeutics Project",
+      "Safety and Security Award",
+      "Inclusivity Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "IISER-Pune-India",
+    "teamId": 4392,
+    "href": "https://teams.igem.org/4392",
+    "wikiUrl": "https://2022.igem.wiki/iiser-pune-india",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "IISER-Pune2_India",
+    "teamId": 4429,
+    "href": "https://teams.igem.org/4429",
+    "wikiUrl": "https://2022.igem.wiki/iiser-pune2-india",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices",
+      "Best Measurement",
+      "Best Model",
+      "Best New Basic Part",
+      "Best Presentation",
+      "Best Supporting Entrepreneurship",
+      "Best Therapeutics Project",
+      "Inclusivity Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "IISER-Tirupati_India",
+    "teamId": 4438,
+    "href": "https://teams.igem.org/4438",
+    "wikiUrl": "https://2022.igem.wiki/iiser-tirupati-india",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "IIT_Roorkee",
+    "teamId": 4434,
+    "href": "https://teams.igem.org/4434",
+    "wikiUrl": "https://2022.igem.wiki/iit-roorkee",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "IIT-Delhi",
+    "teamId": 4428,
+    "href": "https://teams.igem.org/4428",
+    "wikiUrl": "https://2022.igem.wiki/iit-delhi",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Imperial_College_London",
+    "teamId": 4212,
+    "href": "https://teams.igem.org/4212",
+    "wikiUrl": "https://2022.igem.wiki/imperial-college-london",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Food & Nutrition Project",
+      "Best Supporting Entrepreneurship",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "INSA_Lyon1",
+    "teamId": 4239,
+    "href": "https://teams.igem.org/4239",
+    "wikiUrl": "https://2022.igem.wiki/insa-lyon1",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "Best Education",
+      "Best Food & Nutrition Project",
+      "Best Hardware",
+      "Best New Composite Part",
+      "Best Presentation",
+      "Best Wiki",
+      "GOLD MEDAL",
+      "TOP 10",
+      "FIRST RUNNER-UP"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices",
+      "Best Part Collection",
+      "Best Software Tool",
+      "Best Sustainable Development Impact",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Ionis_Paris",
+    "teamId": 4187,
+    "href": "https://teams.igem.org/4187",
+    "wikiUrl": "https://2022.igem.wiki/ionis-paris",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "Best Climate Crisis Project",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Hardware",
+      "Best Sustainable Development Impact",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "ITESO_Guadalajara",
+    "teamId": 4424,
+    "href": "https://teams.igem.org/4424",
+    "wikiUrl": "https://2022.igem.wiki/iteso-guadalajara",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "IvyMaker-China",
+    "teamId": 4122,
+    "href": "https://teams.igem.org/4122",
+    "wikiUrl": "https://2022.igem.wiki/ivymaker-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Jiangnan-China",
+    "teamId": 4149,
+    "href": "https://teams.igem.org/4149",
+    "wikiUrl": "https://2022.igem.wiki/jiangnan-china",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Jiangsu_United",
+    "teamId": 4516,
+    "href": "https://teams.igem.org/4516",
+    "wikiUrl": "https://2022.igem.wiki/jiangsu-united",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Jilin_China",
+    "teamId": 4385,
+    "href": "https://teams.igem.org/4385",
+    "wikiUrl": "https://2022.igem.wiki/jilin-china",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "JLU_China",
+    "teamId": 4427,
+    "href": "https://teams.igem.org/4427",
+    "wikiUrl": "https://2022.igem.wiki/jlu-china",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "KAIT_JAPAN",
+    "teamId": 4487,
+    "href": "https://teams.igem.org/4487",
+    "wikiUrl": "https://2022.igem.wiki/kait-japan",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "KCIS_Xiugang_Taipei",
+    "teamId": 4180,
+    "href": "https://teams.igem.org/4180",
+    "wikiUrl": "https://2022.igem.wiki/kcis-xiugang-taipei",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "KCL_UK",
+    "teamId": 4388,
+    "href": "https://teams.igem.org/4388",
+    "wikiUrl": "https://2022.igem.wiki/kcl-uk",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "KEYSTONE",
+    "teamId": 4274,
+    "href": "https://teams.igem.org/4274",
+    "wikiUrl": "https://2022.igem.wiki/keystone",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Korea_HS",
+    "teamId": 4305,
+    "href": "https://teams.igem.org/4305",
+    "wikiUrl": "https://2022.igem.wiki/korea-hs",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Education",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Best Sustainable Development Impact"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "KU_Leuven",
+    "teamId": 4345,
+    "href": "https://teams.igem.org/4345",
+    "wikiUrl": "https://2022.igem.wiki/ku-leuven",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "KUAS_Korea",
+    "teamId": 4371,
+    "href": "https://teams.igem.org/4371",
+    "wikiUrl": "https://2022.igem.wiki/kuas-korea",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Lambert_GA",
+    "teamId": 4245,
+    "href": "https://teams.igem.org/4245",
+    "wikiUrl": "https://2022.igem.wiki/lambert-ga",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Presentation",
+      "Best Wiki",
+      "GOLD MEDAL",
+      "TOP 10",
+      "GRAND PRIZE"
+    ],
+    "nominations": [
+      "Best Hardware",
+      "Best Integrated Human Practices",
+      "Best Model",
+      "Inclusivity Award",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Latvia-Riga",
+    "teamId": 4398,
+    "href": "https://teams.igem.org/4398",
+    "wikiUrl": "https://2022.igem.wiki/latvia-riga",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Leiden",
+    "teamId": 4259,
+    "href": "https://teams.igem.org/4259",
+    "wikiUrl": "https://2022.igem.wiki/leiden",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "Best Supporting Entrepreneurship",
+      "Best Wiki",
+      "Safety and Security Award",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Measurement",
+      "Best Model",
+      "Best Presentation"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Lethbridge",
+    "teamId": 4139,
+    "href": "https://teams.igem.org/4139",
+    "wikiUrl": "https://2022.igem.wiki/lethbridge",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Lethbridge_HS",
+    "teamId": 4351,
+    "href": "https://teams.igem.org/4351",
+    "wikiUrl": "https://2022.igem.wiki/lethbridge-hs",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Linkoping_Sweden",
+    "teamId": 4433,
+    "href": "https://teams.igem.org/4433",
+    "wikiUrl": "https://2022.igem.wiki/linkoping-sweden",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "LINKS_China",
+    "teamId": 4273,
+    "href": "https://teams.igem.org/4273",
+    "wikiUrl": "https://2022.igem.wiki/links-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best New Basic Part",
+      "Best Part Collection",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part",
+      "Best Sustainable Development Impact",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Lund",
+    "teamId": 4373,
+    "href": "https://teams.igem.org/4373",
+    "wikiUrl": "https://2022.igem.wiki/lund",
+    "division": "Graduate",
+    "village": "Conservation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Safety and Security Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "LZU-CHINA",
+    "teamId": 4156,
+    "href": "https://teams.igem.org/4156",
+    "wikiUrl": "https://2022.igem.wiki/lzu-china",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "Best New Composite Part",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part",
+      "Best Therapeutics Project",
+      "Inclusivity Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "LZU-HS-China-A",
+    "teamId": 4330,
+    "href": "https://teams.igem.org/4330",
+    "wikiUrl": "https://2022.igem.wiki/lzu-hs-china-a",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "LZU-HS-China-B",
+    "teamId": 4331,
+    "href": "https://teams.igem.org/4331",
+    "wikiUrl": "https://2022.igem.wiki/lzu-hs-china-b",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "LZU-HS-China-C",
+    "teamId": 4332,
+    "href": "https://teams.igem.org/4332",
+    "wikiUrl": "https://2022.igem.wiki/lzu-hs-china-c",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "LZU-HS-China-E",
+    "teamId": 4512,
+    "href": "https://teams.igem.org/4512",
+    "wikiUrl": "https://2022.igem.wiki/lzu-hs-china-e",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "LZU-HS-Pro-A",
+    "teamId": 4300,
+    "href": "https://teams.igem.org/4300",
+    "wikiUrl": "https://2022.igem.wiki/lzu-hs-pro-a",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "LZU-HS-Pro-B",
+    "teamId": 4301,
+    "href": "https://teams.igem.org/4301",
+    "wikiUrl": "https://2022.igem.wiki/lzu-hs-pro-b",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Makerere_Uganda",
+    "teamId": 4517,
+    "href": "https://teams.igem.org/4517",
+    "wikiUrl": "https://2022.igem.wiki/makerere-uganda",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Manchester",
+    "teamId": 4123,
+    "href": "https://teams.igem.org/4123",
+    "wikiUrl": "https://2022.igem.wiki/manchester",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "McGill",
+    "teamId": 4348,
+    "href": "https://teams.igem.org/4348",
+    "wikiUrl": "https://2022.igem.wiki/mcgill",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "McMaster_A",
+    "teamId": 4415,
+    "href": "https://teams.igem.org/4415",
+    "wikiUrl": "https://2022.igem.wiki/mcmaster-a",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "McMaster_Canada",
+    "teamId": 4442,
+    "href": "https://teams.igem.org/4442",
+    "wikiUrl": "https://2022.igem.wiki/mcmaster-canada",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "MiamiU",
+    "teamId": 4514,
+    "href": "https://teams.igem.org/4514",
+    "wikiUrl": "https://2022.igem.wiki/miamiu",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Michigan",
+    "teamId": 4143,
+    "href": "https://teams.igem.org/4143",
+    "wikiUrl": "https://2022.igem.wiki/michigan",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "MichiganState",
+    "teamId": 4135,
+    "href": "https://teams.igem.org/4135",
+    "wikiUrl": "https://2022.igem.wiki/michiganstate",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Mingdao",
+    "teamId": 4150,
+    "href": "https://teams.igem.org/4150",
+    "wikiUrl": "https://2022.igem.wiki/mingdao",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best New Composite Part",
+      "Safety and Security Award",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education",
+      "Best New Basic Part",
+      "Best Part Collection",
+      "Best Wiki",
+      "Inclusivity Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Missouri_Miners",
+    "teamId": 4262,
+    "href": "https://teams.igem.org/4262",
+    "wikiUrl": "https://2022.igem.wiki/missouri-miners",
+    "division": "Graduate",
+    "village": "Conservation",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "MIT",
+    "teamId": 4320,
+    "href": "https://teams.igem.org/4320",
+    "wikiUrl": "https://2022.igem.wiki/mit",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "MIT_MAHE",
+    "teamId": 4200,
+    "href": "https://teams.igem.org/4200",
+    "wikiUrl": "https://2022.igem.wiki/mit-mahe",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education",
+      "Best Food & Nutrition Project",
+      "Best Presentation",
+      "Best Software Tool",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Montpellier",
+    "teamId": 4473,
+    "href": "https://teams.igem.org/4473",
+    "wikiUrl": "https://2022.igem.wiki/montpellier",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "FIRST RUNNER-UP"
+    ],
+    "nominations": [
+      "Best Food & Nutrition Project",
+      "Best Integrated Human Practices",
+      "Best Presentation",
+      "Best Supporting Entrepreneurship",
+      "Best Wiki",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "MSP-Maastricht",
+    "teamId": 4185,
+    "href": "https://teams.igem.org/4185",
+    "wikiUrl": "https://2022.igem.wiki/msp-maastricht",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Munich",
+    "teamId": 4497,
+    "href": "https://teams.igem.org/4497",
+    "wikiUrl": "https://2022.igem.wiki/munich",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "Best Software Tool",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Model",
+      "Best Presentation",
+      "Best Therapeutics Project",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Nanjing_HS",
+    "teamId": 4289,
+    "href": "https://teams.igem.org/4289",
+    "wikiUrl": "https://2022.igem.wiki/nanjing-hs",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Nanjing_NFLS",
+    "teamId": 4125,
+    "href": "https://teams.igem.org/4125",
+    "wikiUrl": "https://2022.igem.wiki/nanjing-nfls",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Nanjing-China",
+    "teamId": 4134,
+    "href": "https://teams.igem.org/4134",
+    "wikiUrl": "https://2022.igem.wiki/nanjing-china",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Climate Crisis Project",
+      "Best New Composite Part",
+      "Best Sustainable Development Impact",
+      "Safety and Security Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "NAU-CHINA",
+    "teamId": 4164,
+    "href": "https://teams.igem.org/4164",
+    "wikiUrl": "https://2022.igem.wiki/nau-china",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Navarra_BG",
+    "teamId": 4374,
+    "href": "https://teams.igem.org/4374",
+    "wikiUrl": "https://2022.igem.wiki/navarra-bg",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NCHU_Taichung",
+    "teamId": 4358,
+    "href": "https://teams.igem.org/4358",
+    "wikiUrl": "https://2022.igem.wiki/nchu-taichung",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NCKU_Tainan",
+    "teamId": 4171,
+    "href": "https://teams.igem.org/4171",
+    "wikiUrl": "https://2022.igem.wiki/ncku-tainan",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NCSU",
+    "teamId": 4446,
+    "href": "https://teams.igem.org/4446",
+    "wikiUrl": "https://2022.igem.wiki/ncsu",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NDSU",
+    "teamId": 4258,
+    "href": "https://teams.igem.org/4258",
+    "wikiUrl": "https://2022.igem.wiki/ndsu",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NEFU_China",
+    "teamId": 4121,
+    "href": "https://teams.igem.org/4121",
+    "wikiUrl": "https://2022.igem.wiki/nefu-china",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NEU_CHINA",
+    "teamId": 4220,
+    "href": "https://teams.igem.org/4220",
+    "wikiUrl": "https://2022.igem.wiki/neu-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NFLS_Nanjing",
+    "teamId": 4376,
+    "href": "https://teams.igem.org/4376",
+    "wikiUrl": "https://2022.igem.wiki/nfls-nanjing",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NJMU-China",
+    "teamId": 4205,
+    "href": "https://teams.igem.org/4205",
+    "wikiUrl": "https://2022.igem.wiki/njmu-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NJTech_China",
+    "teamId": 4119,
+    "href": "https://teams.igem.org/4119",
+    "wikiUrl": "https://2022.igem.wiki/njtech-china",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NJU-China",
+    "teamId": 4173,
+    "href": "https://teams.igem.org/4173",
+    "wikiUrl": "https://2022.igem.wiki/nju-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NJXDF-CHN",
+    "teamId": 4297,
+    "href": "https://teams.igem.org/4297",
+    "wikiUrl": "https://2022.igem.wiki/njxdf-chn",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NMU_China",
+    "teamId": 4421,
+    "href": "https://teams.igem.org/4421",
+    "wikiUrl": "https://2022.igem.wiki/nmu-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Model"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "NNU-China",
+    "teamId": 4343,
+    "href": "https://teams.igem.org/4343",
+    "wikiUrl": "https://2022.igem.wiki/nnu-china",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NPU-CHINA",
+    "teamId": 4309,
+    "href": "https://teams.igem.org/4309",
+    "wikiUrl": "https://2022.igem.wiki/npu-china",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NTHU_Taiwan",
+    "teamId": 4336,
+    "href": "https://teams.igem.org/4336",
+    "wikiUrl": "https://2022.igem.wiki/nthu-taiwan",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NU_Kazakhstan",
+    "teamId": 4389,
+    "href": "https://teams.igem.org/4389",
+    "wikiUrl": "https://2022.igem.wiki/nu-kazakhstan",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Inclusivity Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "NUDT_CHINA",
+    "teamId": 4414,
+    "href": "https://teams.igem.org/4414",
+    "wikiUrl": "https://2022.igem.wiki/nudt-china",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NWU-CHINA-A",
+    "teamId": 4199,
+    "href": "https://teams.igem.org/4199",
+    "wikiUrl": "https://2022.igem.wiki/nwu-china-a",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NYC_Empire_State",
+    "teamId": 4482,
+    "href": "https://teams.igem.org/4482",
+    "wikiUrl": "https://2022.igem.wiki/nyc-empire-state",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "NYCU_Formosa",
+    "teamId": 4377,
+    "href": "https://teams.igem.org/4377",
+    "wikiUrl": "https://2022.igem.wiki/nycu-formosa",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Biomanufacturing Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "NYCU-Taipei",
+    "teamId": 4461,
+    "href": "https://teams.igem.org/4461",
+    "wikiUrl": "https://2022.igem.wiki/nycu-taipei",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NYU_Abu_Dhabi",
+    "teamId": 4397,
+    "href": "https://teams.igem.org/4397",
+    "wikiUrl": "https://2022.igem.wiki/nyu-abu-dhabi",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "NYU_New_York",
+    "teamId": 4478,
+    "href": "https://teams.igem.org/4478",
+    "wikiUrl": "https://2022.igem.wiki/nyu-new-york",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "OhioState",
+    "teamId": 4341,
+    "href": "https://teams.igem.org/4341",
+    "wikiUrl": "https://2022.igem.wiki/ohiostate",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "OUC-China",
+    "teamId": 4193,
+    "href": "https://teams.igem.org/4193",
+    "wikiUrl": "https://2022.igem.wiki/ouc-china",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Paris_Bettencourt",
+    "teamId": 4216,
+    "href": "https://teams.igem.org/4216",
+    "wikiUrl": "https://2022.igem.wiki/paris-bettencourt",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Foundational Advance Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Patras",
+    "teamId": 4287,
+    "href": "https://teams.igem.org/4287",
+    "wikiUrl": "https://2022.igem.wiki/patras",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Bronze",
+    "results": [
+      "iGEMers Prize Remote",
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Patras_Medicine",
+    "teamId": 4118,
+    "href": "https://teams.igem.org/4118",
+    "wikiUrl": "https://2022.igem.wiki/patras-medicine",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "Best Diagnostics Project",
+      "Best Wiki",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Patras_Uni_Hellas",
+    "teamId": 4505,
+    "href": "https://teams.igem.org/4505",
+    "wikiUrl": "https://2022.igem.wiki/patras-uni-hellas",
+    "division": "Undergraduate",
+    "village": "Conservation",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Peking",
+    "teamId": 4298,
+    "href": "https://teams.igem.org/4298",
+    "wikiUrl": "https://2022.igem.wiki/peking",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "PINGHE",
+    "teamId": 4284,
+    "href": "https://teams.igem.org/4284",
+    "wikiUrl": "https://2022.igem.wiki/pinghe",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Portland",
+    "teamId": 4457,
+    "href": "https://teams.igem.org/4457",
+    "wikiUrl": "https://2022.igem.wiki/portland",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "PuiChing_Macau",
+    "teamId": 4340,
+    "href": "https://teams.igem.org/4340",
+    "wikiUrl": "https://2022.igem.wiki/puiching-macau",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Hardware",
+      "Best Sustainable Development Impact",
+      "GOLD MEDAL",
+      "TOP 10",
+      "FIRST RUNNER-UP"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "PUMC_CHINA",
+    "teamId": 4318,
+    "href": "https://teams.igem.org/4318",
+    "wikiUrl": "https://2022.igem.wiki/pumc-china",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Qdai",
+    "teamId": 4206,
+    "href": "https://teams.igem.org/4206",
+    "wikiUrl": "https://2022.igem.wiki/qdai",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Queens_Canada",
+    "teamId": 4347,
+    "href": "https://teams.igem.org/4347",
+    "wikiUrl": "https://2022.igem.wiki/queens-canada",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "RBHS_SanDiego_CA",
+    "teamId": 4513,
+    "href": "https://teams.igem.org/4513",
+    "wikiUrl": "https://2022.igem.wiki/rbhs-sandiego-ca",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "RDFZ-CHINA",
+    "teamId": 4405,
+    "href": "https://teams.igem.org/4405",
+    "wikiUrl": "https://2022.igem.wiki/rdfz-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Safety and Security Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "REC-CHENNAI",
+    "teamId": 4509,
+    "href": "https://teams.igem.org/4509",
+    "wikiUrl": "https://2022.igem.wiki/rec-chennai",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "Best Environment Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Rochester",
+    "teamId": 4130,
+    "href": "https://teams.igem.org/4130",
+    "wikiUrl": "https://2022.igem.wiki/rochester",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware",
+      "Best Measurement",
+      "Best New Composite Part"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "RS_Joint_China",
+    "teamId": 4401,
+    "href": "https://teams.igem.org/4401",
+    "wikiUrl": "https://2022.igem.wiki/rs-joint-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "RS_United_China",
+    "teamId": 4402,
+    "href": "https://teams.igem.org/4402",
+    "wikiUrl": "https://2022.igem.wiki/rs-united-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "RUBochum",
+    "teamId": 4293,
+    "href": "https://teams.igem.org/4293",
+    "wikiUrl": "https://2022.igem.wiki/rubochum",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "RUM-UPRM",
+    "teamId": 4460,
+    "href": "https://teams.igem.org/4460",
+    "wikiUrl": "https://2022.igem.wiki/rum-uprm",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "SCU-China",
+    "teamId": 4383,
+    "href": "https://teams.igem.org/4383",
+    "wikiUrl": "https://2022.igem.wiki/scu-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SCUT-China",
+    "teamId": 4263,
+    "href": "https://teams.igem.org/4263",
+    "wikiUrl": "https://2022.igem.wiki/scut-china",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Seoul_Korea",
+    "teamId": 4317,
+    "href": "https://teams.igem.org/4317",
+    "wikiUrl": "https://2022.igem.wiki/seoul-korea",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Integrated Human Practices",
+      "Best Supporting Entrepreneurship",
+      "Inclusivity Award",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Education",
+      "Best Model",
+      "Best Sustainable Development Impact",
+      "Safety and Security Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Sesame_Shenzhen",
+    "teamId": 4299,
+    "href": "https://teams.igem.org/4299",
+    "wikiUrl": "https://2022.igem.wiki/sesame-shenzhen",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Supporting Entrepreneurship"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Shanghai_city",
+    "teamId": 4248,
+    "href": "https://teams.igem.org/4248",
+    "wikiUrl": "https://2022.igem.wiki/shanghai-city",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Shanghai_HS",
+    "teamId": 4276,
+    "href": "https://teams.igem.org/4276",
+    "wikiUrl": "https://2022.igem.wiki/shanghai-hs",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Shanghai_Metropolis",
+    "teamId": 4278,
+    "href": "https://teams.igem.org/4278",
+    "wikiUrl": "https://2022.igem.wiki/shanghai-metropolis",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Shanghai_United",
+    "teamId": 4277,
+    "href": "https://teams.igem.org/4277",
+    "wikiUrl": "https://2022.igem.wiki/shanghai-united",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "ShanghaiTech_China",
+    "teamId": 4115,
+    "href": "https://teams.igem.org/4115",
+    "wikiUrl": "https://2022.igem.wiki/shanghaitech-china",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SHBS-BANZ",
+    "teamId": 4411,
+    "href": "https://teams.igem.org/4411",
+    "wikiUrl": "https://2022.igem.wiki/shbs-banz",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Sheffield",
+    "teamId": 4451,
+    "href": "https://teams.igem.org/4451",
+    "wikiUrl": "https://2022.igem.wiki/sheffield",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "SHSBNU_China",
+    "teamId": 4255,
+    "href": "https://teams.igem.org/4255",
+    "wikiUrl": "https://2022.igem.wiki/shsbnu-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "SHSID",
+    "teamId": 4280,
+    "href": "https://teams.igem.org/4280",
+    "wikiUrl": "https://2022.igem.wiki/shsid",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Shym_BIL_NIS",
+    "teamId": 4521,
+    "href": "https://teams.igem.org/4521",
+    "wikiUrl": "https://2022.igem.wiki/shym-bil-nis",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": [
+      "Best Education"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "SJTU-BioX-Shanghai",
+    "teamId": 4181,
+    "href": "https://teams.igem.org/4181",
+    "wikiUrl": "https://2022.igem.wiki/sjtu-biox-shanghai",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SJTU-software",
+    "teamId": 4328,
+    "href": "https://teams.igem.org/4328",
+    "wikiUrl": "https://2022.igem.wiki/sjtu-software",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SMS_Shenzhen",
+    "teamId": 4224,
+    "href": "https://teams.igem.org/4224",
+    "wikiUrl": "https://2022.igem.wiki/sms-shenzhen",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Sogang_Korea",
+    "teamId": 4267,
+    "href": "https://teams.igem.org/4267",
+    "wikiUrl": "https://2022.igem.wiki/sogang-korea",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware",
+      "Best Presentation",
+      "Best Software Tool"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Sorbonne_U_Paris",
+    "teamId": 4316,
+    "href": "https://teams.igem.org/4316",
+    "wikiUrl": "https://2022.igem.wiki/sorbonne-u-paris",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "Best Plant Synthetic Biology",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education",
+      "Best Presentation"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Stanford",
+    "teamId": 4466,
+    "href": "https://teams.igem.org/4466",
+    "wikiUrl": "https://2022.igem.wiki/stanford",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Stockholm",
+    "teamId": 4214,
+    "href": "https://teams.igem.org/4214",
+    "wikiUrl": "https://2022.igem.wiki/stockholm",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Inclusivity Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Stony_Brook",
+    "teamId": 4235,
+    "href": "https://teams.igem.org/4235",
+    "wikiUrl": "https://2022.igem.wiki/stony-brook",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SubCat_China",
+    "teamId": 4279,
+    "href": "https://teams.igem.org/4279",
+    "wikiUrl": "https://2022.igem.wiki/subcat-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "SubCat_Shanghai",
+    "teamId": 4251,
+    "href": "https://teams.igem.org/4251",
+    "wikiUrl": "https://2022.igem.wiki/subcat-shanghai",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SUNY_Oneonta",
+    "teamId": 4268,
+    "href": "https://teams.igem.org/4268",
+    "wikiUrl": "https://2022.igem.wiki/suny-oneonta",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SUSTech_EMB",
+    "teamId": 4266,
+    "href": "https://teams.igem.org/4266",
+    "wikiUrl": "https://2022.igem.wiki/sustech-emb",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SUSTech_Shenzhen",
+    "teamId": 4425,
+    "href": "https://teams.igem.org/4425",
+    "wikiUrl": "https://2022.igem.wiki/sustech-shenzhen",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SUSTech_Shenzhen_HCL",
+    "teamId": 4470,
+    "href": "https://teams.igem.org/4470",
+    "wikiUrl": "https://2022.igem.wiki/sustech-shenzhen-hcl",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SuZhou_Union",
+    "teamId": 4124,
+    "href": "https://teams.igem.org/4124",
+    "wikiUrl": "https://2022.igem.wiki/suzhou-union",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Sydney_Australia",
+    "teamId": 4488,
+    "href": "https://teams.igem.org/4488",
+    "wikiUrl": "https://2022.igem.wiki/sydney-australia",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SYPHU-China",
+    "teamId": 4230,
+    "href": "https://teams.igem.org/4230",
+    "wikiUrl": "https://2022.igem.wiki/syphu-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SYSU-CHINA",
+    "teamId": 4395,
+    "href": "https://teams.igem.org/4395",
+    "wikiUrl": "https://2022.igem.wiki/sysu-china",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SYSU-Software",
+    "teamId": 4265,
+    "href": "https://teams.igem.org/4265",
+    "wikiUrl": "https://2022.igem.wiki/sysu-software",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SZ-SHD",
+    "teamId": 4283,
+    "href": "https://teams.igem.org/4283",
+    "wikiUrl": "https://2022.igem.wiki/sz-shd",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "SZPT-CHINA",
+    "teamId": 4325,
+    "href": "https://teams.igem.org/4325",
+    "wikiUrl": "https://2022.igem.wiki/szpt-china",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "SZU-China",
+    "teamId": 4286,
+    "href": "https://teams.igem.org/4286",
+    "wikiUrl": "https://2022.igem.wiki/szu-china",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Biomanufacturing Project",
+      "Best New Basic Part"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "TAMU",
+    "teamId": 4484,
+    "href": "https://teams.igem.org/4484",
+    "wikiUrl": "https://2022.igem.wiki/tamu",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "TAU_Israel",
+    "teamId": 4219,
+    "href": "https://teams.igem.org/4219",
+    "wikiUrl": "https://2022.igem.wiki/tau-israel",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "Best Model",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Software Tool"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Tec-Chihuahua",
+    "teamId": 4147,
+    "href": "https://teams.igem.org/4147",
+    "wikiUrl": "https://2022.igem.wiki/tec-chihuahua",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Inclusivity Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Tec-Monterrey",
+    "teamId": 4506,
+    "href": "https://teams.igem.org/4506",
+    "wikiUrl": "https://2022.igem.wiki/tec-monterrey",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "TecCCM",
+    "teamId": 4464,
+    "href": "https://teams.igem.org/4464",
+    "wikiUrl": "https://2022.igem.wiki/tecccm",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "TecCEM",
+    "teamId": 4260,
+    "href": "https://teams.igem.org/4260",
+    "wikiUrl": "https://2022.igem.wiki/teccem",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Technion-Israel",
+    "teamId": 4179,
+    "href": "https://teams.igem.org/4179",
+    "wikiUrl": "https://2022.igem.wiki/technion-israel",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "Best Biomanufacturing Project",
+      "Best Measurement",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Education",
+      "Best Integrated Human Practices",
+      "Best New Composite Part",
+      "Best Presentation",
+      "Best Wiki",
+      "Inclusivity Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "TecMonterrey_GDL",
+    "teamId": 4447,
+    "href": "https://teams.igem.org/4447",
+    "wikiUrl": "https://2022.igem.wiki/tecmonterrey-gdl",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Thailand_RIS",
+    "teamId": 4314,
+    "href": "https://teams.igem.org/4314",
+    "wikiUrl": "https://2022.igem.wiki/thailand-ris",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Presentation"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "TheKingsSchool_AU_HS",
+    "teamId": 4324,
+    "href": "https://teams.igem.org/4324",
+    "wikiUrl": "https://2022.igem.wiki/thekingsschool-au-hs",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Thessaloniki",
+    "teamId": 4141,
+    "href": "https://teams.igem.org/4141",
+    "wikiUrl": "https://2022.igem.wiki/thessaloniki",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Supporting Entrepreneurship"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Thessaloniki_Meta",
+    "teamId": 4170,
+    "href": "https://teams.igem.org/4170",
+    "wikiUrl": "https://2022.igem.wiki/thessaloniki-meta",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "Best Diagnostics Project",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Measurement",
+      "Best Model",
+      "Best New Basic Part",
+      "Best New Composite Part",
+      "Best Part Collection",
+      "Best Supporting Entrepreneurship"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Thessaly",
+    "teamId": 4213,
+    "href": "https://teams.igem.org/4213",
+    "wikiUrl": "https://2022.igem.wiki/thessaly",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "Best Environment Project",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices",
+      "Best Presentation",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "THINKER_CHINA",
+    "teamId": 4153,
+    "href": "https://teams.igem.org/4153",
+    "wikiUrl": "https://2022.igem.wiki/thinker-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Thinker-Shenzhen",
+    "teamId": 4502,
+    "href": "https://teams.igem.org/4502",
+    "wikiUrl": "https://2022.igem.wiki/thinker-shenzhen",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Tianjin",
+    "teamId": 4362,
+    "href": "https://teams.igem.org/4362",
+    "wikiUrl": "https://2022.igem.wiki/tianjin",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "TJUSLS_China",
+    "teamId": 4152,
+    "href": "https://teams.igem.org/4152",
+    "wikiUrl": "https://2022.igem.wiki/tjusls-china",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "TKS_International",
+    "teamId": 4520,
+    "href": "https://teams.igem.org/4520",
+    "wikiUrl": "https://2022.igem.wiki/tks-international",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "TokyoTech",
+    "teamId": 4419,
+    "href": "https://teams.igem.org/4419",
+    "wikiUrl": "https://2022.igem.wiki/tokyotech",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Tongji_China",
+    "teamId": 4228,
+    "href": "https://teams.igem.org/4228",
+    "wikiUrl": "https://2022.igem.wiki/tongji-china",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Tongji_Software",
+    "teamId": 4272,
+    "href": "https://teams.igem.org/4272",
+    "wikiUrl": "https://2022.igem.wiki/tongji-software",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Toronto",
+    "teamId": 4479,
+    "href": "https://teams.igem.org/4479",
+    "wikiUrl": "https://2022.igem.wiki/toronto",
+    "division": "Undergraduate",
+    "village": "Conservation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Conservation Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Toulouse_INSA-UPS",
+    "teamId": 4197,
+    "href": "https://teams.igem.org/4197",
+    "wikiUrl": "https://2022.igem.wiki/toulouse-insa-ups",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project",
+      "Best Education",
+      "Best Supporting Entrepreneurship"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Tsinghua",
+    "teamId": 4307,
+    "href": "https://teams.igem.org/4307",
+    "wikiUrl": "https://2022.igem.wiki/tsinghua",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Software Tool"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "TU_Braunschweig",
+    "teamId": 4184,
+    "href": "https://teams.igem.org/4184",
+    "wikiUrl": "https://2022.igem.wiki/tu-braunschweig",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "TU_Dresden",
+    "teamId": 4365,
+    "href": "https://teams.igem.org/4365",
+    "wikiUrl": "https://2022.igem.wiki/tu-dresden",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part",
+      "Best Part Collection",
+      "Best Therapeutics Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "TU-Eindhoven",
+    "teamId": 4160,
+    "href": "https://teams.igem.org/4160",
+    "wikiUrl": "https://2022.igem.wiki/tu-eindhoven",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "Best Integrated Human Practices",
+      "Best Model",
+      "Best Presentation",
+      "Best Supporting Entrepreneurship",
+      "Best Therapeutics Project",
+      "GOLD MEDAL",
+      "TOP 10",
+      "GRAND PRIZE"
+    ],
+    "nominations": [
+      "Best Wiki",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "TUDelft",
+    "teamId": 4361,
+    "href": "https://teams.igem.org/4361",
+    "wikiUrl": "https://2022.igem.wiki/tudelft",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project",
+      "Best Hardware",
+      "Best Supporting Entrepreneurship",
+      "Best Sustainable Development Impact",
+      "Safety and Security Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Tuebingen",
+    "teamId": 4208,
+    "href": "https://teams.igem.org/4208",
+    "wikiUrl": "https://2022.igem.wiki/tuebingen",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "UAlberta-Canada",
+    "teamId": 4443,
+    "href": "https://teams.igem.org/4443",
+    "wikiUrl": "https://2022.igem.wiki/ualberta-canada",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UAM",
+    "teamId": 4422,
+    "href": "https://teams.igem.org/4422",
+    "wikiUrl": "https://2022.igem.wiki/uam",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UBC_Vancouver",
+    "teamId": 4296,
+    "href": "https://teams.igem.org/4296",
+    "wikiUrl": "https://2022.igem.wiki/ubc-vancouver",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UBC-Okanagan",
+    "teamId": 4350,
+    "href": "https://teams.igem.org/4350",
+    "wikiUrl": "https://2022.igem.wiki/ubc-okanagan",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "UCAS-China",
+    "teamId": 4256,
+    "href": "https://teams.igem.org/4256",
+    "wikiUrl": "https://2022.igem.wiki/ucas-china",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UCBerkeley",
+    "teamId": 4394,
+    "href": "https://teams.igem.org/4394",
+    "wikiUrl": "https://2022.igem.wiki/ucberkeley",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UChicago",
+    "teamId": 4269,
+    "href": "https://teams.igem.org/4269",
+    "wikiUrl": "https://2022.igem.wiki/uchicago",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UCL",
+    "teamId": 4417,
+    "href": "https://teams.igem.org/4417",
+    "wikiUrl": "https://2022.igem.wiki/ucl",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Climate Crisis Project",
+      "Best Presentation"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "UConn",
+    "teamId": 4465,
+    "href": "https://teams.igem.org/4465",
+    "wikiUrl": "https://2022.igem.wiki/uconn",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UCopenhagen",
+    "teamId": 4247,
+    "href": "https://teams.igem.org/4247",
+    "wikiUrl": "https://2022.igem.wiki/ucopenhagen",
+    "division": "Graduate",
+    "village": "Conservation",
+    "medal": "Gold",
+    "results": [
+      "Best Conservation Project",
+      "Best Education",
+      "Best Integrated Human Practices",
+      "Best Part Collection",
+      "Best Presentation",
+      "Best Sustainable Development Impact",
+      "Inclusivity Award",
+      "GOLD MEDAL",
+      "TOP 10",
+      "GRAND PRIZE"
+    ],
+    "nominations": [
+      "Best Model",
+      "Best New Basic Part",
+      "Best New Composite Part",
+      "Best Wiki",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "UCSC",
+    "teamId": 4190,
+    "href": "https://teams.igem.org/4190",
+    "wikiUrl": "https://2022.igem.wiki/ucsc",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Therapeutics Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "UESTC-BioTech",
+    "teamId": 4335,
+    "href": "https://teams.igem.org/4335",
+    "wikiUrl": "https://2022.igem.wiki/uestc-biotech",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Plant Synthetic Biology"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "UFlorida",
+    "teamId": 4412,
+    "href": "https://teams.igem.org/4412",
+    "wikiUrl": "https://2022.igem.wiki/uflorida",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UFMG_UFV_Brazil",
+    "teamId": 4349,
+    "href": "https://teams.igem.org/4349",
+    "wikiUrl": "https://2022.igem.wiki/ufmg-ufv-brazil",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "Best Hardware",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Sustainable Development Impact",
+      "Best Therapeutics Project",
+      "Inclusivity Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "UGA_Grenoble",
+    "teamId": 4337,
+    "href": "https://teams.igem.org/4337",
+    "wikiUrl": "https://2022.igem.wiki/uga-grenoble",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UIncheon",
+    "teamId": 4310,
+    "href": "https://teams.igem.org/4310",
+    "wikiUrl": "https://2022.igem.wiki/uincheon",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UiOslo_Norway",
+    "teamId": 4450,
+    "href": "https://teams.igem.org/4450",
+    "wikiUrl": "https://2022.igem.wiki/uioslo-norway",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UIUC_Illinois",
+    "teamId": 4436,
+    "href": "https://teams.igem.org/4436",
+    "wikiUrl": "https://2022.igem.wiki/uiuc-illinois",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "ULaval",
+    "teamId": 4346,
+    "href": "https://teams.igem.org/4346",
+    "wikiUrl": "https://2022.igem.wiki/ulaval",
+    "division": "Undergraduate",
+    "village": "Conservation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UM_Macau",
+    "teamId": 4357,
+    "href": "https://teams.igem.org/4357",
+    "wikiUrl": "https://2022.igem.wiki/um-macau",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UMA_MALAGA",
+    "teamId": 4368,
+    "href": "https://teams.igem.org/4368",
+    "wikiUrl": "https://2022.igem.wiki/uma-malaga",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UManitoba",
+    "teamId": 4323,
+    "href": "https://teams.igem.org/4323",
+    "wikiUrl": "https://2022.igem.wiki/umanitoba",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UMaryland",
+    "teamId": 4483,
+    "href": "https://teams.igem.org/4483",
+    "wikiUrl": "https://2022.igem.wiki/umaryland",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Uni-Hamburg",
+    "teamId": 4472,
+    "href": "https://teams.igem.org/4472",
+    "wikiUrl": "https://2022.igem.wiki/uni-hamburg",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Unicamp_Brazil",
+    "teamId": 4435,
+    "href": "https://teams.igem.org/4435",
+    "wikiUrl": "https://2022.igem.wiki/unicamp-brazil",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UNILausanne",
+    "teamId": 4209,
+    "href": "https://teams.igem.org/4209",
+    "wikiUrl": "https://2022.igem.wiki/unilausanne",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Environment Project",
+      "Best New Basic Part",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "UniofBath",
+    "teamId": 4418,
+    "href": "https://teams.igem.org/4418",
+    "wikiUrl": "https://2022.igem.wiki/uniofbath",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Sustainable Development Impact"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "UNSW_Australia",
+    "teamId": 4467,
+    "href": "https://teams.igem.org/4467",
+    "wikiUrl": "https://2022.igem.wiki/unsw-australia",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UOregon",
+    "teamId": 4215,
+    "href": "https://teams.igem.org/4215",
+    "wikiUrl": "https://2022.igem.wiki/uoregon",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UPenn",
+    "teamId": 4444,
+    "href": "https://teams.igem.org/4444",
+    "wikiUrl": "https://2022.igem.wiki/upenn",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UPNAvarra_Spain",
+    "teamId": 4453,
+    "href": "https://teams.igem.org/4453",
+    "wikiUrl": "https://2022.igem.wiki/upnavarra-spain",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Uppsala",
+    "teamId": 4378,
+    "href": "https://teams.igem.org/4378",
+    "wikiUrl": "https://2022.igem.wiki/uppsala",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "USAFA",
+    "teamId": 4132,
+    "href": "https://teams.igem.org/4132",
+    "wikiUrl": "https://2022.igem.wiki/usafa",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "USC_Dornsife",
+    "teamId": 4381,
+    "href": "https://teams.igem.org/4381",
+    "wikiUrl": "https://2022.igem.wiki/usc-dornsife",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "USP-EEL-Brazil",
+    "teamId": 4496,
+    "href": "https://teams.igem.org/4496",
+    "wikiUrl": "https://2022.igem.wiki/usp-eel-brazil",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "USTC",
+    "teamId": 4231,
+    "href": "https://teams.igem.org/4231",
+    "wikiUrl": "https://2022.igem.wiki/ustc",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "USTC-Software",
+    "teamId": 4240,
+    "href": "https://teams.igem.org/4240",
+    "wikiUrl": "https://2022.igem.wiki/ustc-software",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "UTokyo",
+    "teamId": 4238,
+    "href": "https://teams.igem.org/4238",
+    "wikiUrl": "https://2022.igem.wiki/utokyo",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Foundational Advance Project",
+      "Best Model"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "UZurich",
+    "teamId": 4387,
+    "href": "https://teams.igem.org/4387",
+    "wikiUrl": "https://2022.igem.wiki/uzurich",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "Best New Basic Part",
+      "Best Therapeutics Project",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices",
+      "Best Model",
+      "Best Part Collection",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Vilnius-Lithuania",
+    "teamId": 4380,
+    "href": "https://teams.igem.org/4380",
+    "wikiUrl": "https://2022.igem.wiki/vilnius-lithuania",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Virginia",
+    "teamId": 4477,
+    "href": "https://teams.igem.org/4477",
+    "wikiUrl": "https://2022.igem.wiki/virginia",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "VIT_Vellore",
+    "teamId": 4372,
+    "href": "https://teams.igem.org/4372",
+    "wikiUrl": "https://2022.igem.wiki/vit-vellore",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Wageningen_UR",
+    "teamId": 4244,
+    "href": "https://teams.igem.org/4244",
+    "wikiUrl": "https://2022.igem.wiki/wageningen-ur",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Warwick",
+    "teamId": 4210,
+    "href": "https://teams.igem.org/4210",
+    "wikiUrl": "https://2022.igem.wiki/warwick",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Waseda_Tokyo",
+    "teamId": 4158,
+    "href": "https://teams.igem.org/4158",
+    "wikiUrl": "https://2022.igem.wiki/waseda-tokyo",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Foundational Advance Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Washington",
+    "teamId": 4441,
+    "href": "https://teams.igem.org/4441",
+    "wikiUrl": "https://2022.igem.wiki/washington",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Waterloo",
+    "teamId": 4393,
+    "href": "https://teams.igem.org/4393",
+    "wikiUrl": "https://2022.igem.wiki/waterloo",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Wego_Taipei",
+    "teamId": 4271,
+    "href": "https://teams.igem.org/4271",
+    "wikiUrl": "https://2022.igem.wiki/wego-taipei",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Safety and Security Award",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Hardware",
+      "Best New Basic Part",
+      "Best New Composite Part",
+      "Best Part Collection",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "WHU-China",
+    "teamId": 4144,
+    "href": "https://teams.igem.org/4144",
+    "wikiUrl": "https://2022.igem.wiki/whu-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "William_and_Mary",
+    "teamId": 4174,
+    "href": "https://teams.igem.org/4174",
+    "wikiUrl": "https://2022.igem.wiki/william-and-mary",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Gold",
+    "results": [
+      "Best Software & AI Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Model",
+      "Best Presentation"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "WLC-Milwaukee",
+    "teamId": 4366,
+    "href": "https://teams.igem.org/4366",
+    "wikiUrl": "https://2022.igem.wiki/wlc-milwaukee",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Worldshaper-HZ",
+    "teamId": 4409,
+    "href": "https://teams.igem.org/4409",
+    "wikiUrl": "https://2022.igem.wiki/worldshaper-hz",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Worldshaper-HZBIOX",
+    "teamId": 4410,
+    "href": "https://teams.igem.org/4410",
+    "wikiUrl": "https://2022.igem.wiki/worldshaper-hzbiox",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Worldshaper-Nanjing",
+    "teamId": 4407,
+    "href": "https://teams.igem.org/4407",
+    "wikiUrl": "https://2022.igem.wiki/worldshaper-nanjing",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Worldshaper-NJBIOX",
+    "teamId": 4408,
+    "href": "https://teams.igem.org/4408",
+    "wikiUrl": "https://2022.igem.wiki/worldshaper-njbiox",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "Worldshaper-Shanghai",
+    "teamId": 4399,
+    "href": "https://teams.igem.org/4399",
+    "wikiUrl": "https://2022.igem.wiki/worldshaper-shanghai",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "WrightState",
+    "teamId": 4217,
+    "href": "https://teams.igem.org/4217",
+    "wikiUrl": "https://2022.igem.wiki/wrightstate",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "WVHS_SanDiego",
+    "teamId": 4191,
+    "href": "https://teams.igem.org/4191",
+    "wikiUrl": "https://2022.igem.wiki/wvhs-sandiego",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "WWU_Muenster",
+    "teamId": 4188,
+    "href": "https://teams.igem.org/4188",
+    "wikiUrl": "https://2022.igem.wiki/wwu-muenster",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "Best Software Tool",
+      "GOLD MEDAL",
+      "TOP 10"
+    ],
+    "nominations": [
+      "Best Biomanufacturing Project",
+      "Best Education",
+      "Best Part Collection",
+      "Best Presentation",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "XHD-Wuhan-China",
+    "teamId": 4172,
+    "href": "https://teams.igem.org/4172",
+    "wikiUrl": "https://2022.igem.wiki/xhd-wuhan-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "XHD-Wuhan-Pro-China",
+    "teamId": 4155,
+    "href": "https://teams.igem.org/4155",
+    "wikiUrl": "https://2022.igem.wiki/xhd-wuhan-pro-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "XJTLU-CHINA",
+    "teamId": 4463,
+    "href": "https://teams.igem.org/4463",
+    "wikiUrl": "https://2022.igem.wiki/xjtlu-china",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "XJTU-China",
+    "teamId": 4182,
+    "href": "https://teams.igem.org/4182",
+    "wikiUrl": "https://2022.igem.wiki/xjtu-china",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "XMU-China",
+    "teamId": 4195,
+    "href": "https://teams.igem.org/4195",
+    "wikiUrl": "https://2022.igem.wiki/xmu-china",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Measurement",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Yale",
+    "teamId": 4486,
+    "href": "https://teams.igem.org/4486",
+    "wikiUrl": "https://2022.igem.wiki/yale",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "iGEMers Prize Onsite",
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "YiYe-China",
+    "teamId": 4218,
+    "href": "https://teams.igem.org/4218",
+    "wikiUrl": "https://2022.igem.wiki/yiye-china",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "YkPaO",
+    "teamId": 4304,
+    "href": "https://teams.igem.org/4304",
+    "wikiUrl": "https://2022.igem.wiki/ykpao",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "Zhejiang_United",
+    "teamId": 4292,
+    "href": "https://teams.igem.org/4292",
+    "wikiUrl": "https://2022.igem.wiki/zhejiang-united",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "ZJU-China",
+    "teamId": 4202,
+    "href": "https://teams.igem.org/4202",
+    "wikiUrl": "https://2022.igem.wiki/zju-china",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Biomanufacturing Project",
+      "Best Hardware",
+      "Best Measurement",
+      "Safety and Security Award"
+    ]
+  },
+  {
+    "year": 2022,
+    "teamName": "ZJUintl-China",
+    "teamId": 4175,
+    "href": "https://teams.igem.org/4175",
+    "wikiUrl": "https://2022.igem.wiki/zjuintl-china",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2022,
+    "teamName": "ZJUT-China",
+    "teamId": 4227,
+    "href": "https://teams.igem.org/4227",
+    "wikiUrl": "https://2022.igem.wiki/zjut-china",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  }
+]

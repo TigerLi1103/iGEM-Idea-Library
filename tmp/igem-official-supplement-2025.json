@@ -1,0 +1,5168 @@
+[
+  {
+    "year": 2025,
+    "teamName": "McGill",
+    "href": "https://teams.igem.org/5556",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "GRAND PRIZE WINNER",
+      "UNDERGRADUATE",
+      "TOP 10",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Part Collection, Undergraduate",
+      "Best Wiki, Undergraduate",
+      "Best Foundational Advance Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Brno Czech Republic",
+    "href": "https://teams.igem.org/5642",
+    "division": "Graduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "GRAND PRIZE WINNER",
+      "OVERGRADUATE",
+      "TOP 10",
+      "OVERGRADUATE",
+      "OVERGRADUATE",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Hardware, Overgraduate",
+      "Best Wiki, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "GreatBay-SCIE",
+    "href": "https://teams.igem.org/5614",
+    "division": "High School",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "GRAND PRIZE WINNER",
+      "HIGH SCHOOL",
+      "TOP 10",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Presentation, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "EPFL",
+    "href": "https://teams.igem.org/5590",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "UNDERGRADUATE",
+      "1ST RUNNER-UP",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "IZJU-China",
+    "href": "https://teams.igem.org/5913",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "UNDERGRADUATE",
+      "2ND RUNNER-UP",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Model, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Heidelberg",
+    "href": "https://teams.igem.org/5775",
+    "division": "Graduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "OVERGRADUATE",
+      "1ST RUNNER-UP",
+      "OVERGRADUATE",
+      "OVERGRADUATE",
+      "OVERGRADUATE",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Presentation, Overgraduate",
+      "Best Wiki, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Uprize-I",
+    "href": "https://teams.igem.org/5937",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "HIGH SCHOOL",
+      "1ST RUNNER-UP",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Measurement, High School",
+      "Best Presentation, High School",
+      "Best Wiki, High School",
+      "Best Integrated Human Practices, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Barcelona-UB",
+    "href": "https://teams.igem.org/5622",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best New Composite Part, Undergraduate",
+      "Best Software Tool, Undergraduate",
+      "Best Presentation, Undergraduate",
+      "Best Wiki, Undergraduate",
+      "Best Foundational Advance Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "CJUH-JLU-China",
+    "href": "https://teams.igem.org/5542",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices, Undergraduate",
+      "Best Diagnostics Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Patras-Med",
+    "href": "https://teams.igem.org/5998",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best New Composite Part, Undergraduate",
+      "Best Presentation, Undergraduate",
+      "Best Wiki, Undergraduate",
+      "Best Sustainable Development Impact, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Peking",
+    "href": "https://teams.igem.org/5870",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices, Undergraduate",
+      "Best Infectious Diseases Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "SCU-China",
+    "href": "https://teams.igem.org/5810",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best New Composite Part, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "SUSTech-BIO",
+    "href": "https://teams.igem.org/5873",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Model, Undergraduate",
+      "Best Presentation, Undergraduate",
+      "Best Wiki, Undergraduate",
+      "Best Infectious Diseases Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "XJTLU-Science-China",
+    "href": "https://teams.igem.org/5636",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "UNDERGRADUATE",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Wiki, Undergraduate",
+      "Best Oncology Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "DTU-Denmark",
+    "href": "https://teams.igem.org/5568",
+    "division": "Graduate",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Model, Overgraduate",
+      "Best Presentation, Overgraduate",
+      "Best Wiki, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Freiburg",
+    "href": "https://teams.igem.org/5672",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "OVERGRADUATE",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Presentation, Overgraduate",
+      "Best Wiki, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "GU-Frankfurt",
+    "href": "https://teams.igem.org/5628",
+    "division": "Graduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "OVERGRADUATE",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Agriculture Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Marburg",
+    "href": "https://teams.igem.org/5667",
+    "division": "Graduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "OVERGRADUATE",
+      "OVERGRADUATE",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Presentation, Overgraduate",
+      "Best Wiki, Overgraduate",
+      "Best Integrated Human Practices, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Munich",
+    "href": "https://teams.igem.org/5544",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "OVERGRADUATE",
+      "OVERGRADUATE",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Model, Overgraduate",
+      "Best Presentation, Overgraduate",
+      "Best Integrated Human Practices, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Toronto",
+    "href": "https://teams.igem.org/5708",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "OVERGRADUATE",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Model, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "UNICAMP-Brazil",
+    "href": "https://teams.igem.org/5560",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Presentation, Overgraduate",
+      "Best Integrated Human Practices, Overgraduate",
+      "Best Entrepreneurship, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "UNILausanne",
+    "href": "https://teams.igem.org/5603",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "OVERGRADUATE",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Education, Overgraduate",
+      "Best Wiki, Overgraduate",
+      "Best Biomanufacturing Project, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "WageningenUR",
+    "href": "https://teams.igem.org/5713",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "OVERGRADUATE",
+      "OVERGRADUATE",
+      "OVERGRADUATE",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Part Collection, Overgraduate",
+      "Best Presentation, Overgraduate",
+      "Best Wiki, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "AIS-China",
+    "href": "https://teams.igem.org/5715",
+    "division": "High School",
+    "village": "Conservation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Model, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "BNDS-China",
+    "href": "https://teams.igem.org/5605",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Presentation, High School",
+      "Best Wiki, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "GEMS-Taiwan",
+    "href": "https://teams.igem.org/5729",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Measurement, High School",
+      "Best Model, High School",
+      "Best Education, High School",
+      "Best Wiki, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "HK-Joint-School",
+    "href": "https://teams.igem.org/5627",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Model, High School",
+      "Best Software Tool, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Lambert-GA",
+    "href": "https://teams.igem.org/5612",
+    "division": "High School",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Model, High School",
+      "Best Education, High School",
+      "Best Wiki, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "PCA Korea",
+    "href": "https://teams.igem.org/5995",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Measurement, High School",
+      "Best Presentation, High School",
+      "Best Wiki, High School",
+      "Best Integrated Human Practices, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "SHSID",
+    "href": "https://teams.igem.org/5737",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "HIGH SCHOOL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Part Collection, High School",
+      "Best Education, High School",
+      "Best Presentation, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "WLSA-ShanghaiAcademy",
+    "href": "https://teams.igem.org/6015",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "TOP 10",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best New Composite Part, High School",
+      "Best Integrated Human Practices, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Estonia-TUBI",
+    "href": "https://teams.igem.org/5944",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware, Undergraduate",
+      "Best Climate Crisis Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "MSP-Maastricht",
+    "href": "https://teams.igem.org/5817",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Presentation, Undergraduate",
+      "Best Climate Crisis Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "NU Boston",
+    "href": "https://teams.igem.org/5823",
+    "division": "Undergraduate",
+    "village": "Conservation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SZU-China",
+    "href": "https://teams.igem.org/5588",
+    "division": "Undergraduate",
+    "village": "Conservation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Conservation Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "XJTLU-CHINA",
+    "href": "https://teams.igem.org/5578",
+    "division": "Undergraduate",
+    "village": "Conservation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Conservation Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "AshesiGhana",
+    "href": "https://teams.igem.org/5831",
+    "division": "Graduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Measurement, Overgraduate",
+      "Best Education, Overgraduate",
+      "Best Wiki, Overgraduate",
+      "Best Bioremediation Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "BUCT",
+    "href": "https://teams.igem.org/5566",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education, Undergraduate",
+      "Best Bioremediation Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "LYON",
+    "href": "https://teams.igem.org/5551",
+    "division": "Graduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part, Overgraduate",
+      "Best Entrepreneurship, Overgraduate",
+      "Best Bioremediation Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "MBG-DUTh",
+    "href": "https://teams.igem.org/5994",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Bioremediation Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Aachen",
+    "href": "https://teams.igem.org/5587",
+    "division": "Graduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Wiki, Overgraduate",
+      "Best Integrated Human Practices, Overgraduate",
+      "Best Agriculture Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "CAU-China",
+    "href": "https://teams.igem.org/5846",
+    "division": "Undergraduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Agriculture Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "MIT-MAHE",
+    "href": "https://teams.igem.org/5645",
+    "division": "Undergraduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Agriculture Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "NUS-Singapore",
+    "href": "https://teams.igem.org/5771",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part, Undergraduate",
+      "Best Part Collection, Undergraduate",
+      "Best Food & Nutrition Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "REC-CHENNAI",
+    "href": "https://teams.igem.org/5839",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Food & Nutrition Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "XMU-China",
+    "href": "https://teams.igem.org/5549",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation, Undergraduate",
+      "Best Food & Nutrition Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "BIT-China",
+    "href": "https://teams.igem.org/5866",
+    "division": "Undergraduate",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Hardware, Undergraduate",
+      "Best Fashion & Cosmetics Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Lund",
+    "href": "https://teams.igem.org/5651",
+    "division": "Graduate",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Sustainable Development Impact, Overgraduate",
+      "Best Fashion & Cosmetics Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Groningen",
+    "href": "https://teams.igem.org/5689",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part, Overgraduate",
+      "Best Measurement, Overgraduate",
+      "Best Diagnostics Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "McMaster-Canada",
+    "href": "https://teams.igem.org/5856",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Measurement, Undergraduate",
+      "Best Diagnostics Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "TU-Eindhoven",
+    "href": "https://teams.igem.org/5792",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Wiki, Undergraduate",
+      "Best Integrated Human Practices, Undergraduate",
+      "Best Entrepreneurship, Undergraduate",
+      "Best Diagnostics Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "SMU-Union-China",
+    "href": "https://teams.igem.org/5840",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part, Undergraduate",
+      "Inclusivity Award, Undergraduate",
+      "Best Infectious Diseases Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "UOttawa",
+    "href": "https://teams.igem.org/5707",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation, Undergraduate",
+      "Best Wiki, Undergraduate",
+      "Best Infectious Diseases Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Stanford",
+    "href": "https://teams.igem.org/5802",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Oncology Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "TAU-Israel",
+    "href": "https://teams.igem.org/5661",
+    "division": "Graduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Model, Overgraduate",
+      "Best Wiki, Overgraduate",
+      "Best Oncology Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Thessaloniki",
+    "href": "https://teams.igem.org/5891",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices, Undergraduate",
+      "Inclusivity Award, Undergraduate",
+      "Best Oncology Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Ecuador",
+    "href": "https://teams.igem.org/5783",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation, Undergraduate",
+      "Best Therapeutics Project, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "HZAU-China",
+    "href": "https://teams.igem.org/5918",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part, Undergraduate",
+      "Best Therapeutics Project, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "PekingHSC",
+    "href": "https://teams.igem.org/5789",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Model, Undergraduate",
+      "Best Wiki, Undergraduate",
+      "Inclusivity Award, Undergraduate",
+      "Best Therapeutics Project, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Queens-Canada",
+    "href": "https://teams.igem.org/5801",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Therapeutics Project, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Aalto-Helsinki",
+    "href": "https://teams.igem.org/5936",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "OVERGRADUATE",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Therapeutics Project, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Hamburg",
+    "href": "https://teams.igem.org/5561",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Therapeutics Project, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "NYCU-Formosa",
+    "href": "https://teams.igem.org/5797",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Part Collection, Undergraduate",
+      "Best Foundational Advance Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Shanghaitech-China",
+    "href": "https://teams.igem.org/5553",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Measurement, Undergraduate",
+      "Best Presentation, Undergraduate",
+      "Best Foundational Advance Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "NJU-China",
+    "href": "https://teams.igem.org/5832",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Model, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "HPI-Potsdam",
+    "href": "https://teams.igem.org/6011",
+    "division": "Graduate",
+    "village": "Software & AI",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Model, Overgraduate",
+      "Best Presentation, Overgraduate",
+      "Best Software & AI Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "XJTLU-Software",
+    "href": "https://teams.igem.org/5579",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Software & AI Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "BNU-China",
+    "href": "https://teams.igem.org/5872",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Part Collection, Undergraduate",
+      "Best Education, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "JLU-NBBMS",
+    "href": "https://teams.igem.org/5564",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices, Undergraduate",
+      "Best Biomanufacturing Project, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "NJTech-China",
+    "href": "https://teams.igem.org/5881",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "UNDERGRADUATE"
+    ],
+    "nominations": [
+      "Best Biomanufacturing Project, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "UTDallas",
+    "href": "https://teams.igem.org/5774",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Biomanufacturing Project, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "DUESSELDORF",
+    "href": "https://teams.igem.org/5676",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Biomanufacturing Project, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "USP-Brazil",
+    "href": "https://teams.igem.org/5548",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best Biomanufacturing Project, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Cornell",
+    "href": "https://teams.igem.org/5717",
+    "division": "Undergraduate",
+    "village": "Space",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "UNDERGRADUATE"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Rochester",
+    "href": "https://teams.igem.org/5571",
+    "division": "Undergraduate",
+    "village": "Space",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware, Undergraduate",
+      "Best Wiki, Undergraduate",
+      "Best Entrepreneurship, Undergraduate",
+      "Best Space Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "TUDarmstadt",
+    "href": "https://teams.igem.org/5634",
+    "division": "Graduate",
+    "village": "Space",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "OVERGRADUATE"
+    ],
+    "nominations": [
+      "Best New Basic Part, Overgraduate",
+      "Best New Composite Part, Overgraduate",
+      "Best Presentation, Overgraduate",
+      "Best Space Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "UBC-Vancouver",
+    "href": "https://teams.igem.org/5784",
+    "division": "Undergraduate",
+    "village": "Space",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Software Tool, Undergraduate",
+      "Best Space Project, Underover"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Boston-BOSLab",
+    "href": "https://teams.igem.org/5696",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Part Collection, High School",
+      "Best Sustainable Development Impact, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Concordia-Shanghai",
+    "href": "https://teams.igem.org/5594",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Hangzhou-PET",
+    "href": "https://teams.igem.org/6027",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Measurement, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Shanghai-SDG",
+    "href": "https://teams.igem.org/5988",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Part Collection, High School",
+      "Best Sustainable Development Impact, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "SR-China",
+    "href": "https://teams.igem.org/5986",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Entrepreneurship, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "HG-Tokyo",
+    "href": "https://teams.igem.org/5919",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation, High School",
+      "Best Integrated Human Practices, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "GCGS",
+    "href": "https://teams.igem.org/5746",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation, High School",
+      "Best Wiki, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Jiashu-China",
+    "href": "https://teams.igem.org/5983",
+    "division": "High School",
+    "village": "Space",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "KhanLab-BayArea",
+    "href": "https://teams.igem.org/5761",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "SHSBNU-China",
+    "href": "https://teams.igem.org/5639",
+    "division": "High School",
+    "village": "Space",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware, High School",
+      "Best Village Project, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "NJTECH-CHINA-A",
+    "href": "https://teams.igem.org/5809",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "UNDERGRADUATE"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BUCT-China",
+    "href": "https://teams.igem.org/5851",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part, Undergraduate",
+      "Best Measurement, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "JLU-CP",
+    "href": "https://teams.igem.org/5567",
+    "division": "Undergraduate",
+    "village": "Space",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part, Undergraduate",
+      "Best Education, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Evry-Paris-Saclay",
+    "href": "https://teams.igem.org/5617",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "UiOslo-Norway",
+    "href": "https://teams.igem.org/5849",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part, Overgraduate",
+      "Best Wiki, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "GEC-Guangzhou",
+    "href": "https://teams.igem.org/5877",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Hardware, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "GHCIS",
+    "href": "https://teams.igem.org/5967",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "HKSSC",
+    "href": "https://teams.igem.org/5613",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part, High School",
+      "Best Entrepreneurship, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "PuiChing-Macau",
+    "href": "https://teams.igem.org/5685",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "RDFZ-CHINA",
+    "href": "https://teams.igem.org/5922",
+    "division": "High School",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Tianjin",
+    "href": "https://teams.igem.org/5894",
+    "division": "Graduate",
+    "village": "Fashion & Cosmetics",
+    "medal": null,
+    "results": [
+      "OVERGRADUATE"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Austin-UTexas",
+    "href": "https://teams.igem.org/5584",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Hongwen School",
+    "href": "https://teams.igem.org/5935",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": [
+      "Best Sustainable Development Impact, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Bioplus-Shanghai",
+    "href": "https://teams.igem.org/5762",
+    "division": "High School",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Hangzhou-MedX",
+    "href": "https://teams.igem.org/5989",
+    "division": "High School",
+    "village": "Conservation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "MPA-USA",
+    "href": "https://teams.igem.org/5964",
+    "division": "High School",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part, High School",
+      "Best Wiki, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "SubCat-Greatbay",
+    "href": "https://teams.igem.org/5736",
+    "division": "High School",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part, High School",
+      "Best Wiki, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "HWFLA-Beijing",
+    "href": "https://teams.igem.org/5748",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Part Collection, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "LINKS-China",
+    "href": "https://teams.igem.org/5714",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Part Collection, High School",
+      "Best Entrepreneurship, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "NAIS",
+    "href": "https://teams.igem.org/5961",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NU-Kazakhstan",
+    "href": "https://teams.igem.org/5896",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Measurement, Undergraduate",
+      "Best Entrepreneurship, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "BohemiaBio",
+    "href": "https://teams.igem.org/5904",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Measurement, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Stuttgart",
+    "href": "https://teams.igem.org/5829",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Measurement, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Duke",
+    "href": "https://teams.igem.org/5719",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Software Tool, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "TU-Dresden",
+    "href": "https://teams.igem.org/5690",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Software Tool, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "NUDT-CHINA",
+    "href": "https://teams.igem.org/5819",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware, Undergraduate",
+      "Best Education, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "ETH-Zurich",
+    "href": "https://teams.igem.org/6022",
+    "division": "Graduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "HongKong-JSS",
+    "href": "https://teams.igem.org/5760",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "UCS-A",
+    "href": "https://teams.igem.org/5765",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Leiden",
+    "href": "https://teams.igem.org/5591",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Education, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "UniMuenster",
+    "href": "https://teams.igem.org/5946",
+    "division": "Graduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education, Overgraduate",
+      "Best Integrated Human Practices, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Thailand-RIS",
+    "href": "https://teams.igem.org/5619",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education, High School",
+      "Best Sustainable Development Impact, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "SR-Shenzhen",
+    "href": "https://teams.igem.org/5985",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "USherbrooke",
+    "href": "https://teams.igem.org/5756",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "SMS-Shenzhen",
+    "href": "https://teams.igem.org/5606",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Taipei-KCISLK-V3",
+    "href": "https://teams.igem.org/5598",
+    "division": "High School",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation, High School",
+      "Best Wiki, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "NYU-Abu-Dhabi",
+    "href": "https://teams.igem.org/5671",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "UNDERGRADUATE"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Fudan",
+    "href": "https://teams.igem.org/5643",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Inclusivity Award, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Technion-Israel",
+    "href": "https://teams.igem.org/5830",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Inclusivity Award, Overgraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "DBHS-CA",
+    "href": "https://teams.igem.org/5659",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ISBICSKIS-BKK",
+    "href": "https://teams.igem.org/5683",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": [
+      "Inclusivity Award, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "UCalgary",
+    "href": "https://teams.igem.org/5980",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "UNDERGRADUATE"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HiZJU-China",
+    "href": "https://teams.igem.org/5828",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Safety and Security Award, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "RUM-UPRM",
+    "href": "https://teams.igem.org/5905",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Safety and Security Award, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Tsukuba",
+    "href": "https://teams.igem.org/5680",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Safety and Security Award, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "GYHS",
+    "href": "https://teams.igem.org/6018",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Safety and Security Award, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "AFCM-Egypt",
+    "href": "https://teams.igem.org/5545",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Sustainable Development Impact, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "IISc-Bengaluru",
+    "href": "https://teams.igem.org/6006",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Sustainable Development Impact, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Tsinghua",
+    "href": "https://teams.igem.org/5670",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Sustainable Development Impact, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Thessaly",
+    "href": "https://teams.igem.org/5618",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Entrepreneurship, Undergraduate"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "SUIS-PINGHE",
+    "href": "https://teams.igem.org/5738",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL",
+      "HIGH SCHOOL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BANZ-SZA",
+    "href": "https://teams.igem.org/5743",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Entrepreneurship, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "Keystone",
+    "href": "https://teams.igem.org/5739",
+    "division": "High School",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Entrepreneurship, High School"
+    ]
+  },
+  {
+    "year": 2025,
+    "teamName": "HUST-China",
+    "href": "https://teams.igem.org/5569",
+    "division": "Undergraduate",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "AFMU-China",
+    "href": "https://teams.igem.org/5968",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ASU",
+    "href": "https://teams.igem.org/5679",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Athens",
+    "href": "https://teams.igem.org/5930",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BIT",
+    "href": "https://teams.igem.org/5623",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Bologna",
+    "href": "https://teams.igem.org/5716",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BostonU",
+    "href": "https://teams.igem.org/5875",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BUAP-Puebla",
+    "href": "https://teams.igem.org/5575",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Cambridge",
+    "href": "https://teams.igem.org/5799",
+    "division": "Undergraduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "CCU-Taiwan",
+    "href": "https://teams.igem.org/5854",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "CUHK-Shenzhen",
+    "href": "https://teams.igem.org/5926",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "DUT-China",
+    "href": "https://teams.igem.org/5844",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ECUST-China",
+    "href": "https://teams.igem.org/5972",
+    "division": "Undergraduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "FSU",
+    "href": "https://teams.igem.org/5886",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Guelph",
+    "href": "https://teams.igem.org/5611",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HainanU-China",
+    "href": "https://teams.igem.org/5911",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HKUST-GZ",
+    "href": "https://teams.igem.org/5573",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HUST-UEVE-UPSaclay",
+    "href": "https://teams.igem.org/5730",
+    "division": "Undergraduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ICT-Mumbai",
+    "href": "https://teams.igem.org/5893",
+    "division": "Undergraduate",
+    "village": "Space",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "IISER-Kolkata",
+    "href": "https://teams.igem.org/5941",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Imperial",
+    "href": "https://teams.igem.org/5916",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Japan scinet",
+    "href": "https://teams.igem.org/5702",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Jiangnan-China",
+    "href": "https://teams.igem.org/5607",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Jilin-China",
+    "href": "https://teams.igem.org/5917",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "KCL-UK",
+    "href": "https://teams.igem.org/5962",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Kyoto",
+    "href": "https://teams.igem.org/5910",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "LZU-GANSU",
+    "href": "https://teams.igem.org/5812",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "LZU-MEDICINE-CHINA",
+    "href": "https://teams.igem.org/5562",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Michigan",
+    "href": "https://teams.igem.org/5786",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Nanjing-China",
+    "href": "https://teams.igem.org/5650",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NAU-CHINA",
+    "href": "https://teams.igem.org/5855",
+    "division": "Undergraduate",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NCKU-Tainan",
+    "href": "https://teams.igem.org/6003",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NCState",
+    "href": "https://teams.igem.org/5709",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NKU-China",
+    "href": "https://teams.igem.org/5712",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NMU-China",
+    "href": "https://teams.igem.org/5847",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NotreDame",
+    "href": "https://teams.igem.org/6036",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "OUC-China",
+    "href": "https://teams.igem.org/5570",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Patras",
+    "href": "https://teams.igem.org/5836",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SCAU-China",
+    "href": "https://teams.igem.org/5976",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SCAU Guangzhou",
+    "href": "https://teams.igem.org/5818",
+    "division": "Undergraduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Science Tokyo",
+    "href": "https://teams.igem.org/5631",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SCUT-China-L",
+    "href": "https://teams.igem.org/5843",
+    "division": "Undergraduate",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SJTU-BioX-Shanghai",
+    "href": "https://teams.igem.org/5615",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SJTU-Software",
+    "href": "https://teams.igem.org/5711",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Stony-Brook",
+    "href": "https://teams.igem.org/5540",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Tec-Chihuahua",
+    "href": "https://teams.igem.org/5718",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "TJUSLS-China",
+    "href": "https://teams.igem.org/5806",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "TJUSX",
+    "href": "https://teams.igem.org/5724",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Toulouse-INSA-UT",
+    "href": "https://teams.igem.org/5755",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Tsinghua-M",
+    "href": "https://teams.igem.org/5805",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "TU-Delft",
+    "href": "https://teams.igem.org/5649",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UCAS-China",
+    "href": "https://teams.igem.org/5647",
+    "division": "Undergraduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UChicago",
+    "href": "https://teams.igem.org/5695",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UGM-Indonesia",
+    "href": "https://teams.igem.org/5811",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UM-Macau",
+    "href": "https://teams.igem.org/5698",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UNC-ChapelHill",
+    "href": "https://teams.igem.org/5788",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Uni-Padua-IT",
+    "href": "https://teams.igem.org/5700",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UOregon",
+    "href": "https://teams.igem.org/5867",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "USTC",
+    "href": "https://teams.igem.org/5924",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UTokyo",
+    "href": "https://teams.igem.org/5807",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Vilnius-Lithuania",
+    "href": "https://teams.igem.org/5780",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "WHU-China",
+    "href": "https://teams.igem.org/5646",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "William-and-Mary",
+    "href": "https://teams.igem.org/5687",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Yale",
+    "href": "https://teams.igem.org/5977",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "YAU-China",
+    "href": "https://teams.igem.org/5853",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ZZU-China",
+    "href": "https://teams.igem.org/5822",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ABOA",
+    "href": "https://teams.igem.org/5794",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Chalmers-Gothenburg",
+    "href": "https://teams.igem.org/5796",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HKU-HongKong",
+    "href": "https://teams.igem.org/5885",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HUBU-China",
+    "href": "https://teams.igem.org/5577",
+    "division": "Graduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HUBU-WuHan",
+    "href": "https://teams.igem.org/5621",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "IOANNINA",
+    "href": "https://teams.igem.org/5684",
+    "division": "Graduate",
+    "village": "Conservation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Ionis-Paris",
+    "href": "https://teams.igem.org/5692",
+    "division": "Graduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "KULeuven",
+    "href": "https://teams.igem.org/5691",
+    "division": "Graduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Macquarie-Australia",
+    "href": "https://teams.igem.org/5787",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NTU-Singapore",
+    "href": "https://teams.igem.org/5906",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NWU-CHINA-C",
+    "href": "https://teams.igem.org/5644",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Okinawa no Daigaku",
+    "href": "https://teams.igem.org/5863",
+    "division": "Graduate",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Rio-UFRJ-Brazil",
+    "href": "https://teams.igem.org/5813",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SKLBE-China",
+    "href": "https://teams.igem.org/5973",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UAlberta",
+    "href": "https://teams.igem.org/5798",
+    "division": "Graduate",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UCLouvain",
+    "href": "https://teams.igem.org/5897",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ULaval",
+    "href": "https://teams.igem.org/5653",
+    "division": "Graduate",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Utrecht",
+    "href": "https://teams.igem.org/5795",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UZurich",
+    "href": "https://teams.igem.org/5686",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "YNNU-China",
+    "href": "https://teams.igem.org/5915",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BAID-China",
+    "href": "https://teams.igem.org/5625",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Baltimore-BioCrew",
+    "href": "https://teams.igem.org/5816",
+    "division": "High School",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Bioplus-China",
+    "href": "https://teams.igem.org/5733",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BSDFZ-CHINA",
+    "href": "https://teams.igem.org/6029",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BWYA",
+    "href": "https://teams.igem.org/5927",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "CFLS",
+    "href": "https://teams.igem.org/5804",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "City-of-London-UK",
+    "href": "https://teams.igem.org/5602",
+    "division": "High School",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "CSW-UD",
+    "href": "https://teams.igem.org/5978",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "DEPU",
+    "href": "https://teams.igem.org/5790",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "DNHS-SanDiego-Ca",
+    "href": "https://teams.igem.org/5697",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ESSENTIAL KOREA",
+    "href": "https://teams.igem.org/6019",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Guanghua-ShanghaiU",
+    "href": "https://teams.igem.org/5991",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Hangzhou-BioX",
+    "href": "https://teams.igem.org/5750",
+    "division": "High School",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Hangzhou-SDG",
+    "href": "https://teams.igem.org/5990",
+    "division": "High School",
+    "village": "Conservation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HIA-Taiwan",
+    "href": "https://teams.igem.org/5669",
+    "division": "High School",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HKGTC",
+    "href": "https://teams.igem.org/5815",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HK-HCY-PCMS",
+    "href": "https://teams.igem.org/5641",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HongKong-HS",
+    "href": "https://teams.igem.org/5600",
+    "division": "High School",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HS-Alpha",
+    "href": "https://teams.igem.org/5820",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HS-KY",
+    "href": "https://teams.igem.org/5782",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ICJFLS",
+    "href": "https://teams.igem.org/5654",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "KCIS-Xiugang-Taipei",
+    "href": "https://teams.igem.org/5624",
+    "division": "High School",
+    "village": "Climate Crisis",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Korea-HS",
+    "href": "https://teams.igem.org/5773",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "MammothEdu-DTD-East",
+    "href": "https://teams.igem.org/5778",
+    "division": "High School",
+    "village": "Art & Design",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NACIS SHANGHAI",
+    "href": "https://teams.igem.org/5753",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Nanjing-BioX",
+    "href": "https://teams.igem.org/5992",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NEBS-VCA",
+    "href": "https://teams.igem.org/6008",
+    "division": "High School",
+    "village": "Software & AI",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NFLSHS-CHINA",
+    "href": "https://teams.igem.org/5908",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NYC-Empire-State",
+    "href": "https://teams.igem.org/5814",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "OTIA-Hangzhou",
+    "href": "https://teams.igem.org/5725",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Saint-Joseph",
+    "href": "https://teams.igem.org/5704",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Squirrel-Beijing",
+    "href": "https://teams.igem.org/5878",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SubCat-Shanghai",
+    "href": "https://teams.igem.org/5740",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SubCat-United",
+    "href": "https://teams.igem.org/6005",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SZSAIS-BaoAn",
+    "href": "https://teams.igem.org/5954",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Tsinglan",
+    "href": "https://teams.igem.org/5747",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Ulink-SZ",
+    "href": "https://teams.igem.org/6017",
+    "division": "High School",
+    "village": "Infectious Diseases",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "VERITAS-Prudens",
+    "href": "https://teams.igem.org/6007",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "YK Pao",
+    "href": "https://teams.igem.org/5769",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ZEOLYM",
+    "href": "https://teams.igem.org/5987",
+    "division": "High School",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ZQT-China",
+    "href": "https://teams.igem.org/5887",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ZQT-Nanjing",
+    "href": "https://teams.igem.org/5791",
+    "division": "High School",
+    "village": "Oncology",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Alma",
+    "href": "https://teams.igem.org/5648",
+    "division": "Undergraduate",
+    "village": "Conservation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BIT-LLM",
+    "href": "https://teams.igem.org/5984",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "CHINA-XJTU",
+    "href": "https://teams.igem.org/5890",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "CSU-CHINA",
+    "href": "https://teams.igem.org/5731",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "CUG-China",
+    "href": "https://teams.igem.org/5665",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "DKU",
+    "href": "https://teams.igem.org/5652",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "GXU-China",
+    "href": "https://teams.igem.org/5845",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HBUT-China",
+    "href": "https://teams.igem.org/5726",
+    "division": "Undergraduate",
+    "village": "Agriculture",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HKUST",
+    "href": "https://teams.igem.org/5546",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HNU-China",
+    "href": "https://teams.igem.org/5883",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Hopkins",
+    "href": "https://teams.igem.org/5914",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HunanU",
+    "href": "https://teams.igem.org/5772",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "IISER-Berhampur",
+    "href": "https://teams.igem.org/5957",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "IIT-Bombay",
+    "href": "https://teams.igem.org/5633",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "IIT-D",
+    "href": "https://teams.igem.org/5859",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "IIT-Madras",
+    "href": "https://teams.igem.org/5657",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Jilin-AI",
+    "href": "https://teams.igem.org/6032",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "LZU",
+    "href": "https://teams.igem.org/5550",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Missouri-Miners",
+    "href": "https://teams.igem.org/5759",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "MITWPU-BHARAT",
+    "href": "https://teams.igem.org/5882",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NEFU-China",
+    "href": "https://teams.igem.org/5974",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NPU-CHINA",
+    "href": "https://teams.igem.org/5710",
+    "division": "Undergraduate",
+    "village": "Fashion & Cosmetics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NUS-SPS",
+    "href": "https://teams.igem.org/5860",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Ohio State",
+    "href": "https://teams.igem.org/6000",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "OUC-Haide",
+    "href": "https://teams.igem.org/5541",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Oxford",
+    "href": "https://teams.igem.org/5554",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "PennState",
+    "href": "https://teams.igem.org/5658",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SCUT-China",
+    "href": "https://teams.igem.org/5781",
+    "division": "Undergraduate",
+    "village": "Space",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Sustech-Med",
+    "href": "https://teams.igem.org/5638",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SYPHU-CHINA",
+    "href": "https://teams.igem.org/5895",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Tongji-China",
+    "href": "https://teams.igem.org/5699",
+    "division": "Undergraduate",
+    "village": "Space",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UCSC",
+    "href": "https://teams.igem.org/5662",
+    "division": "Undergraduate",
+    "village": "Agriculture",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UFlorida",
+    "href": "https://teams.igem.org/5969",
+    "division": "Undergraduate",
+    "village": "Space",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UGA",
+    "href": "https://teams.igem.org/5825",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UMaryland",
+    "href": "https://teams.igem.org/5586",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UMass Amherst",
+    "href": "https://teams.igem.org/5950",
+    "division": "Undergraduate",
+    "village": "Agriculture",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Virginia",
+    "href": "https://teams.igem.org/5664",
+    "division": "Undergraduate",
+    "village": "Climate Crisis",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "VIT-Vellore",
+    "href": "https://teams.igem.org/5864",
+    "division": "Undergraduate",
+    "village": "Fashion & Cosmetics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Warsaw",
+    "href": "https://teams.igem.org/5865",
+    "division": "Undergraduate",
+    "village": "Oncology",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Washington",
+    "href": "https://teams.igem.org/5660",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Waterloo",
+    "href": "https://teams.igem.org/5572",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Westlake",
+    "href": "https://teams.igem.org/6014",
+    "division": "Undergraduate",
+    "village": "Infectious Diseases",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "XJTLU-AI-China",
+    "href": "https://teams.igem.org/5580",
+    "division": "Undergraduate",
+    "village": "Software & AI",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "XJU-China",
+    "href": "https://teams.igem.org/5543",
+    "division": "Undergraduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ZJU-China",
+    "href": "https://teams.igem.org/5869",
+    "division": "Undergraduate",
+    "village": "Conservation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ZJUT-China",
+    "href": "https://teams.igem.org/5945",
+    "division": "Undergraduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Bielefeld-CeBiTec",
+    "href": "https://teams.igem.org/5833",
+    "division": "Graduate",
+    "village": "Oncology",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BYU-Provo",
+    "href": "https://teams.igem.org/5705",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Concordia-Montreal",
+    "href": "https://teams.igem.org/5785",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "CSMU-Taiwan",
+    "href": "https://teams.igem.org/5898",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "FHNW",
+    "href": "https://teams.igem.org/5701",
+    "division": "Graduate",
+    "village": "Agriculture",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "IITChicago",
+    "href": "https://teams.igem.org/5862",
+    "division": "Graduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "JGU-Mainz",
+    "href": "https://teams.igem.org/5673",
+    "division": "Graduate",
+    "village": "Climate Crisis",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Latvia-Riga",
+    "href": "https://teams.igem.org/5728",
+    "division": "Graduate",
+    "village": "Fashion & Cosmetics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "RPTU-Kaiserslautern",
+    "href": "https://teams.igem.org/5758",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "RUBochum",
+    "href": "https://teams.igem.org/5583",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SCU-BSE-China",
+    "href": "https://teams.igem.org/5808",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SMBU",
+    "href": "https://teams.igem.org/5861",
+    "division": "Graduate",
+    "village": "Infectious Diseases",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UAM",
+    "href": "https://teams.igem.org/5609",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UESTC-China",
+    "href": "https://teams.igem.org/5979",
+    "division": "Graduate",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "ULethbridge",
+    "href": "https://teams.igem.org/5563",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UManitoba",
+    "href": "https://teams.igem.org/5720",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UppsalaUniversity",
+    "href": "https://teams.igem.org/5749",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BASIS-China",
+    "href": "https://teams.igem.org/5610",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Benenden Guangzhou",
+    "href": "https://teams.igem.org/5871",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "BJWZ-China",
+    "href": "https://teams.igem.org/5838",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "CCA-San-Diego",
+    "href": "https://teams.igem.org/5678",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HDKWA",
+    "href": "https://teams.igem.org/5763",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HongKong-UCCKE",
+    "href": "https://teams.igem.org/5703",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HsinchuTaichung-TWN",
+    "href": "https://teams.igem.org/6016",
+    "division": "High School",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Institut-Le-Rosey-CH",
+    "href": "https://teams.igem.org/5601",
+    "division": "High School",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "KCISLK-Taiwan",
+    "href": "https://teams.igem.org/5626",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Korea-CX",
+    "href": "https://teams.igem.org/5925",
+    "division": "High School",
+    "village": "Oncology",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "LethbridgeHS",
+    "href": "https://teams.igem.org/5677",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "MammothEdu-South",
+    "href": "https://teams.igem.org/5776",
+    "division": "High School",
+    "village": "Conservation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "MCA",
+    "href": "https://teams.igem.org/5766",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Mingdao",
+    "href": "https://teams.igem.org/5604",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NIS-Kazakhstan",
+    "href": "https://teams.igem.org/6025",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Outaouais",
+    "href": "https://teams.igem.org/5663",
+    "division": "High School",
+    "village": "Infectious Diseases",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Profuture-BJ",
+    "href": "https://teams.igem.org/5971",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Rains-ECO",
+    "href": "https://teams.igem.org/6002",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Shanghai-city",
+    "href": "https://teams.igem.org/6004",
+    "division": "High School",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Shanghai-Explore",
+    "href": "https://teams.igem.org/5889",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Shanghai-HS",
+    "href": "https://teams.igem.org/5923",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SHSD",
+    "href": "https://teams.igem.org/5732",
+    "division": "High School",
+    "village": "Climate Crisis",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Squirrel-SouthEast",
+    "href": "https://teams.igem.org/5879",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SubCat-China",
+    "href": "https://teams.igem.org/5721",
+    "division": "High School",
+    "village": "Conservation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SubCat-HS",
+    "href": "https://teams.igem.org/5735",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SubCat-Peking",
+    "href": "https://teams.igem.org/5742",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SubCat-Union",
+    "href": "https://teams.igem.org/5741",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SZ-SHD",
+    "href": "https://teams.igem.org/5848",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "TJI-Seoul",
+    "href": "https://teams.igem.org/5909",
+    "division": "High School",
+    "village": "Oncology",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "UCS-X",
+    "href": "https://teams.igem.org/5764",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Uprize-II",
+    "href": "https://teams.igem.org/5938",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "VIS-Romania",
+    "href": "https://teams.igem.org/5912",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Westview-SanDiego",
+    "href": "https://teams.igem.org/5934",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "WIST",
+    "href": "https://teams.igem.org/5779",
+    "division": "High School",
+    "village": "Food & Nutrition",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "WUXI-DSAS",
+    "href": "https://teams.igem.org/5723",
+    "division": "High School",
+    "village": "Space",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "YiYe-china",
+    "href": "https://teams.igem.org/5722",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Barcelona-UIC",
+    "href": "https://teams.igem.org/5754",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NENU-China",
+    "href": "https://teams.igem.org/5582",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SUSTechOCEAN",
+    "href": "https://teams.igem.org/5576",
+    "division": "Undergraduate",
+    "village": "Conservation",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NAWI Graz Austria",
+    "href": "https://teams.igem.org/5880",
+    "division": "Graduate",
+    "village": "Conservation",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "NCHU",
+    "href": "https://teams.igem.org/5901",
+    "division": "Graduate",
+    "village": "Biomanufacturing",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SaltLakeCommColl11",
+    "href": "https://teams.igem.org/5955",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Sorbonne University",
+    "href": "https://teams.igem.org/5635",
+    "division": "Graduate",
+    "village": "Conservation",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "AEI Prep-Taiwan",
+    "href": "https://teams.igem.org/5744",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Anatolia College-GR",
+    "href": "https://teams.igem.org/5868",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Beijing-HS",
+    "href": "https://teams.igem.org/5734",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "DelNorte-SD",
+    "href": "https://teams.igem.org/6013",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "EHSBNU",
+    "href": "https://teams.igem.org/5752",
+    "division": "High School",
+    "village": "Foundational Advance",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "FHS-NB-ZJ-China",
+    "href": "https://teams.igem.org/5595",
+    "division": "High School",
+    "village": "Agriculture",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HAOLVE-Nanjing",
+    "href": "https://teams.igem.org/5694",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HK-PLKNPLC",
+    "href": "https://teams.igem.org/5884",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "HS-Beta",
+    "href": "https://teams.igem.org/5821",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "QYZX-China",
+    "href": "https://teams.igem.org/6009",
+    "division": "High School",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SFLS-Shenzhen",
+    "href": "https://teams.igem.org/5970",
+    "division": "High School",
+    "village": "Fashion & Cosmetics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "Shenfan-China",
+    "href": "https://teams.igem.org/5997",
+    "division": "High School",
+    "village": "Biomanufacturing",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2025,
+    "teamName": "SPC",
+    "href": "https://teams.igem.org/5593",
+    "division": "High School",
+    "village": "Bioremediation",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  }
+]

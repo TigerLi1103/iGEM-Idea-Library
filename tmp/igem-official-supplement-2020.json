@@ -1,0 +1,3863 @@
+[
+  {
+    "year": 2020,
+    "teamName": "Aachen",
+    "teamId": 3456,
+    "href": "https://teams.igem.org/3456",
+    "wikiUrl": "https://2020.igem.org/Team:Aachen",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "Best Foundational Advance Project",
+      "Best Project Promotion Video",
+      "FINALIST",
+      "GOLD MEDAL",
+      "FIRST RUNNER-UP"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Best Poster",
+      "Best Model",
+      "Best Hardware"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Aalto-Helsinki",
+    "teamId": 3386,
+    "href": "https://teams.igem.org/3386",
+    "wikiUrl": "https://2020.igem.org/Team:Aalto-Helsinki",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project",
+      "Best Integrated Human Practices"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "AFCM-Egypt",
+    "teamId": 3504,
+    "href": "https://teams.igem.org/3504",
+    "wikiUrl": "https://2020.igem.org/Team:AFCM-Egypt",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "AHUT-ZJU-China",
+    "teamId": 3656,
+    "href": "https://teams.igem.org/3656",
+    "wikiUrl": "https://2020.igem.org/Team:AHUT-ZJU-China",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Aix-Marseille",
+    "teamId": 3465,
+    "href": "https://teams.igem.org/3465",
+    "wikiUrl": "https://2020.igem.org/Team:Aix-Marseille",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Alma",
+    "teamId": 3445,
+    "href": "https://teams.igem.org/3445",
+    "wikiUrl": "https://2020.igem.org/Team:Alma",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Amsterdam",
+    "teamId": 3437,
+    "href": "https://teams.igem.org/3437",
+    "wikiUrl": "https://2020.igem.org/Team:Amsterdam",
+    "division": "Graduate",
+    "village": "Information Processing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "AshesiGhana",
+    "teamId": 3368,
+    "href": "https://teams.igem.org/3368",
+    "wikiUrl": "https://2020.igem.org/Team:AshesiGhana",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "ASTWS-China",
+    "teamId": 3576,
+    "href": "https://teams.igem.org/3576",
+    "wikiUrl": "https://2020.igem.org/Team:ASTWS-China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Model"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Athens",
+    "teamId": 3520,
+    "href": "https://teams.igem.org/3520",
+    "wikiUrl": "https://2020.igem.org/Team:Athens",
+    "division": "Undergraduate",
+    "village": "Manufacturing",
+    "medal": "Silver",
+    "results": [
+      "Best Project Promotion Video",
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "AUC-EGYPT",
+    "teamId": 3626,
+    "href": "https://teams.igem.org/3626",
+    "wikiUrl": "https://2020.igem.org/Team:AUC-EGYPT",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Austin_UTexas",
+    "teamId": 3569,
+    "href": "https://teams.igem.org/3569",
+    "wikiUrl": "https://2020.igem.org/Team:Austin_UTexas",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Baltimore_BioCrew",
+    "teamId": 3651,
+    "href": "https://teams.igem.org/3651",
+    "wikiUrl": "https://2020.igem.org/Team:Baltimore_BioCrew",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Beijing_4ELEVEN",
+    "teamId": 3598,
+    "href": "https://teams.igem.org/3598",
+    "wikiUrl": "https://2020.igem.org/Team:Beijing_4ELEVEN",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "BGU-Israel",
+    "teamId": 3394,
+    "href": "https://teams.igem.org/3394",
+    "wikiUrl": "https://2020.igem.org/Team:BGU-Israel",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "BHSF",
+    "teamId": 3399,
+    "href": "https://teams.igem.org/3399",
+    "wikiUrl": "https://2020.igem.org/Team:BHSF",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Project Promotion Video",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Bielefeld-CeBiTec",
+    "teamId": 3410,
+    "href": "https://teams.igem.org/3410",
+    "wikiUrl": "https://2020.igem.org/Team:Bielefeld-CeBiTec",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "BIT",
+    "teamId": 3471,
+    "href": "https://teams.igem.org/3471",
+    "wikiUrl": "https://2020.igem.org/Team:BIT",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "BIT-China",
+    "teamId": 3496,
+    "href": "https://teams.igem.org/3496",
+    "wikiUrl": "https://2020.igem.org/Team:BIT-China",
+    "division": "Undergraduate",
+    "village": "Manufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "BITSPilani-Goa_India",
+    "teamId": 3512,
+    "href": "https://teams.igem.org/3512",
+    "wikiUrl": "https://2020.igem.org/Team:BITSPilani-Goa_India",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "Best Software Tool",
+      "Best New Composite Part",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "BJ101HS",
+    "teamId": 3693,
+    "href": "https://teams.igem.org/3693",
+    "wikiUrl": "https://2020.igem.org/Team:BJ101HS",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "BNDS_China",
+    "teamId": 3329,
+    "href": "https://teams.igem.org/3329",
+    "wikiUrl": "https://2020.igem.org/Team:BNDS_China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "BNU-China",
+    "teamId": 3506,
+    "href": "https://teams.igem.org/3506",
+    "wikiUrl": "https://2020.igem.org/Team:BNU-China",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "BOKU-Vienna",
+    "teamId": 3514,
+    "href": "https://teams.igem.org/3514",
+    "wikiUrl": "https://2020.igem.org/Team:BOKU-Vienna",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Botchan_Lab_Tokyo",
+    "teamId": 3364,
+    "href": "https://teams.igem.org/3364",
+    "wikiUrl": "https://2020.igem.org/Team:Botchan_Lab_Tokyo",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Brno_Czech_Republic",
+    "teamId": 3590,
+    "href": "https://teams.igem.org/3590",
+    "wikiUrl": "https://2020.igem.org/Team:Brno_Czech_Republic",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "BUCT",
+    "teamId": 3699,
+    "href": "https://teams.igem.org/3699",
+    "wikiUrl": "https://2020.igem.org/Team:BUCT",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "BUCT-China",
+    "teamId": 3664,
+    "href": "https://teams.igem.org/3664",
+    "wikiUrl": "https://2020.igem.org/Team:BUCT-China",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Calgary",
+    "teamId": 3629,
+    "href": "https://teams.igem.org/3629",
+    "wikiUrl": "https://2020.igem.org/Team:Calgary",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices",
+      "Best Measurement",
+      "Best Supporting Entrepreneurship",
+      "Best Hardware",
+      "Best Sustainable Development Impact",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "CAU_China",
+    "teamId": 3467,
+    "href": "https://teams.igem.org/3467",
+    "wikiUrl": "https://2020.igem.org/Team:CAU_China",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "CCA_San_Diego",
+    "teamId": 3551,
+    "href": "https://teams.igem.org/3551",
+    "wikiUrl": "https://2020.igem.org/Team:CCA_San_Diego",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Education"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "CCU_Taiwan",
+    "teamId": 3648,
+    "href": "https://teams.igem.org/3648",
+    "wikiUrl": "https://2020.igem.org/Team:CCU_Taiwan",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Inclusivity"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Chalmers-Gothenburg",
+    "teamId": 3477,
+    "href": "https://teams.igem.org/3477",
+    "wikiUrl": "https://2020.igem.org/Team:Chalmers-Gothenburg",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "CLS_CLSG_UK",
+    "teamId": 3588,
+    "href": "https://teams.igem.org/3588",
+    "wikiUrl": "https://2020.igem.org/Team:CLS_CLSG_UK",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "iGEMers Prize",
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Wiki",
+      "Best Presentation",
+      "Best Poster",
+      "Best Inclusivity"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Concordia-Montreal",
+    "teamId": 3363,
+    "href": "https://teams.igem.org/3363",
+    "wikiUrl": "https://2020.igem.org/Team:Concordia-Montreal",
+    "division": "Graduate",
+    "village": "Software",
+    "medal": "Gold",
+    "results": [
+      "Best Software Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Inclusivity"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Cornell",
+    "teamId": 3419,
+    "href": "https://teams.igem.org/3419",
+    "wikiUrl": "https://2020.igem.org/Team:Cornell",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "CPU_CHINA",
+    "teamId": 3661,
+    "href": "https://teams.igem.org/3661",
+    "wikiUrl": "https://2020.igem.org/Team:CPU_CHINA",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "CSMU_Taiwan",
+    "teamId": 3431,
+    "href": "https://teams.igem.org/3431",
+    "wikiUrl": "https://2020.igem.org/Team:CSMU_Taiwan",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project",
+      "Best Measurement",
+      "Best New Basic Part",
+      "Best New Composite Part",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "CSU_CHINA",
+    "teamId": 3452,
+    "href": "https://teams.igem.org/3452",
+    "wikiUrl": "https://2020.igem.org/Team:CSU_CHINA",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "CU-Boulder",
+    "teamId": 3446,
+    "href": "https://teams.igem.org/3446",
+    "wikiUrl": "https://2020.igem.org/Team:CU-Boulder",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "DeNovocastrians",
+    "teamId": 3694,
+    "href": "https://teams.igem.org/3694",
+    "wikiUrl": "https://2020.igem.org/Team:DeNovocastrians",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "DNHS_SanDiego_CA",
+    "teamId": 3652,
+    "href": "https://teams.igem.org/3652",
+    "wikiUrl": "https://2020.igem.org/Team:DNHS_SanDiego_CA",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Best Poster"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "DTU-Denmark",
+    "teamId": 3385,
+    "href": "https://teams.igem.org/3385",
+    "wikiUrl": "https://2020.igem.org/Team:DTU-Denmark",
+    "division": "Graduate",
+    "village": "Manufacturing",
+    "medal": "Gold",
+    "results": [
+      "Best Manufacturing Project",
+      "Best Model",
+      "Best Part Collection",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Poster",
+      "Best Software Tool",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Duesseldorf",
+    "teamId": 3583,
+    "href": "https://teams.igem.org/3583",
+    "wikiUrl": "https://2020.igem.org/Team:Duesseldorf",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "DUT_China",
+    "teamId": 3354,
+    "href": "https://teams.igem.org/3354",
+    "wikiUrl": "https://2020.igem.org/Team:DUT_China",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "ECNUAS",
+    "teamId": 3704,
+    "href": "https://teams.igem.org/3704",
+    "wikiUrl": "https://2020.igem.org/Team:ECNUAS",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "ECUST_China",
+    "teamId": 3480,
+    "href": "https://teams.igem.org/3480",
+    "wikiUrl": "https://2020.igem.org/Team:ECUST_China",
+    "division": "Undergraduate",
+    "village": "New Application",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Edinburgh",
+    "teamId": 3380,
+    "href": "https://teams.igem.org/3380",
+    "wikiUrl": "https://2020.igem.org/Team:Edinburgh",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "EPFL",
+    "teamId": 3600,
+    "href": "https://teams.igem.org/3600",
+    "wikiUrl": "https://2020.igem.org/Team:EPFL",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Estonia_TUIT",
+    "teamId": 3692,
+    "href": "https://teams.igem.org/3692",
+    "wikiUrl": "https://2020.igem.org/Team:Estonia_TUIT",
+    "division": "Undergraduate",
+    "village": "Manufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Evry_Paris-Saclay",
+    "teamId": 3453,
+    "href": "https://teams.igem.org/3453",
+    "wikiUrl": "https://2020.igem.org/Team:Evry_Paris-Saclay",
+    "division": "Graduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Application Project",
+      "Best Measurement",
+      "Best New Composite Part",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Example",
+    "teamId": 3377,
+    "href": "https://teams.igem.org/3377",
+    "wikiUrl": "https://2020.igem.org/Team:Example",
+    "division": "Graduate",
+    "village": "Open",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Exeter",
+    "teamId": 3371,
+    "href": "https://teams.igem.org/3371",
+    "wikiUrl": "https://2020.igem.org/Team:Exeter",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "FAFU-CHINA",
+    "teamId": 3550,
+    "href": "https://teams.igem.org/3550",
+    "wikiUrl": "https://2020.igem.org/Team:FAFU-CHINA",
+    "division": "Undergraduate",
+    "village": "New Application",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "FCB-UANL",
+    "teamId": 3498,
+    "href": "https://teams.igem.org/3498",
+    "wikiUrl": "https://2020.igem.org/Team:FCB-UANL",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "Best Supporting Entrepreneurship",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "FDR-HB_Peru",
+    "teamId": 3466,
+    "href": "https://teams.igem.org/3466",
+    "wikiUrl": "https://2020.igem.org/Team:FDR-HB_Peru",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "FSU",
+    "teamId": 3702,
+    "href": "https://teams.igem.org/3702",
+    "wikiUrl": "https://2020.igem.org/Team:FSU",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Fudan",
+    "teamId": 3606,
+    "href": "https://teams.igem.org/3606",
+    "wikiUrl": "https://2020.igem.org/Team:Fudan",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "Best Sustainable Development Impact",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education",
+      "Best Inclusivity",
+      "Best New Composite Part",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "GA_State_SW_Jiaotong",
+    "teamId": 3500,
+    "href": "https://teams.igem.org/3500",
+    "wikiUrl": "https://2020.igem.org/Team:GA_State_SW_Jiaotong",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Gaston_Day_School",
+    "teamId": 3417,
+    "href": "https://teams.igem.org/3417",
+    "wikiUrl": "https://2020.igem.org/Team:Gaston_Day_School",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "GDSYZX",
+    "teamId": 3458,
+    "href": "https://teams.igem.org/3458",
+    "wikiUrl": "https://2020.igem.org/Team:GDSYZX",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "GO_Paris-Saclay",
+    "teamId": 3427,
+    "href": "https://teams.igem.org/3427",
+    "wikiUrl": "https://2020.igem.org/Team:GO_Paris-Saclay",
+    "division": "Graduate",
+    "village": "Information Processing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "GreatBay_SCIE",
+    "teamId": 3593,
+    "href": "https://teams.igem.org/3593",
+    "wikiUrl": "https://2020.igem.org/Team:GreatBay_SCIE",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Wiki",
+      "Best Integrated Human Practices",
+      "Best Model",
+      "Best Hardware",
+      "FINALIST",
+      "GOLD MEDAL",
+      "FIRST RUNNER-UP"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Best Poster",
+      "Best Measurement",
+      "Best New Basic Part"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "GreatBay_SZ",
+    "teamId": 3596,
+    "href": "https://teams.igem.org/3596",
+    "wikiUrl": "https://2020.igem.org/Team:GreatBay_SZ",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Supporting Entrepreneurship",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Wiki",
+      "Best Presentation",
+      "Best Poster",
+      "Best New Basic Part",
+      "Best New Composite Part",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Grenoble_Alpes",
+    "teamId": 3463,
+    "href": "https://teams.igem.org/3463",
+    "wikiUrl": "https://2020.igem.org/Team:Grenoble_Alpes",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Software Tool",
+      "Best Hardware"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Groningen",
+    "teamId": 3507,
+    "href": "https://teams.igem.org/3507",
+    "wikiUrl": "https://2020.igem.org/Team:Groningen",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Food & Nutrition Project",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "GunnVistaPingry_US",
+    "teamId": 3659,
+    "href": "https://teams.igem.org/3659",
+    "wikiUrl": "https://2020.igem.org/Team:GunnVistaPingry_US",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Model",
+      "Best Software Tool"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "GW_DC",
+    "teamId": 3618,
+    "href": "https://teams.igem.org/3618",
+    "wikiUrl": "https://2020.igem.org/Team:GW_DC",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "GZ_HFI",
+    "teamId": 3595,
+    "href": "https://teams.igem.org/3595",
+    "wikiUrl": "https://2020.igem.org/Team:GZ_HFI",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part",
+      "Best Part Collection",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Hainan_China",
+    "teamId": 3622,
+    "href": "https://teams.igem.org/3622",
+    "wikiUrl": "https://2020.igem.org/Team:Hainan_China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "Best Project Promotion Video",
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Hamburg",
+    "teamId": 3362,
+    "href": "https://teams.igem.org/3362",
+    "wikiUrl": "https://2020.igem.org/Team:Hamburg",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Hannover",
+    "teamId": 3338,
+    "href": "https://teams.igem.org/3338",
+    "wikiUrl": "https://2020.igem.org/Team:Hannover",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Harvard",
+    "teamId": 3677,
+    "href": "https://teams.igem.org/3677",
+    "wikiUrl": "https://2020.igem.org/Team:Harvard",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Model"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Heidelberg",
+    "teamId": 3657,
+    "href": "https://teams.igem.org/3657",
+    "wikiUrl": "https://2020.igem.org/Team:Heidelberg",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "HK_CPU-WFN-WYY",
+    "teamId": 3382,
+    "href": "https://teams.igem.org/3382",
+    "wikiUrl": "https://2020.igem.org/Team:HK_CPU-WFN-WYY",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "HK_HCY",
+    "teamId": 3414,
+    "href": "https://teams.igem.org/3414",
+    "wikiUrl": "https://2020.igem.org/Team:HK_HCY",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "HK_SSC",
+    "teamId": 3561,
+    "href": "https://teams.igem.org/3561",
+    "wikiUrl": "https://2020.igem.org/Team:HK_SSC",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "HKUST",
+    "teamId": 3581,
+    "href": "https://teams.igem.org/3581",
+    "wikiUrl": "https://2020.igem.org/Team:HKUST",
+    "division": "Undergraduate",
+    "village": "Manufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Hong_Kong_CityU",
+    "teamId": 3511,
+    "href": "https://teams.igem.org/3511",
+    "wikiUrl": "https://2020.igem.org/Team:Hong_Kong_CityU",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Hong_Kong_HKU",
+    "teamId": 3644,
+    "href": "https://teams.igem.org/3644",
+    "wikiUrl": "https://2020.igem.org/Team:Hong_Kong_HKU",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "HZAU-China",
+    "teamId": 3378,
+    "href": "https://teams.igem.org/3378",
+    "wikiUrl": "https://2020.igem.org/Team:HZAU-China",
+    "division": "Undergraduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "HZNFHS_Hangzhou",
+    "teamId": 3535,
+    "href": "https://teams.igem.org/3535",
+    "wikiUrl": "https://2020.igem.org/Team:HZNFHS_Hangzhou",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "iBowu-China",
+    "teamId": 3420,
+    "href": "https://teams.igem.org/3420",
+    "wikiUrl": "https://2020.igem.org/Team:iBowu-China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "ICS_BKK",
+    "teamId": 3461,
+    "href": "https://teams.igem.org/3461",
+    "wikiUrl": "https://2020.igem.org/Team:ICS_BKK",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "IISER_Berhampur",
+    "teamId": 3646,
+    "href": "https://teams.igem.org/3646",
+    "wikiUrl": "https://2020.igem.org/Team:IISER_Berhampur",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "IISER_Bhopal",
+    "teamId": 3450,
+    "href": "https://teams.igem.org/3450",
+    "wikiUrl": "https://2020.igem.org/Team:IISER_Bhopal",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "IISER-Pune-India",
+    "teamId": 3582,
+    "href": "https://teams.igem.org/3582",
+    "wikiUrl": "https://2020.igem.org/Team:IISER-Pune-India",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "iGEMers Prize",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "IISER-Tirupati_India",
+    "teamId": 3519,
+    "href": "https://teams.igem.org/3519",
+    "wikiUrl": "https://2020.igem.org/Team:IISER-Tirupati_India",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "IIT_Roorkee",
+    "teamId": 3564,
+    "href": "https://teams.igem.org/3564",
+    "wikiUrl": "https://2020.igem.org/Team:IIT_Roorkee",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Imperial_College",
+    "teamId": 3559,
+    "href": "https://teams.igem.org/3559",
+    "wikiUrl": "https://2020.igem.org/Team:Imperial_College",
+    "division": "Undergraduate",
+    "village": "Software",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Software Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Ionis_Paris",
+    "teamId": 3409,
+    "href": "https://teams.igem.org/3409",
+    "wikiUrl": "https://2020.igem.org/Team:Ionis_Paris",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Therapeutics Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "JACOXH_China",
+    "teamId": 3665,
+    "href": "https://teams.igem.org/3665",
+    "wikiUrl": "https://2020.igem.org/Team:JACOXH_China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Jiangnan_China",
+    "teamId": 3402,
+    "href": "https://teams.igem.org/3402",
+    "wikiUrl": "https://2020.igem.org/Team:Jiangnan_China",
+    "division": "Undergraduate",
+    "village": "Manufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Jilin_China",
+    "teamId": 3447,
+    "href": "https://teams.igem.org/3447",
+    "wikiUrl": "https://2020.igem.org/Team:Jilin_China",
+    "division": "Undergraduate",
+    "village": "Open",
+    "medal": "Gold",
+    "results": [
+      "Best Open Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "JNFLS",
+    "teamId": 3605,
+    "href": "https://teams.igem.org/3605",
+    "wikiUrl": "https://2020.igem.org/Team:JNFLS",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "KAIT_Japan",
+    "teamId": 3685,
+    "href": "https://teams.igem.org/3685",
+    "wikiUrl": "https://2020.igem.org/Team:KAIT_Japan",
+    "division": "Graduate",
+    "village": "New Application",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "KCL_UK",
+    "teamId": 3635,
+    "href": "https://teams.igem.org/3635",
+    "wikiUrl": "https://2020.igem.org/Team:KCL_UK",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "Best Therapeutics Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Model",
+      "Best Supporting Entrepreneurship"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "KEYSTONE",
+    "teamId": 3478,
+    "href": "https://teams.igem.org/3478",
+    "wikiUrl": "https://2020.igem.org/Team:KEYSTONE",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "KEYSTONE_A",
+    "teamId": 3592,
+    "href": "https://teams.igem.org/3592",
+    "wikiUrl": "https://2020.igem.org/Team:KEYSTONE_A",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Korea_HS",
+    "teamId": 3573,
+    "href": "https://teams.igem.org/3573",
+    "wikiUrl": "https://2020.igem.org/Team:Korea_HS",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "iGEMers Prize",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Korea-SIS",
+    "teamId": 3643,
+    "href": "https://teams.igem.org/3643",
+    "wikiUrl": "https://2020.igem.org/Team:Korea-SIS",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "KSA_KOREA",
+    "teamId": 3654,
+    "href": "https://teams.igem.org/3654",
+    "wikiUrl": "https://2020.igem.org/Team:KSA_KOREA",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "KU_ISTANBUL",
+    "teamId": 3433,
+    "href": "https://teams.igem.org/3433",
+    "wikiUrl": "https://2020.igem.org/Team:KU_ISTANBUL",
+    "division": "Undergraduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Application Project",
+      "Best Inclusivity"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "KUAS_Korea",
+    "teamId": 3421,
+    "href": "https://teams.igem.org/3421",
+    "wikiUrl": "https://2020.igem.org/Team:KUAS_Korea",
+    "division": "Graduate",
+    "village": "Open",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Lambert_GA",
+    "teamId": 3411,
+    "href": "https://teams.igem.org/3411",
+    "wikiUrl": "https://2020.igem.org/Team:Lambert_GA",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Sustainable Development Impact",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices",
+      "Best Education",
+      "Best Model"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Leiden",
+    "teamId": 3343,
+    "href": "https://teams.igem.org/3343",
+    "wikiUrl": "https://2020.igem.org/Team:Leiden",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "Best Diagnostics Project",
+      "Best Wiki",
+      "Best Supporting Entrepreneurship",
+      "Best Inclusivity",
+      "FINALIST",
+      "GOLD MEDAL",
+      "GRAND PRIZE"
+    ],
+    "nominations": [
+      "Best Poster",
+      "Best Integrated Human Practices",
+      "Best Model",
+      "Best New Basic Part"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Lethbridge",
+    "teamId": 3624,
+    "href": "https://teams.igem.org/3624",
+    "wikiUrl": "https://2020.igem.org/Team:Lethbridge",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Lethbridge_HS",
+    "teamId": 3349,
+    "href": "https://teams.igem.org/3349",
+    "wikiUrl": "https://2020.igem.org/Team:Lethbridge_HS",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Linkoping",
+    "teamId": 3647,
+    "href": "https://teams.igem.org/3647",
+    "wikiUrl": "https://2020.igem.org/Team:Linkoping",
+    "division": "Graduate",
+    "village": "Software",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "LINKS_China",
+    "teamId": 3552,
+    "href": "https://teams.igem.org/3552",
+    "wikiUrl": "https://2020.igem.org/Team:LINKS_China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Lubbock_TTU",
+    "teamId": 3668,
+    "href": "https://teams.igem.org/3668",
+    "wikiUrl": "https://2020.igem.org/Team:Lubbock_TTU",
+    "division": "Undergraduate",
+    "village": null,
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Lund",
+    "teamId": 3619,
+    "href": "https://teams.igem.org/3619",
+    "wikiUrl": "https://2020.igem.org/Team:Lund",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Manchester",
+    "teamId": 3340,
+    "href": "https://teams.igem.org/3340",
+    "wikiUrl": "https://2020.igem.org/Team:Manchester",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Supporting Entrepreneurship"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "MichiganState",
+    "teamId": 3359,
+    "href": "https://teams.igem.org/3359",
+    "wikiUrl": "https://2020.igem.org/Team:MichiganState",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Mingdao",
+    "teamId": 3376,
+    "href": "https://teams.igem.org/3376",
+    "wikiUrl": "https://2020.igem.org/Team:Mingdao",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Model",
+      "Best New Composite Part",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "MIT",
+    "teamId": 3621,
+    "href": "https://teams.igem.org/3621",
+    "wikiUrl": "https://2020.igem.org/Team:MIT",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "MIT_MAHE",
+    "teamId": 3470,
+    "href": "https://teams.igem.org/3470",
+    "wikiUrl": "https://2020.igem.org/Team:MIT_MAHE",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Montpellier",
+    "teamId": 3700,
+    "href": "https://teams.igem.org/3700",
+    "wikiUrl": "https://2020.igem.org/Team:Montpellier",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Moscow",
+    "teamId": 3636,
+    "href": "https://teams.igem.org/3636",
+    "wikiUrl": "https://2020.igem.org/Team:Moscow",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Moscow-Russia",
+    "teamId": 3565,
+    "href": "https://teams.igem.org/3565",
+    "wikiUrl": "https://2020.igem.org/Team:Moscow-Russia",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "MRIIRS_FARIDABAD",
+    "teamId": 3587,
+    "href": "https://teams.igem.org/3587",
+    "wikiUrl": "https://2020.igem.org/Team:MRIIRS_FARIDABAD",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "MSP-Maastricht",
+    "teamId": 3476,
+    "href": "https://teams.igem.org/3476",
+    "wikiUrl": "https://2020.igem.org/Team:MSP-Maastricht",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Nanjing_high-school",
+    "teamId": 3524,
+    "href": "https://teams.igem.org/3524",
+    "wikiUrl": "https://2020.igem.org/Team:Nanjing_high-school",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Nanjing_NFLS",
+    "teamId": 3492,
+    "href": "https://teams.igem.org/3492",
+    "wikiUrl": "https://2020.igem.org/Team:Nanjing_NFLS",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Nanjing-China",
+    "teamId": 3341,
+    "href": "https://teams.igem.org/3341",
+    "wikiUrl": "https://2020.igem.org/Team:Nanjing-China",
+    "division": "Undergraduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Nantes",
+    "teamId": 3518,
+    "href": "https://teams.igem.org/3518",
+    "wikiUrl": "https://2020.igem.org/Team:Nantes",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NAU-CHINA",
+    "teamId": 3408,
+    "href": "https://teams.igem.org/3408",
+    "wikiUrl": "https://2020.igem.org/Team:NAU-CHINA",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NCKU_Tainan",
+    "teamId": 3490,
+    "href": "https://teams.igem.org/3490",
+    "wikiUrl": "https://2020.igem.org/Team:NCKU_Tainan",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "Best Hardware",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Therapeutics Project",
+      "Best Poster",
+      "Best Supporting Entrepreneurship",
+      "Best New Basic Part",
+      "Best New Composite Part"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "NCTU_Formosa",
+    "teamId": 3370,
+    "href": "https://teams.igem.org/3370",
+    "wikiUrl": "https://2020.igem.org/Team:NCTU_Formosa",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "Best New Composite Part",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Foundational Advance Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "NEFU_China",
+    "teamId": 3350,
+    "href": "https://teams.igem.org/3350",
+    "wikiUrl": "https://2020.igem.org/Team:NEFU_China",
+    "division": "Undergraduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NEU_CHINA",
+    "teamId": 3611,
+    "href": "https://teams.igem.org/3611",
+    "wikiUrl": "https://2020.igem.org/Team:NEU_CHINA",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "NFLS",
+    "teamId": 3513,
+    "href": "https://teams.igem.org/3513",
+    "wikiUrl": "https://2020.igem.org/Team:NFLS",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NJMU-China",
+    "teamId": 3631,
+    "href": "https://teams.igem.org/3631",
+    "wikiUrl": "https://2020.igem.org/Team:NJMU-China",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NJTech_China",
+    "teamId": 3384,
+    "href": "https://teams.igem.org/3384",
+    "wikiUrl": "https://2020.igem.org/Team:NJTech_China",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NJU-China",
+    "teamId": 3335,
+    "href": "https://teams.igem.org/3335",
+    "wikiUrl": "https://2020.igem.org/Team:NJU-China",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NOFLS_YZ",
+    "teamId": 3522,
+    "href": "https://teams.igem.org/3522",
+    "wikiUrl": "https://2020.igem.org/Team:NOFLS_YZ",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Nottingham",
+    "teamId": 3356,
+    "href": "https://teams.igem.org/3356",
+    "wikiUrl": "https://2020.igem.org/Team:Nottingham",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Therapeutics Project",
+      "Best Model"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "NOVA_LxPortugal",
+    "teamId": 3675,
+    "href": "https://teams.igem.org/3675",
+    "wikiUrl": "https://2020.igem.org/Team:NOVA_LxPortugal",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NTHU_Taiwan",
+    "teamId": 3486,
+    "href": "https://teams.igem.org/3486",
+    "wikiUrl": "https://2020.igem.org/Team:NTHU_Taiwan",
+    "division": "Undergraduate",
+    "village": "Manufacturing",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NUDT_CHINA",
+    "teamId": 3396,
+    "href": "https://teams.igem.org/3396",
+    "wikiUrl": "https://2020.igem.org/Team:NUDT_CHINA",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NWU-CHINA-A",
+    "teamId": 3351,
+    "href": "https://teams.igem.org/3351",
+    "wikiUrl": "https://2020.igem.org/Team:NWU-CHINA-A",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NWU-CHINA-B",
+    "teamId": 3388,
+    "href": "https://teams.igem.org/3388",
+    "wikiUrl": "https://2020.igem.org/Team:NWU-CHINA-B",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NYC_Earthians",
+    "teamId": 3691,
+    "href": "https://teams.igem.org/3691",
+    "wikiUrl": "https://2020.igem.org/Team:NYC_Earthians",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NYMU-Taipei",
+    "teamId": 3682,
+    "href": "https://teams.igem.org/3682",
+    "wikiUrl": "https://2020.igem.org/Team:NYMU-Taipei",
+    "division": "Undergraduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "NYU_Abu_Dhabi",
+    "teamId": 3658,
+    "href": "https://teams.igem.org/3658",
+    "wikiUrl": "https://2020.igem.org/Team:NYU_Abu_Dhabi",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "OhioState",
+    "teamId": 3412,
+    "href": "https://teams.igem.org/3412",
+    "wikiUrl": "https://2020.igem.org/Team:OhioState",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "Best Foundational Advance Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "OSA",
+    "teamId": 3696,
+    "href": "https://teams.igem.org/3696",
+    "wikiUrl": "https://2020.igem.org/Team:OSA",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "OUC-China",
+    "teamId": 3328,
+    "href": "https://teams.igem.org/3328",
+    "wikiUrl": "https://2020.igem.org/Team:OUC-China",
+    "division": "Undergraduate",
+    "village": "Information Processing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Paris_Bettencourt",
+    "teamId": 3579,
+    "href": "https://teams.igem.org/3579",
+    "wikiUrl": "https://2020.igem.org/Team:Paris_Bettencourt",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": [
+      "Best Poster"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Patras",
+    "teamId": 3464,
+    "href": "https://teams.igem.org/3464",
+    "wikiUrl": "https://2020.igem.org/Team:Patras",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Peking",
+    "teamId": 3645,
+    "href": "https://teams.igem.org/3645",
+    "wikiUrl": "https://2020.igem.org/Team:Peking",
+    "division": "Undergraduate",
+    "village": "Open",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Pittsburgh",
+    "teamId": 3666,
+    "href": "https://teams.igem.org/3666",
+    "wikiUrl": "https://2020.igem.org/Team:Pittsburgh",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Foundational Advance Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "PuiChing_Macau",
+    "teamId": 3503,
+    "href": "https://teams.igem.org/3503",
+    "wikiUrl": "https://2020.igem.org/Team:PuiChing_Macau",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Purdue",
+    "teamId": 3439,
+    "href": "https://teams.igem.org/3439",
+    "wikiUrl": "https://2020.igem.org/Team:Purdue",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "PYMS_GZ_China",
+    "teamId": 3683,
+    "href": "https://teams.igem.org/3683",
+    "wikiUrl": "https://2020.igem.org/Team:PYMS_GZ_China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Inclusivity",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Qdai",
+    "teamId": 3430,
+    "href": "https://teams.igem.org/3430",
+    "wikiUrl": "https://2020.igem.org/Team:Qdai",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "QHFZ-China",
+    "teamId": 3457,
+    "href": "https://teams.igem.org/3457",
+    "wikiUrl": "https://2020.igem.org/Team:QHFZ-China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Queens_Canada",
+    "teamId": 3515,
+    "href": "https://teams.igem.org/3515",
+    "wikiUrl": "https://2020.igem.org/Team:Queens_Canada",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project",
+      "Best Model"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "RDFZ-China",
+    "teamId": 3395,
+    "href": "https://teams.igem.org/3395",
+    "wikiUrl": "https://2020.igem.org/Team:RDFZ-China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "ROADS_SY",
+    "teamId": 3614,
+    "href": "https://teams.igem.org/3614",
+    "wikiUrl": "https://2020.igem.org/Team:ROADS_SY",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Rochester",
+    "teamId": 3346,
+    "href": "https://teams.igem.org/3346",
+    "wikiUrl": "https://2020.igem.org/Team:Rochester",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "Best Diagnostics Project",
+      "Best Inclusivity",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Integrated Human Practices",
+      "Best Education",
+      "Best Software Tool"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "RUM-UPRM",
+    "teamId": 3670,
+    "href": "https://teams.igem.org/3670",
+    "wikiUrl": "https://2020.igem.org/Team:RUM-UPRM",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SCU-China",
+    "teamId": 3544,
+    "href": "https://teams.igem.org/3544",
+    "wikiUrl": "https://2020.igem.org/Team:SCU-China",
+    "division": "Graduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SCU-WestChina",
+    "teamId": 3672,
+    "href": "https://teams.igem.org/3672",
+    "wikiUrl": "https://2020.igem.org/Team:SCU-WestChina",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SCUT_China",
+    "teamId": 3333,
+    "href": "https://teams.igem.org/3333",
+    "wikiUrl": "https://2020.igem.org/Team:SCUT_China",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SDSZ_China",
+    "teamId": 3616,
+    "href": "https://teams.igem.org/3616",
+    "wikiUrl": "https://2020.igem.org/Team:SDSZ_China",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SDU-Denmark",
+    "teamId": 3602,
+    "href": "https://teams.igem.org/3602",
+    "wikiUrl": "https://2020.igem.org/Team:SDU-Denmark",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "Best Wiki",
+      "Best Hardware",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project",
+      "Best Integrated Human Practices",
+      "Best Education",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "SEHS-China",
+    "teamId": 3684,
+    "href": "https://teams.igem.org/3684",
+    "wikiUrl": "https://2020.igem.org/Team:SEHS-China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Shanghai_city",
+    "teamId": 3526,
+    "href": "https://teams.igem.org/3526",
+    "wikiUrl": "https://2020.igem.org/Team:Shanghai_city",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Shanghai_high-school",
+    "teamId": 3525,
+    "href": "https://teams.igem.org/3525",
+    "wikiUrl": "https://2020.igem.org/Team:Shanghai_high-school",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Shanghai_HS",
+    "teamId": 3527,
+    "href": "https://teams.igem.org/3527",
+    "wikiUrl": "https://2020.igem.org/Team:Shanghai_HS",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Shanghai_HS_United",
+    "teamId": 3585,
+    "href": "https://teams.igem.org/3585",
+    "wikiUrl": "https://2020.igem.org/Team:Shanghai_HS_United",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Shanghai_SFLS_SPBS",
+    "teamId": 3633,
+    "href": "https://teams.igem.org/3633",
+    "wikiUrl": "https://2020.igem.org/Team:Shanghai_SFLS_SPBS",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Wiki",
+      "Best Model"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Shanghai_United",
+    "teamId": 3584,
+    "href": "https://teams.igem.org/3584",
+    "wikiUrl": "https://2020.igem.org/Team:Shanghai_United",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "ShanghaiTech_China",
+    "teamId": 3454,
+    "href": "https://teams.igem.org/3454",
+    "wikiUrl": "https://2020.igem.org/Team:ShanghaiTech_China",
+    "division": "Undergraduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Application Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "SHSBNU_China",
+    "teamId": 3594,
+    "href": "https://teams.igem.org/3594",
+    "wikiUrl": "https://2020.igem.org/Team:SHSBNU_China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Poster",
+      "Best Model"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "SHSID",
+    "teamId": 3521,
+    "href": "https://teams.igem.org/3521",
+    "wikiUrl": "https://2020.igem.org/Team:SHSID",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SJTU-BioX-Shanghai",
+    "teamId": 3365,
+    "href": "https://teams.igem.org/3365",
+    "wikiUrl": "https://2020.igem.org/Team:SJTU-BioX-Shanghai",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SJTU-software",
+    "teamId": 3460,
+    "href": "https://teams.igem.org/3460",
+    "wikiUrl": "https://2020.igem.org/Team:SJTU-software",
+    "division": "Undergraduate",
+    "village": "Software",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SMMU-China",
+    "teamId": 3497,
+    "href": "https://teams.igem.org/3497",
+    "wikiUrl": "https://2020.igem.org/Team:SMMU-China",
+    "division": "Undergraduate",
+    "village": null,
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SMS_Shenzhen",
+    "teamId": 3628,
+    "href": "https://teams.igem.org/3628",
+    "wikiUrl": "https://2020.igem.org/Team:SMS_Shenzhen",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Sorbonne_U_Paris",
+    "teamId": 3373,
+    "href": "https://teams.igem.org/3373",
+    "wikiUrl": "https://2020.igem.org/Team:Sorbonne_U_Paris",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "Best Plant Synthetic Biology",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "St_Andrews",
+    "teamId": 3634,
+    "href": "https://teams.igem.org/3634",
+    "wikiUrl": "https://2020.igem.org/Team:St_Andrews",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Stanford",
+    "teamId": 3697,
+    "href": "https://teams.igem.org/3697",
+    "wikiUrl": "https://2020.igem.org/Team:Stanford",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Diagnostics Project",
+      "Best Education"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Stockholm",
+    "teamId": 3440,
+    "href": "https://teams.igem.org/3440",
+    "wikiUrl": "https://2020.igem.org/Team:Stockholm",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project",
+      "Best New Composite Part"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Stony_Brook",
+    "teamId": 3428,
+    "href": "https://teams.igem.org/3428",
+    "wikiUrl": "https://2020.igem.org/Team:Stony_Brook",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Stuttgart",
+    "teamId": 3379,
+    "href": "https://teams.igem.org/3379",
+    "wikiUrl": "https://2020.igem.org/Team:Stuttgart",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SUNY_Oneonta",
+    "teamId": 3389,
+    "href": "https://teams.igem.org/3389",
+    "wikiUrl": "https://2020.igem.org/Team:SUNY_Oneonta",
+    "division": "Graduate",
+    "village": "New Application",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SUSTech_Shenzhen",
+    "teamId": 3423,
+    "href": "https://teams.igem.org/3423",
+    "wikiUrl": "https://2020.igem.org/Team:SUSTech_Shenzhen",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SYSU-CHINA",
+    "teamId": 3502,
+    "href": "https://teams.igem.org/3502",
+    "wikiUrl": "https://2020.igem.org/Team:SYSU-CHINA",
+    "division": "Undergraduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SYSU-Software",
+    "teamId": 3575,
+    "href": "https://teams.igem.org/3575",
+    "wikiUrl": "https://2020.igem.org/Team:SYSU-Software",
+    "division": "Undergraduate",
+    "village": "Software",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SZ-SHD",
+    "teamId": 3686,
+    "href": "https://teams.igem.org/3686",
+    "wikiUrl": "https://2020.igem.org/Team:SZ-SHD",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Composite Part"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "SZPT-CHINA",
+    "teamId": 3487,
+    "href": "https://teams.igem.org/3487",
+    "wikiUrl": "https://2020.igem.org/Team:SZPT-CHINA",
+    "division": "Undergraduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "SZU-China",
+    "teamId": 3360,
+    "href": "https://teams.igem.org/3360",
+    "wikiUrl": "https://2020.igem.org/Team:SZU-China",
+    "division": "Undergraduate",
+    "village": "Manufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "TAS_Taipei",
+    "teamId": 3352,
+    "href": "https://teams.igem.org/3352",
+    "wikiUrl": "https://2020.igem.org/Team:TAS_Taipei",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "Best Presentation",
+      "Best Poster",
+      "Best Education",
+      "Best Measurement",
+      "Best Software Tool",
+      "Best New Basic Part",
+      "Best New Composite Part",
+      "Best Part Collection",
+      "FINALIST",
+      "GOLD MEDAL",
+      "GRAND PRIZE"
+    ],
+    "nominations": [
+      "Best Wiki",
+      "Best Integrated Human Practices",
+      "Best Model",
+      "Best Supporting Entrepreneurship",
+      "Best Hardware"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "TAU_Israel",
+    "teamId": 3413,
+    "href": "https://teams.igem.org/3413",
+    "wikiUrl": "https://2020.igem.org/Team:TAU_Israel",
+    "division": "Graduate",
+    "village": "Foundational Advance",
+    "medal": "Gold",
+    "results": [
+      "Best Software Tool",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Foundational Advance Project",
+      "Best Presentation",
+      "Best Model"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Technion-Israel",
+    "teamId": 3653,
+    "href": "https://teams.igem.org/3653",
+    "wikiUrl": "https://2020.igem.org/Team:Technion-Israel",
+    "division": "Graduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Inclusivity"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Thessaly",
+    "teamId": 3505,
+    "href": "https://teams.igem.org/3505",
+    "wikiUrl": "https://2020.igem.org/Team:Thessaly",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "TJUSLS_China",
+    "teamId": 3468,
+    "href": "https://teams.igem.org/3468",
+    "wikiUrl": "https://2020.igem.org/Team:TJUSLS_China",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Tongji_China",
+    "teamId": 3475,
+    "href": "https://teams.igem.org/3475",
+    "wikiUrl": "https://2020.igem.org/Team:Tongji_China",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Tongji_Software",
+    "teamId": 3483,
+    "href": "https://teams.igem.org/3483",
+    "wikiUrl": "https://2020.igem.org/Team:Tongji_Software",
+    "division": "Graduate",
+    "village": "Software",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Toulouse_INSA-UPS",
+    "teamId": 3570,
+    "href": "https://teams.igem.org/3570",
+    "wikiUrl": "https://2020.igem.org/Team:Toulouse_INSA-UPS",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "Best Poster",
+      "FINALIST",
+      "GOLD MEDAL",
+      "FIRST RUNNER-UP"
+    ],
+    "nominations": [
+      "Best Food & Nutrition Project",
+      "Best Wiki",
+      "Best Presentation",
+      "Best Education",
+      "Best Supporting Entrepreneurship",
+      "Best Sustainable Development Impact"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "TPR_China",
+    "teamId": 3599,
+    "href": "https://teams.igem.org/3599",
+    "wikiUrl": "https://2020.igem.org/Team:TPR_China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Tsinghua",
+    "teamId": 3369,
+    "href": "https://teams.igem.org/3369",
+    "wikiUrl": "https://2020.igem.org/Team:Tsinghua",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Tsinghua-A",
+    "teamId": 3374,
+    "href": "https://teams.igem.org/3374",
+    "wikiUrl": "https://2020.igem.org/Team:Tsinghua-A",
+    "division": "Undergraduate",
+    "village": "Information Processing",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "TU_Darmstadt",
+    "teamId": 3429,
+    "href": "https://teams.igem.org/3429",
+    "wikiUrl": "https://2020.igem.org/Team:TU_Darmstadt",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "Best Sustainable Development Impact",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project",
+      "Best Wiki"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "TU_Kaiserslautern",
+    "teamId": 3589,
+    "href": "https://teams.igem.org/3589",
+    "wikiUrl": "https://2020.igem.org/Team:TU_Kaiserslautern",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "Best Environment Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Best New Basic Part",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "TUDelft",
+    "teamId": 3407,
+    "href": "https://teams.igem.org/3407",
+    "wikiUrl": "https://2020.igem.org/Team:TUDelft",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "Best Food & Nutrition Project",
+      "Best Presentation",
+      "Best Poster",
+      "Best Integrated Human Practices",
+      "Best New Basic Part",
+      "Safety & Security",
+      "Best New Composite Part",
+      "iGEMers Prize",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Wiki",
+      "Best Education",
+      "Best Supporting Entrepreneurship",
+      "Best Sustainable Development Impact",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Tuebingen",
+    "teamId": 3510,
+    "href": "https://teams.igem.org/3510",
+    "wikiUrl": "https://2020.igem.org/Team:Tuebingen",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UC_Davis",
+    "teamId": 3669,
+    "href": "https://teams.igem.org/3669",
+    "wikiUrl": "https://2020.igem.org/Team:UC_Davis",
+    "division": "Graduate",
+    "village": "Software",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UC_San_Diego",
+    "teamId": 3613,
+    "href": "https://teams.igem.org/3613",
+    "wikiUrl": "https://2020.igem.org/Team:UC_San_Diego",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UCAS-China",
+    "teamId": 3392,
+    "href": "https://teams.igem.org/3392",
+    "wikiUrl": "https://2020.igem.org/Team:UCAS-China",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UChicago",
+    "teamId": 3436,
+    "href": "https://teams.igem.org/3436",
+    "wikiUrl": "https://2020.igem.org/Team:UChicago",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UCL",
+    "teamId": 3601,
+    "href": "https://teams.igem.org/3601",
+    "wikiUrl": "https://2020.igem.org/Team:UCL",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UCopenhagen",
+    "teamId": 3617,
+    "href": "https://teams.igem.org/3617",
+    "wikiUrl": "https://2020.igem.org/Team:UCopenhagen",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "Best Education",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Presentation",
+      "Best Integrated Human Practices",
+      "Best New Basic Part"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "UCSC",
+    "teamId": 3426,
+    "href": "https://teams.igem.org/3426",
+    "wikiUrl": "https://2020.igem.org/Team:UCSC",
+    "division": "Graduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "UESTC-Software",
+    "teamId": 3404,
+    "href": "https://teams.igem.org/3404",
+    "wikiUrl": "https://2020.igem.org/Team:UESTC-Software",
+    "division": "Undergraduate",
+    "village": "Software",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Software Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "UFlorida",
+    "teamId": 3424,
+    "href": "https://teams.igem.org/3424",
+    "wikiUrl": "https://2020.igem.org/Team:UFlorida",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UGent_Belgium",
+    "teamId": 3687,
+    "href": "https://teams.igem.org/3687",
+    "wikiUrl": "https://2020.igem.org/Team:UGent_Belgium",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UGent2_Belgium",
+    "teamId": 3701,
+    "href": "https://teams.igem.org/3701",
+    "wikiUrl": "https://2020.igem.org/Team:UGent2_Belgium",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UiOslo_Norway",
+    "teamId": 3353,
+    "href": "https://teams.igem.org/3353",
+    "wikiUrl": "https://2020.igem.org/Team:UiOslo_Norway",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Software Tool"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "UIUC_Illinois",
+    "teamId": 3627,
+    "href": "https://teams.igem.org/3627",
+    "wikiUrl": "https://2020.igem.org/Team:UIUC_Illinois",
+    "division": "Undergraduate",
+    "village": "Software",
+    "medal": "Silver",
+    "results": [
+      "SILVER MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "ULaval",
+    "teamId": 3493,
+    "href": "https://teams.igem.org/3493",
+    "wikiUrl": "https://2020.igem.org/Team:ULaval",
+    "division": "Graduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UM_Macau",
+    "teamId": 3630,
+    "href": "https://teams.igem.org/3630",
+    "wikiUrl": "https://2020.igem.org/Team:UM_Macau",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "UMaryland",
+    "teamId": 3679,
+    "href": "https://teams.igem.org/3679",
+    "wikiUrl": "https://2020.igem.org/Team:UMaryland",
+    "division": "Graduate",
+    "village": "Diagnostics",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UNILausanne",
+    "teamId": 3482,
+    "href": "https://teams.igem.org/3482",
+    "wikiUrl": "https://2020.igem.org/Team:UNILausanne",
+    "division": "Graduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "Best Measurement",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education",
+      "Best New Composite Part",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "UNSW_Australia",
+    "teamId": 3558,
+    "href": "https://teams.igem.org/3558",
+    "wikiUrl": "https://2020.igem.org/Team:UNSW_Australia",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "Best Integrated Human Practices",
+      "Best Education",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Environment Project",
+      "Best Presentation",
+      "Best New Basic Part",
+      "Finalist"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "UofUppsala",
+    "teamId": 3425,
+    "href": "https://teams.igem.org/3425",
+    "wikiUrl": "https://2020.igem.org/Team:UofUppsala",
+    "division": "Graduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "Best New Application Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UPCH_Peru",
+    "teamId": 3612,
+    "href": "https://teams.igem.org/3612",
+    "wikiUrl": "https://2020.igem.org/Team:UPCH_Peru",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UPF_Barcelona",
+    "teamId": 3484,
+    "href": "https://teams.igem.org/3484",
+    "wikiUrl": "https://2020.igem.org/Team:UPF_Barcelona",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "Best Wiki",
+      "Best New Basic Part",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Therapeutics Project",
+      "Best Presentation",
+      "Best Poster"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "USAFA",
+    "teamId": 3347,
+    "href": "https://teams.igem.org/3347",
+    "wikiUrl": "https://2020.igem.org/Team:USAFA",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "USTC-Software",
+    "teamId": 3336,
+    "href": "https://teams.igem.org/3336",
+    "wikiUrl": "https://2020.igem.org/Team:USTC-Software",
+    "division": "Undergraduate",
+    "village": "Software",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UTTyler",
+    "teamId": 3339,
+    "href": "https://teams.igem.org/3339",
+    "wikiUrl": "https://2020.igem.org/Team:UTTyler",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UUlm",
+    "teamId": 3443,
+    "href": "https://teams.igem.org/3443",
+    "wikiUrl": "https://2020.igem.org/Team:UUlm",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Bronze",
+    "results": [
+      "BRONZE MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "UZurich",
+    "teamId": 3610,
+    "href": "https://teams.igem.org/3610",
+    "wikiUrl": "https://2020.igem.org/Team:UZurich",
+    "division": "Undergraduate",
+    "village": "New Application",
+    "medal": "Gold",
+    "results": [
+      "Best New Application Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best New Basic Part",
+      "Best Part Collection"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Vilnius-Lithuania",
+    "teamId": 3416,
+    "href": "https://teams.igem.org/3416",
+    "wikiUrl": "https://2020.igem.org/Team:Vilnius-Lithuania",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "Best Environment Project",
+      "Best Measurement",
+      "FINALIST",
+      "GOLD MEDAL",
+      "GRAND PRIZE"
+    ],
+    "nominations": [
+      "Best Wiki",
+      "Best Presentation",
+      "Best Poster",
+      "Best Model",
+      "Best Software Tool",
+      "Best Hardware"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Virginia",
+    "teamId": 3615,
+    "href": "https://teams.igem.org/3615",
+    "wikiUrl": "https://2020.igem.org/Team:Virginia",
+    "division": "Undergraduate",
+    "village": "Manufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Warwick",
+    "teamId": 3625,
+    "href": "https://teams.igem.org/3625",
+    "wikiUrl": "https://2020.igem.org/Team:Warwick",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Waseda",
+    "teamId": 3580,
+    "href": "https://teams.igem.org/3580",
+    "wikiUrl": "https://2020.igem.org/Team:Waseda",
+    "division": "Undergraduate",
+    "village": "Information Processing",
+    "medal": "Gold",
+    "results": [
+      "Best Information Processing Project",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Education"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Waterloo",
+    "teamId": 3381,
+    "href": "https://teams.igem.org/3381",
+    "wikiUrl": "https://2020.igem.org/Team:Waterloo",
+    "division": "Undergraduate",
+    "village": "Manufacturing",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Manufacturing Project",
+      "Best Wiki",
+      "Best Inclusivity"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "WHU-China",
+    "teamId": 3562,
+    "href": "https://teams.igem.org/3562",
+    "wikiUrl": "https://2020.igem.org/Team:WHU-China",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "William_and_Mary",
+    "teamId": 3517,
+    "href": "https://teams.igem.org/3517",
+    "wikiUrl": "https://2020.igem.org/Team:William_and_Mary",
+    "division": "Undergraduate",
+    "village": "Therapeutics",
+    "medal": "Gold",
+    "results": [
+      "Best Therapeutics Project",
+      "Best Model",
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Poster",
+      "Best Integrated Human Practices"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "Worldshaper-Nanjing",
+    "teamId": 3578,
+    "href": "https://teams.igem.org/3578",
+    "wikiUrl": "https://2020.igem.org/Team:Worldshaper-Nanjing",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Worldshaper-Shanghai",
+    "teamId": 3577,
+    "href": "https://teams.igem.org/3577",
+    "wikiUrl": "https://2020.igem.org/Team:Worldshaper-Shanghai",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Worldshaper-Wuhan",
+    "teamId": 3638,
+    "href": "https://teams.igem.org/3638",
+    "wikiUrl": "https://2020.igem.org/Team:Worldshaper-Wuhan",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "XH-China",
+    "teamId": 3568,
+    "href": "https://teams.igem.org/3568",
+    "wikiUrl": "https://2020.igem.org/Team:XH-China",
+    "division": "High School",
+    "village": "High School",
+    "medal": null,
+    "results": [],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "XHD-ShanDong-China",
+    "teamId": 3698,
+    "href": "https://teams.igem.org/3698",
+    "wikiUrl": "https://2020.igem.org/Team:XHD-ShanDong-China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "XHD-Wuhan-China",
+    "teamId": 3560,
+    "href": "https://teams.igem.org/3560",
+    "wikiUrl": "https://2020.igem.org/Team:XHD-Wuhan-China",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "Xiamen_city",
+    "teamId": 3523,
+    "href": "https://teams.igem.org/3523",
+    "wikiUrl": "https://2020.igem.org/Team:Xiamen_city",
+    "division": "High School",
+    "village": "High School",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "XJTU-China",
+    "teamId": 3331,
+    "href": "https://teams.igem.org/3331",
+    "wikiUrl": "https://2020.igem.org/Team:XJTU-China",
+    "division": "Undergraduate",
+    "village": "Environment",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "XMU-China",
+    "teamId": 3332,
+    "href": "https://teams.igem.org/3332",
+    "wikiUrl": "https://2020.igem.org/Team:XMU-China",
+    "division": "Undergraduate",
+    "village": "Food & Nutrition",
+    "medal": "Gold",
+    "results": [
+      "Best Food & Nutrition Project",
+      "Best Presentation",
+      "Best Part Collection",
+      "FINALIST",
+      "GOLD MEDAL",
+      "SECOND RUNNER-UP"
+    ],
+    "nominations": [
+      "Best Wiki",
+      "Best New Basic Part"
+    ]
+  },
+  {
+    "year": 2020,
+    "teamName": "ZJU-China",
+    "teamId": 3398,
+    "href": "https://teams.igem.org/3398",
+    "wikiUrl": "https://2020.igem.org/Team:ZJU-China",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": []
+  },
+  {
+    "year": 2020,
+    "teamName": "ZJUT_China_B",
+    "teamId": 3406,
+    "href": "https://teams.igem.org/3406",
+    "wikiUrl": "https://2020.igem.org/Team:ZJUT_China_B",
+    "division": "Undergraduate",
+    "village": "Diagnostics",
+    "medal": "Gold",
+    "results": [
+      "GOLD MEDAL"
+    ],
+    "nominations": [
+      "Best Hardware"
+    ]
+  }
+]
