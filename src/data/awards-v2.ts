@@ -16,6 +16,7 @@ export interface TeamAwardRecord {
   villageAwards: TeamPrize[];
   medal: 'Gold' | 'Silver' | 'Bronze' | null;
   specialPrizes: TeamPrize[];
+  countries: string[];
 }
 
 export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
@@ -43,7 +44,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Aalto-Helsinki",
@@ -69,7 +71,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-AFCM-Egypt",
@@ -86,7 +89,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-AIS-China",
@@ -116,7 +120,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-AshesiGhana",
@@ -146,7 +151,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Austin-UTexas",
@@ -163,7 +169,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-BANZ-SZA",
@@ -180,7 +187,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Barcelona-UB",
@@ -209,8 +217,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Bioplus-Shanghai",
@@ -227,7 +240,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-BIT-China",
@@ -253,7 +267,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-BNDS-China",
@@ -282,8 +297,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-BNU-China",
@@ -309,7 +329,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-BohemiaBio",
@@ -326,7 +347,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Boston-BOSLab",
@@ -356,7 +378,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Brno-Czech-Republic",
@@ -385,7 +408,14 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Czech Republic"
     ]
   },
   {
@@ -408,7 +438,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-BUCT-China",
@@ -429,7 +460,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-CAU-China",
@@ -446,7 +478,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-CJUH-JLU-China",
@@ -468,7 +501,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Concordia-Shanghai",
@@ -485,7 +519,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-Cornell",
@@ -507,7 +542,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-DBHS-CA",
@@ -524,7 +560,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-DTU-Denmark",
@@ -554,7 +591,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-DUESSELDORF",
@@ -571,7 +609,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-Duke",
@@ -588,7 +627,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Ecuador",
@@ -610,7 +650,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-EPFL",
@@ -639,7 +680,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Switzerland"
     ]
   },
   {
@@ -662,7 +714,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-ETH-Zurich",
@@ -679,7 +732,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Evry-Paris-Saclay",
@@ -696,7 +750,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Freiburg",
@@ -726,7 +781,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Fudan",
@@ -743,7 +799,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-GCGS",
@@ -769,7 +826,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-GEC-Guangzhou",
@@ -790,7 +848,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-GEMS-Taiwan",
@@ -819,8 +878,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Education",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-GHCIS",
@@ -837,7 +901,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-GreatBay-SCIE",
@@ -866,7 +931,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Integrated Human Practices",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "China"
     ]
   },
   {
@@ -893,7 +969,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-GU-Frankfurt",
@@ -915,7 +992,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-GYHS",
@@ -932,7 +1010,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Hamburg",
@@ -949,7 +1028,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-Hangzhou-MedX",
@@ -966,7 +1046,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Hangzhou-PET",
@@ -988,7 +1069,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Heidelberg",
@@ -1017,7 +1099,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Education",
         "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Germany"
     ]
   },
   {
@@ -1044,7 +1137,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-HiZJU-China",
@@ -1061,7 +1155,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-HK-Joint-School",
@@ -1087,7 +1182,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-HKSSC",
@@ -1108,7 +1204,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-HongKong-JSS",
@@ -1125,7 +1222,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Hongwen-School",
@@ -1146,7 +1244,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-HPI-Potsdam",
@@ -1176,7 +1275,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-HSID",
@@ -1193,7 +1293,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-HUST-China",
@@ -1210,7 +1311,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "iGEMers Prize",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-HWFLA-Beijing",
@@ -1227,7 +1329,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-HZAU-China",
@@ -1249,7 +1352,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-IISc-Bengaluru",
@@ -1266,7 +1370,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-ISBICS",
@@ -1283,7 +1388,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-IZJU-China",
@@ -1309,6 +1415,9 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
+    ],
+    "countries": [
+      "China"
     ]
   },
   {
@@ -1326,7 +1435,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-JLU-CP",
@@ -1347,7 +1457,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-JLU-NBBMS",
@@ -1369,7 +1480,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Keystone",
@@ -1386,7 +1498,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-KhanLab-BayArea",
@@ -1403,7 +1516,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-KIS-BKK",
@@ -1420,7 +1534,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Lambert-GA",
@@ -1449,8 +1564,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Education",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Leiden",
@@ -1467,7 +1587,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-LINKS-China",
@@ -1488,7 +1609,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Lund",
@@ -1510,7 +1632,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-LYON",
@@ -1536,7 +1659,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Marburg",
@@ -1565,8 +1689,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Integrated Human Practices",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-MBG-DUTh",
@@ -1583,7 +1716,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-McGill",
@@ -1609,6 +1743,9 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Canada"
     ]
   },
   {
@@ -1631,7 +1768,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-MIT-MAHE",
@@ -1648,7 +1786,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-MPA-USA",
@@ -1669,7 +1808,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-MSP-Maastricht",
@@ -1695,7 +1835,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Munich",
@@ -1724,8 +1865,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Integrated Human Practices",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-NAIS",
@@ -1742,7 +1892,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-NJTech-China",
@@ -1764,7 +1915,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Improved Part",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-NJTECH-CHINA-A",
@@ -1781,7 +1933,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-NJU-China",
@@ -1803,7 +1956,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-NU-Boston",
@@ -1820,7 +1974,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-NU-Kazakhstan",
@@ -1841,7 +1996,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-NUDT-CHINA",
@@ -1862,7 +2018,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-NUS-Singapore",
@@ -1888,7 +2045,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-NYCU-Formosa",
@@ -1910,7 +2068,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-NYU-Abu-Dhabi",
@@ -1927,7 +2086,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Patras-Med",
@@ -1956,8 +2116,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Wiki",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-PCA-Korea",
@@ -1986,8 +2151,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Wiki",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Integrated Human Practices",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Peking",
@@ -2013,7 +2183,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-PekingHSC",
@@ -2043,7 +2214,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-PuiChing-Macau",
@@ -2060,7 +2232,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Queens-Canada",
@@ -2082,7 +2255,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-RDFZ-CHINA",
@@ -2099,7 +2273,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-REC-CHENNAI",
@@ -2116,7 +2291,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-Rochester",
@@ -2146,7 +2322,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-RUM-UPRM",
@@ -2163,7 +2340,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SCU-China",
@@ -2185,7 +2363,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Shanghai-SDG",
@@ -2211,7 +2390,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Shanghaitech-China",
@@ -2237,7 +2417,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SHSBNU-China",
@@ -2259,7 +2440,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SHSID",
@@ -2283,8 +2465,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Education",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SMS-Shenzhen",
@@ -2301,7 +2488,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SMU-Union-China",
@@ -2327,7 +2515,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SR-China",
@@ -2349,7 +2538,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SR-Shenzhen",
@@ -2366,7 +2556,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Promotion Video",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Stanford",
@@ -2383,7 +2574,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-Stuttgart",
@@ -2400,7 +2592,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SubCat-Greatbay",
@@ -2421,7 +2614,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SUIS-PINGHE",
@@ -2438,7 +2632,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SUSTech-BIO",
@@ -2467,8 +2662,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Wiki",
         "status": "Nominee"
+      },
+      {
+        "name": "Inclusivity Award",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Entrepreneurship",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-SZU-China",
@@ -2490,7 +2694,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Promotion Video",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Taipei-KCISLK-V3",
@@ -2511,7 +2716,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-TAU-Israel",
@@ -2537,7 +2743,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Technion-Israel",
@@ -2554,7 +2761,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Thailand-RIS",
@@ -2575,7 +2783,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Thessaloniki",
@@ -2601,7 +2810,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Thessaly",
@@ -2618,7 +2828,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Tianjin",
@@ -2635,7 +2846,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Toronto",
@@ -2657,7 +2869,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Tsinghua",
@@ -2674,7 +2887,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Tsukuba",
@@ -2691,7 +2905,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-TU-Dresden",
@@ -2708,7 +2923,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-TU-Eindhoven",
@@ -2737,8 +2953,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Entrepreneurship",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-TUDarmstadt",
@@ -2767,8 +2988,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Hardware",
         "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-UBC-Vancouver",
@@ -2790,7 +3016,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-UCalgary",
@@ -2807,7 +3034,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-UCS-A",
@@ -2824,7 +3052,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-UiOslo-Norway",
@@ -2845,7 +3074,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-UNICAMP-Brazil",
@@ -2875,7 +3105,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-UNILausanne",
@@ -2905,7 +3136,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-UniMuenster",
@@ -2926,7 +3158,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-UOttawa",
@@ -2952,7 +3185,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-Uprize-I",
@@ -2981,7 +3215,22 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Wiki",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Integrated Human Practices",
+        "status": "Nominee"
+      },
+      {
+        "name": "Safety and Security Award",
+        "status": "Winner"
+      },
+      {
+        "name": "iGEMers Prize",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "China"
     ]
   },
   {
@@ -2999,7 +3248,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-USP-Brazil",
@@ -3021,7 +3271,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-UTDallas",
@@ -3038,7 +3289,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-WageningenUR",
@@ -3067,8 +3319,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Wiki",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Integrated Human Practices",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Entrepreneurship",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-WLSA-ShanghaiAcademy",
@@ -3094,7 +3355,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-XJTLU-CHINA",
@@ -3111,7 +3373,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-XJTLU-Science-China",
@@ -3137,7 +3400,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2025-XJTLU-Software",
@@ -3154,7 +3418,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2025-XMU-China",
@@ -3176,7 +3441,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Aachen",
@@ -3205,7 +3471,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Education",
         "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Germany"
     ]
   },
   {
@@ -3223,7 +3500,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-AFCM-Egypt",
@@ -3244,7 +3522,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-AIS-China",
@@ -3268,8 +3547,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Entrepreneurship",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Athens",
@@ -3286,7 +3574,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Austin-utexas",
@@ -3308,7 +3597,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-BASIS-China",
@@ -3325,7 +3615,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Promotion Video",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-BGI-MammothEdu-East",
@@ -3346,7 +3637,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Bielefeld-CeBiTec",
@@ -3371,7 +3663,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-BIT-China",
@@ -3397,7 +3690,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-BKEA",
@@ -3421,8 +3715,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-BNDS-China",
@@ -3439,7 +3738,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-BNUZH-China",
@@ -3469,7 +3769,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Boston-BOSLab",
@@ -3490,7 +3791,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-BUCT-China",
@@ -3507,7 +3809,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Cambridge",
@@ -3524,7 +3827,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-CAU-China",
@@ -3550,7 +3854,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-City-of-London-UK",
@@ -3567,7 +3872,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-CityU-HongKong",
@@ -3593,7 +3899,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-CJUH-JLU-China",
@@ -3622,8 +3929,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-CNPEM-BRAZIL",
@@ -3640,7 +3952,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-Concordia-Shanghai",
@@ -3657,7 +3970,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Cornell",
@@ -3674,7 +3988,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-DTU-Denmark",
@@ -3704,7 +4019,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-EPFL",
@@ -3734,7 +4050,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Evry-Paris-Saclay",
@@ -3751,7 +4068,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-Exeter",
@@ -3777,7 +4095,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Formosa",
@@ -3801,8 +4120,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Wiki",
         "status": "Nominee"
+      },
+      {
+        "name": "iGEMers Prize",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Freiburg",
@@ -3831,8 +4155,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Fudan",
@@ -3862,7 +4195,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-GEC-Beijing",
@@ -3883,7 +4217,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-GEC-Guangzhou",
@@ -3900,7 +4235,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-GEMS-Taiwan",
@@ -3924,7 +4260,22 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Education",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Promotion Video",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Taiwan"
     ]
   },
   {
@@ -3949,7 +4300,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "China"
     ]
   },
   {
@@ -3976,7 +4338,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Hangzhou-BioX",
@@ -3997,7 +4360,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Hangzhou-SDG",
@@ -4018,7 +4382,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Hannover",
@@ -4035,7 +4400,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-HBUT-China",
@@ -4056,7 +4422,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Heidelberg",
@@ -4085,7 +4452,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Education",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Germany"
     ]
   },
   {
@@ -4116,7 +4494,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-HK-Joint-School",
@@ -4137,7 +4516,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-HKPOLYU",
@@ -4159,7 +4539,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-HKUST-GZ",
@@ -4176,7 +4557,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-HongKong-CUHK",
@@ -4193,7 +4575,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-HongKong-JSS",
@@ -4214,7 +4597,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-HongKong-UCCKE",
@@ -4235,7 +4619,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-HUST-China",
@@ -4252,7 +4637,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "iGEMers Prize",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-HWFLA-Beijing",
@@ -4269,7 +4655,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-IEA",
@@ -4290,7 +4677,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-IISER-Kolkata",
@@ -4307,7 +4695,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-IISER-TVM",
@@ -4329,7 +4718,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Promotion Video",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-IIT-Bombay",
@@ -4346,7 +4736,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-Imperial-College",
@@ -4363,7 +4754,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-IOANNINA",
@@ -4389,7 +4781,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Ionis-Paris",
@@ -4415,7 +4808,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-iZJU-China",
@@ -4432,7 +4826,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-JIASHU-Shanghai",
@@ -4449,7 +4844,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-JIASHU-SouthChina",
@@ -4466,7 +4862,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-JU-Krakow",
@@ -4495,7 +4892,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Poland"
     ]
   },
   {
@@ -4513,7 +4921,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Keystone",
@@ -4537,8 +4946,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Korea-HS",
@@ -4555,7 +4969,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-KULeuven",
@@ -4580,7 +4995,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Kyoto",
@@ -4602,7 +5018,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Lambert-GA",
@@ -4619,7 +5036,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-LCG-Global",
@@ -4644,7 +5062,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Leiden",
@@ -4661,7 +5080,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-LINKS-China",
@@ -4682,7 +5102,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Lund",
@@ -4699,7 +5120,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-Madrid-UCM",
@@ -4716,7 +5138,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Marburg",
@@ -4745,7 +5168,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Germany"
     ]
   },
   {
@@ -4772,7 +5206,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Michigan",
@@ -4789,7 +5224,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Munich",
@@ -4806,7 +5242,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Nanjing-China",
@@ -4828,7 +5265,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-NEFU-China",
@@ -4849,7 +5287,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-NJTech-China",
@@ -4866,7 +5305,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Improved Part",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-NJU-China",
@@ -4883,7 +5323,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-NMU-China",
@@ -4900,7 +5341,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-NNHS",
@@ -4921,7 +5363,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-NNU-CHINA",
@@ -4938,7 +5381,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-NU-Kazakhstan",
@@ -4960,7 +5404,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-NYC-Empire-State",
@@ -4981,7 +5426,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-NYU-Abu-Dhabi",
@@ -4998,7 +5444,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-Oxford",
@@ -5015,7 +5462,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-Patras",
@@ -5032,7 +5480,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Patras-Med",
@@ -5058,13 +5507,14 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-PekingHSC",
     "teamName": "PekingHSC",
     "year": 2024,
-    "division": null,
+    "division": "High School",
     "village": "Oncology",
     "grandPrizeLevel": null,
     "top10": false,
@@ -5075,7 +5525,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-RainsACA-China",
@@ -5092,7 +5543,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-RDFZ-CHINA",
@@ -5116,8 +5568,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-SCU-China",
@@ -5139,7 +5596,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-SDU-Denmark",
@@ -5156,7 +5614,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Songshan-Lake",
@@ -5173,7 +5632,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Improved Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Squirrel-Shenzhen",
@@ -5190,7 +5650,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Stanford",
@@ -5220,7 +5681,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-SubCat-HS",
@@ -5237,7 +5699,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Sydney-Australia",
@@ -5266,7 +5729,14 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Australia"
     ]
   },
   {
@@ -5289,7 +5759,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-TecCEM",
@@ -5306,7 +5777,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Thailand-RIS",
@@ -5327,7 +5799,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Thessaly",
@@ -5353,7 +5826,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-TJUSLS-China",
@@ -5370,7 +5844,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Improved Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Toulouse-INSA-UPS",
@@ -5399,8 +5874,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Entrepreneurship",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Tsinghua",
@@ -5430,7 +5910,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-TU-Dresden",
@@ -5452,7 +5933,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-TU-Eindhoven",
@@ -5474,7 +5956,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-TUDarmstadt",
@@ -5496,7 +5979,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-TUM-Straubing",
@@ -5518,7 +6002,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-UBC-Vancouver",
@@ -5544,7 +6029,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-UCalgary",
@@ -5565,7 +6051,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-UChicago",
@@ -5582,7 +6069,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-UCopenhagen",
@@ -5612,7 +6100,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Ulink-SZ",
@@ -5629,7 +6118,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-UManitoba",
@@ -5646,7 +6136,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Uni-Padua-IT",
@@ -5668,7 +6159,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-UNILausanne",
@@ -5694,7 +6186,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-UniMuenster",
@@ -5719,7 +6212,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-uOttawa",
@@ -5741,7 +6235,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-UppsalaUniversity",
@@ -5758,7 +6253,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-UTokyo",
@@ -5775,7 +6271,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2024-UToronto",
@@ -5805,7 +6302,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-UZurich",
@@ -5831,7 +6329,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Vilnius-Lithuania",
@@ -5861,7 +6360,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-WageningenUR",
@@ -5890,8 +6390,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-Waseda-Tokyo",
@@ -5921,7 +6426,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-WFL-HangzhouBay",
@@ -5938,7 +6444,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Improved Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-William-and-Mary",
@@ -5960,7 +6467,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-XMU-China",
@@ -5986,7 +6494,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2024-ZQT-Nanjing",
@@ -6003,7 +6512,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Aachen",
@@ -6020,7 +6530,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Aalto-Helsinki",
@@ -6050,7 +6561,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-AFCM-Egypt",
@@ -6071,7 +6583,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-AIS-China",
@@ -6095,8 +6608,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Entrepreneurship",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Alma",
@@ -6113,7 +6631,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-ASIJ-Tokyo",
@@ -6130,7 +6649,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Austin-UTexas",
@@ -6156,7 +6676,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-BAID-China",
@@ -6173,7 +6694,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Barcelona-UB",
@@ -6190,7 +6712,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-BASIS-China",
@@ -6214,7 +6737,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "China"
     ]
   },
   {
@@ -6240,7 +6774,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-BJHS",
@@ -6257,7 +6792,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-BNDS-China",
@@ -6274,7 +6810,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-BNU-China",
@@ -6296,7 +6833,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-BNUZH-China",
@@ -6313,7 +6851,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-BostonU-HW",
@@ -6330,7 +6869,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-BS-United-China",
@@ -6351,7 +6891,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-BUCT-China",
@@ -6373,7 +6914,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-BZK-SH",
@@ -6390,7 +6932,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-CAU-China",
@@ -6407,7 +6950,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-CCU-Taiwan",
@@ -6424,7 +6968,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-CPU-CHINA",
@@ -6441,7 +6986,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-DTU-Denmark",
@@ -6467,7 +7013,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-DUT-China",
@@ -6484,7 +7031,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-EastCoastBioCrew",
@@ -6501,7 +7049,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Edinburgh",
@@ -6522,7 +7071,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-EPFL",
@@ -6548,7 +7098,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Estonia-TUIT",
@@ -6577,7 +7128,14 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Wiki",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Education",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Estonia"
     ]
   },
   {
@@ -6599,7 +7157,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Freiburg",
@@ -6625,7 +7184,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Fudan",
@@ -6651,7 +7211,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-GEMS-Taiwan",
@@ -6668,7 +7229,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "iGEMers Prize",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-GreatBay-SCIE",
@@ -6692,8 +7254,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Hamburg",
@@ -6715,7 +7282,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Hangzhou-BioX",
@@ -6732,7 +7300,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Heidelberg",
@@ -6761,8 +7330,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Sustainable Development Impact",
         "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-HK-Joint-School",
@@ -6783,7 +7357,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-HongKong-JSS",
@@ -6800,7 +7375,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-HUST-China",
@@ -6829,8 +7405,21 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "iGEMers Prize",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Promotion Video",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-IISER-Pune-India",
@@ -6860,7 +7449,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-IISER-TVM",
@@ -6882,7 +7472,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-IIT-Roorkee",
@@ -6899,7 +7490,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-INSAENSLyon1",
@@ -6925,7 +7517,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Japan-United",
@@ -6949,7 +7542,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Education",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Japan"
     ]
   },
   {
@@ -6967,7 +7571,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Korea-HS",
@@ -6992,7 +7597,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-KUAS-SEOUL",
@@ -7009,7 +7615,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-Kyoto",
@@ -7031,7 +7638,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Lambert-GA",
@@ -7055,8 +7663,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Inclusivity Award",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Latvia-Riga",
@@ -7073,7 +7686,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Leiden",
@@ -7102,7 +7716,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Netherlands"
     ]
   },
   {
@@ -7128,7 +7753,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Marburg",
@@ -7149,7 +7775,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-McGill",
@@ -7179,6 +7806,9 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Canada"
     ]
   },
   {
@@ -7196,7 +7826,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-MSP-Maastricht",
@@ -7226,7 +7857,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-MunichBioinformatics",
@@ -7248,7 +7880,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Nanjing-SDG",
@@ -7272,8 +7905,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-NAU-CHINA",
@@ -7295,7 +7933,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-NavarraBG",
@@ -7312,7 +7951,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-NIS-Kazakhstan",
@@ -7337,7 +7977,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Promotion Video",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-NJTech-China-A",
@@ -7354,7 +7995,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Improved Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-NJTech-China-B",
@@ -7371,7 +8013,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Improved Part",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-NJU-China",
@@ -7388,7 +8031,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-NMU-China",
@@ -7410,7 +8054,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-NNU-CHINA",
@@ -7432,7 +8077,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-NUDT-CHINA",
@@ -7449,7 +8095,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-NUS-Singapore",
@@ -7478,7 +8125,14 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Singapore"
     ]
   },
   {
@@ -7500,7 +8154,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Oxford",
@@ -7517,7 +8172,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-PuiChing-Macau",
@@ -7538,7 +8194,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-RDFZ-CHINA",
@@ -7559,7 +8216,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Rochester",
@@ -7576,7 +8234,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-SCU-China",
@@ -7593,7 +8252,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-SDU-Denmark",
@@ -7623,7 +8283,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Shanghai-SDG",
@@ -7644,7 +8305,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-ShanghaiTech-China",
@@ -7670,7 +8332,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Sheffield",
@@ -7687,7 +8350,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-SHSID-China",
@@ -7704,7 +8368,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Improved Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-SJTU-software",
@@ -7721,7 +8386,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-Squirrel-Beijing-I",
@@ -7738,7 +8404,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Stanford",
@@ -7760,7 +8427,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-SZ-SHD",
@@ -7785,7 +8453,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-SZU-China",
@@ -7815,7 +8484,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Taipei-KCISLK-V1",
@@ -7836,7 +8506,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-TAU-Israel",
@@ -7853,7 +8524,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Tec-Chihuahua",
@@ -7879,7 +8551,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Technion-Israel",
@@ -7900,7 +8573,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-TecMonterreyGDL",
@@ -7917,7 +8591,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Thailand-RIS",
@@ -7934,7 +8609,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-thessaloniki",
@@ -7951,7 +8627,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Thessaly",
@@ -7980,8 +8657,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Wiki",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Education",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Thinker-Guangdong",
@@ -7998,7 +8680,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-TJUSLS-China",
@@ -8015,7 +8698,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-Toronto",
@@ -8044,8 +8728,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Entrepreneurship",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Toulouse-INSA-UPS",
@@ -8075,7 +8768,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Tsinghua",
@@ -8097,7 +8791,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Tsinghua-TFL",
@@ -8118,7 +8813,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-TU-Braunschweig",
@@ -8140,7 +8836,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-TU-Dresden",
@@ -8166,7 +8863,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-TU-Eindhoven",
@@ -8192,7 +8890,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-UBC-Okanagan",
@@ -8218,7 +8917,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-UCAS-China",
@@ -8244,7 +8944,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-UCSC",
@@ -8261,7 +8962,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-UGM-Indonesia",
@@ -8283,7 +8985,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-UiOslo-Norway",
@@ -8300,7 +9003,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-UManitoba",
@@ -8317,7 +9021,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Uni-Padua-IT",
@@ -8334,7 +9039,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-UNILausanne",
@@ -8351,7 +9057,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-UniMuenster",
@@ -8368,7 +9075,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-UOregon",
@@ -8385,7 +9093,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-USAFA",
@@ -8402,7 +9111,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-UTokyo",
@@ -8423,7 +9133,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-UZurich",
@@ -8440,7 +9151,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-Vilnius-Lithuania",
@@ -8469,7 +9181,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Education",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Lithuania"
     ]
   },
   {
@@ -8487,7 +9210,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-WageningenUR",
@@ -8504,7 +9228,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2023-Westlake-China",
@@ -8521,7 +9246,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-WHU-China",
@@ -8551,7 +9277,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-William-and-Mary",
@@ -8581,7 +9308,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-WIST",
@@ -8598,7 +9326,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-WrightState-OH",
@@ -8620,7 +9349,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-XHD-WuHan-China",
@@ -8637,7 +9367,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-XMU-China",
@@ -8654,7 +9385,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-ZJFH-Nanjing",
@@ -8671,7 +9403,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2023-ZJU-China",
@@ -8700,8 +9433,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Aachen",
@@ -8723,7 +9461,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-AFCM-Egypt",
@@ -8740,7 +9479,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Athens",
@@ -8761,7 +9501,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Austin_UTexas",
@@ -8787,7 +9528,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-BFSU-ICUnited",
@@ -8804,7 +9546,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Bio-Brussels",
@@ -8821,7 +9564,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-BJEA_China",
@@ -8842,7 +9586,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-BostonU_HW",
@@ -8859,7 +9604,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-BS_United_China",
@@ -8884,7 +9630,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Calgary",
@@ -8901,7 +9648,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Cambridge",
@@ -8918,7 +9666,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-CAU_China",
@@ -8948,7 +9697,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Chalmers-Gothenburg",
@@ -8965,7 +9715,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-City_of_London_UK",
@@ -8986,7 +9737,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-CPU_CHINA",
@@ -9003,7 +9755,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-CU-Boulder",
@@ -9020,7 +9773,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-DUT_China",
@@ -9042,7 +9796,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Edinburgh-UHAs_Ghana",
@@ -9059,7 +9814,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-EPFL",
@@ -9089,7 +9845,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Estonia_TUIT",
@@ -9106,7 +9863,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Evry_Paris-Saclay",
@@ -9123,7 +9881,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Exeter",
@@ -9149,7 +9908,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Freiburg",
@@ -9166,7 +9926,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-Fudan",
@@ -9190,8 +9951,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Fujian_United",
@@ -9208,7 +9978,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-GEMS_Taiwan",
@@ -9232,8 +10003,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Supporting Entrepreneurship",
         "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "Safety and Security Award",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-GreatBay_SCIE",
@@ -9254,7 +10034,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Groningen",
@@ -9271,7 +10052,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-HKUST",
@@ -9300,7 +10082,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "Safety and Security Award",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Hong Kong"
     ]
   },
   {
@@ -9318,7 +10111,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-ICJFLS",
@@ -9343,7 +10137,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-IISc-Bengaluru",
@@ -9360,7 +10155,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-IISER_Mohali",
@@ -9382,7 +10178,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-IISER_TVM",
@@ -9412,7 +10209,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-IISER-Pune2_India",
@@ -9441,8 +10239,25 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
+      },
+      {
+        "name": "Inclusivity Award",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-IISER-Tirupati_India",
@@ -9459,7 +10274,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-Imperial_College_London",
@@ -9485,7 +10301,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-INSA_Lyon1",
@@ -9514,7 +10331,34 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "France"
     ]
   },
   {
@@ -9545,7 +10389,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-KEYSTONE",
@@ -9562,7 +10407,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Korea_HS",
@@ -9587,7 +10433,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Lambert_GA",
@@ -9611,7 +10458,22 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
+      },
+      {
+        "name": "Inclusivity Award",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "United States"
     ]
   },
   {
@@ -9636,8 +10498,21 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
+      },
+      {
+        "name": "Safety and Security Award",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Linkoping_Sweden",
@@ -9654,7 +10529,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-LINKS_China",
@@ -9678,8 +10554,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Part Collection",
         "status": "Winner"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Lund",
@@ -9696,7 +10581,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-LZU-CHINA",
@@ -9726,7 +10612,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-McGill",
@@ -9747,7 +10634,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Mingdao",
@@ -9771,8 +10659,25 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Winner"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "Safety and Security Award",
+        "status": "Winner"
+      },
+      {
+        "name": "Inclusivity Award",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-MIT_MAHE",
@@ -9801,8 +10706,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Software Tool",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Montpellier",
@@ -9831,7 +10741,14 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "France"
     ]
   },
   {
@@ -9861,8 +10778,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Software Tool",
         "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Nanjing_NFLS",
@@ -9883,7 +10805,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Nanjing-China",
@@ -9913,7 +10836,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-NMU_China",
@@ -9930,7 +10854,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-NU_Kazakhstan",
@@ -9947,7 +10872,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-NYC_Empire_State",
@@ -9968,7 +10894,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-NYCU_Formosa",
@@ -9985,7 +10912,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-Paris_Bettencourt",
@@ -10002,7 +10930,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-Patras_Medicine",
@@ -10024,7 +10953,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-PuiChing_Macau",
@@ -10049,6 +10979,9 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Winner"
       }
+    ],
+    "countries": [
+      "Macao"
     ]
   },
   {
@@ -10066,7 +10999,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-REC-CHENNAI",
@@ -10083,7 +11017,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-Rochester",
@@ -10108,7 +11043,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-RUM-UPRM",
@@ -10125,7 +11061,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Seoul_Korea",
@@ -10149,8 +11086,25 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Nominee"
+      },
+      {
+        "name": "Safety and Security Award",
+        "status": "Nominee"
+      },
+      {
+        "name": "Inclusivity Award",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Sesame_Shenzhen",
@@ -10167,7 +11121,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Sheffield",
@@ -10184,7 +11139,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-SHSBNU_China",
@@ -10205,7 +11161,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Shym_BIL_NIS",
@@ -10222,7 +11179,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Sogang_Korea",
@@ -10247,7 +11205,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Sorbonne_U_Paris",
@@ -10272,7 +11231,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Stockholm",
@@ -10289,7 +11249,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-SubCat_China",
@@ -10306,7 +11267,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-SZPT-CHINA",
@@ -10323,7 +11285,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-SZU-China",
@@ -10345,7 +11308,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-TAU_Israel",
@@ -10366,7 +11330,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Tec-Chihuahua",
@@ -10383,7 +11348,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Technion-Israel",
@@ -10412,8 +11378,25 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Measurement",
         "status": "Winner"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "Inclusivity Award",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Thailand_RIS",
@@ -10430,7 +11413,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Thessaloniki",
@@ -10447,7 +11431,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Thessaloniki_Meta",
@@ -10476,8 +11461,21 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Basic Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Thessaly",
@@ -10507,7 +11505,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-THINKER_CHINA",
@@ -10524,7 +11523,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Toronto",
@@ -10541,7 +11541,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-Toulouse_INSA-UPS",
@@ -10567,7 +11568,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Tsinghua",
@@ -10584,7 +11586,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-TU_Dresden",
@@ -10610,7 +11613,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-TU-Eindhoven",
@@ -10639,7 +11643,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Winner"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Netherlands"
     ]
   },
   {
@@ -10669,8 +11684,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
+      },
+      {
+        "name": "Safety and Security Award",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Tuebingen",
@@ -10687,7 +11707,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-UBC-Okanagan",
@@ -10704,7 +11725,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-UCL",
@@ -10726,7 +11748,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-UCopenhagen",
@@ -10755,7 +11778,38 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "Inclusivity Award",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Denmark"
     ]
   },
   {
@@ -10773,7 +11827,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-UESTC-BioTech",
@@ -10790,7 +11845,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-UFMG_UFV_Brazil",
@@ -10820,7 +11876,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-UNILausanne",
@@ -10846,7 +11903,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-UniofBath",
@@ -10863,7 +11921,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development Impact",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-UTokyo",
@@ -10885,7 +11944,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-UZurich",
@@ -10914,8 +11974,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Basic Part",
         "status": "Winner"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Vilnius-Lithuania",
@@ -10932,7 +12001,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-Virginia",
@@ -10949,7 +12019,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-Wageningen_UR",
@@ -10966,7 +12037,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-Warwick",
@@ -10983,7 +12055,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-Waseda_Tokyo",
@@ -11000,7 +12073,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-Wego_Taipei",
@@ -11024,8 +12098,21 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "Safety and Security Award",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-William_and_Mary",
@@ -11051,7 +12138,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-WWU_Muenster",
@@ -11080,8 +12168,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-XJTLU-CHINA",
@@ -11098,7 +12195,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2022-XMU-China",
@@ -11119,7 +12217,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-YkPaO",
@@ -11136,7 +12235,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2022-ZJU-China",
@@ -11166,7 +12266,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Safety and Security Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Aachen",
@@ -11195,8 +12296,21 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Aboa",
@@ -11213,7 +12327,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Bielefeld-CeBiTec",
@@ -11235,7 +12350,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-BJEA_China",
@@ -11256,7 +12372,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-BNU-China",
@@ -11273,7 +12390,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-BOKU-Vienna",
@@ -11302,8 +12420,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Bolivia",
@@ -11333,7 +12456,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-British_Columbia",
@@ -11350,7 +12474,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-Calgary",
@@ -11376,7 +12501,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-CCA_San_Diego",
@@ -11400,8 +12526,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-CCU_Taiwan",
@@ -11418,7 +12549,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-CHINA-FAFU",
@@ -11435,7 +12567,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-City_of_London_UK",
@@ -11452,7 +12585,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Concordia-Montreal",
@@ -11469,7 +12603,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-CPU_CHINA",
@@ -11490,7 +12625,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-CSMU_Taiwan",
@@ -11507,7 +12643,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-CSU_CHINA",
@@ -11524,7 +12661,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-DTU-Denmark",
@@ -11553,8 +12691,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-DUT_China",
@@ -11576,7 +12719,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Ecuador",
@@ -11605,8 +12749,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Winner"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-EPFL",
@@ -11628,7 +12781,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Evry_Paris-Saclay",
@@ -11645,7 +12799,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-FCB-UANL",
@@ -11674,8 +12829,21 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Safety & Security",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Fudan",
@@ -11699,8 +12867,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Basic Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Fujian_United",
@@ -11717,7 +12890,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Gifu",
@@ -11734,7 +12908,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-GO_Paris-Saclay",
@@ -11751,7 +12926,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-GreatBay_SZ",
@@ -11772,7 +12948,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-GreatBay_United",
@@ -11793,7 +12970,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Groningen",
@@ -11822,8 +13000,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Heidelberg",
@@ -11849,7 +13032,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-HK_SSC",
@@ -11870,7 +13054,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Humboldt_Berlin",
@@ -11887,7 +13072,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-HZAU-China",
@@ -11916,8 +13102,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Winner"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-iBowu-China",
@@ -11942,7 +13137,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-IISER_Berhampur",
@@ -11959,7 +13155,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-IISER_Kolkata",
@@ -11989,7 +13186,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-IISER-Pune-India",
@@ -12011,7 +13209,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-IISER-Tirupati_India",
@@ -12040,8 +13239,21 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Safety & Security",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Ionis_Paris",
@@ -12058,7 +13270,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-IvyMaker-China",
@@ -12083,7 +13296,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-KCL_UK",
@@ -12112,8 +13326,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Winner"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Korea_HS",
@@ -12130,7 +13353,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Kyoto",
@@ -12147,7 +13371,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Lambert_GA",
@@ -12171,8 +13396,25 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Winner"
+      },
+      {
+        "name": "Best Measurement",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Model",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Safety & Security",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Leiden",
@@ -12189,7 +13431,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Safety & Security",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Lethbridge_HS",
@@ -12210,7 +13453,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Linkoping_Sweden",
@@ -12227,7 +13471,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-LINKS_China",
@@ -12251,7 +13496,42 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Measurement",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Model",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Winner"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "China"
     ]
   },
   {
@@ -12269,7 +13549,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-Marburg",
@@ -12298,7 +13579,46 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Measurement",
         "status": "Winner"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Winner"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Plant Synthetic Biology",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Safety & Security",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Germany"
     ]
   },
   {
@@ -12321,7 +13641,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Mingdao",
@@ -12345,8 +13666,25 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-NCKU_Tainan",
@@ -12371,7 +13709,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-NCTU_Formosa",
@@ -12388,7 +13727,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-NDNF_China",
@@ -12412,8 +13752,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Safety & Security",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-NEFU_China",
@@ -12442,8 +13791,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-NJMU-China",
@@ -12460,7 +13814,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-NMU_China",
@@ -12477,7 +13832,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-NTU-Singapore",
@@ -12494,7 +13850,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-NU_Kazakhstan",
@@ -12524,7 +13881,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-NUDT_CHINA",
@@ -12546,7 +13904,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-NUS_Singapore",
@@ -12575,7 +13934,22 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Singapore"
     ]
   },
   {
@@ -12598,7 +13972,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Paris_Bettencourt",
@@ -12628,7 +14003,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Patras",
@@ -12645,7 +14021,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Purdue",
@@ -12662,7 +14039,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-Rochester",
@@ -12688,7 +14066,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-SDU-Denmark",
@@ -12714,7 +14093,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-ShanghaiTech_China",
@@ -12743,7 +14123,38 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "China"
     ]
   },
   {
@@ -12768,8 +14179,21 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Basic Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-SHSID",
@@ -12786,7 +14210,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-SJTang",
@@ -12803,7 +14228,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-SJTU-Software",
@@ -12820,7 +14246,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-SMS_Shenzhen",
@@ -12841,7 +14268,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-SZ_SHD",
@@ -12865,7 +14293,18 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Part Collection",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "China"
     ]
   },
   {
@@ -12896,7 +14335,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-SZU-China",
@@ -12918,7 +14358,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-TAS_Taipei",
@@ -12942,8 +14383,41 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Inclusivity Award",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Integrated Human Practices",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Model",
+        "status": "Winner"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Tec-Monterrey",
@@ -12960,7 +14434,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Thessaly",
@@ -12977,7 +14452,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-Tianjin",
@@ -12994,7 +14470,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Tongji_Software",
@@ -13011,7 +14488,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-Toulouse_INSA-UPS",
@@ -13040,7 +14518,14 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "France"
     ]
   },
   {
@@ -13070,8 +14555,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Software Tool",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-TU_Kaiserslautern",
@@ -13088,7 +14578,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-TU-Eindhoven",
@@ -13117,8 +14608,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-TUDelft",
@@ -13147,7 +14647,26 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Safety & Security",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Netherlands"
     ]
   },
   {
@@ -13170,7 +14689,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-ULaval",
@@ -13192,7 +14712,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-UNILA_LatAm",
@@ -13214,7 +14735,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-UNILausanne",
@@ -13243,8 +14765,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Basic Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-UParis_BME",
@@ -13265,7 +14792,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-UPenn",
@@ -13295,7 +14823,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Uppsala",
@@ -13312,7 +14841,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-USP-Brazil",
@@ -13341,8 +14871,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Plant Synthetic Biology",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-UZurich",
@@ -13371,8 +14906,29 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Plant Synthetic Biology",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Vilnius-Lithuania",
@@ -13401,8 +14957,41 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Inclusivity Award",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Measurement",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Model",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Wageningen_UR",
@@ -13428,7 +15017,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Sustainable Development",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-Warwick",
@@ -13445,7 +15035,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-WHU-China",
@@ -13462,7 +15053,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Measurement",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-William_and_Mary",
@@ -13479,7 +15071,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       }
     ],
     "medal": null,
-    "specialPrizes": []
+    "specialPrizes": [],
+    "countries": []
   },
   {
     "id": "2021-Worldshaper-Nanjing",
@@ -13496,7 +15089,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-XMU-China",
@@ -13525,8 +15119,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2021-ZJU-China",
@@ -13555,8 +15154,29 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Basic Part",
         "status": "Winner"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Safety & Security",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Aachen",
@@ -13580,7 +15200,22 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Poster",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Promotion Video",
+        "status": "Winner"
+      },
+      {
+        "name": "Track",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Germany"
     ]
   },
   {
@@ -13602,7 +15237,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Track",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-ASTWS-China",
@@ -13619,7 +15255,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Athens",
@@ -13636,7 +15273,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Promotion Video",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Baltimore_BioCrew",
@@ -13653,7 +15291,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-BHSF",
@@ -13670,7 +15309,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Promotion Video",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-BITSPilani-Goa_India",
@@ -13691,7 +15331,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Calgary",
@@ -13715,8 +15356,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Measurement",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-CCA_San_Diego",
@@ -13733,7 +15383,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-CCU_Taiwan",
@@ -13750,7 +15401,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-CLS_CLSG_UK",
@@ -13774,8 +15426,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "iGEMers Prize",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Concordia-Montreal",
@@ -13792,7 +15453,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-CPU_CHINA",
@@ -13809,7 +15471,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-CSMU_Taiwan",
@@ -13833,8 +15496,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-DNHS_SanDiego_CA",
@@ -13855,7 +15523,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Presentation",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-DTU-Denmark",
@@ -13879,8 +15548,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Poster",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Edinburgh",
@@ -13901,7 +15575,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Evry_Paris-Saclay",
@@ -13925,8 +15600,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Part Collection",
         "status": "Nominee"
+      },
+      {
+        "name": "Track",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-FCB-UANL",
@@ -13943,7 +15623,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Supporting Entrepreneurship",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Fudan",
@@ -13967,8 +15648,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-GreatBay_SCIE",
@@ -13992,7 +15682,30 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Measurement",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Model",
+        "status": "Winner"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Poster",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "China"
     ]
   },
   {
@@ -14017,8 +15730,21 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Poster",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Grenoble_Alpes",
@@ -14039,7 +15765,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Groningen",
@@ -14060,7 +15787,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Track",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-GunnVistaPingry_US",
@@ -14081,7 +15809,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-GZ_HFI",
@@ -14102,7 +15831,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Hainan_China",
@@ -14119,7 +15849,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Promotion Video",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Hannover",
@@ -14136,7 +15867,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Basic Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Harvard",
@@ -14153,7 +15885,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-IISER-Pune-India",
@@ -14170,7 +15903,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "iGEMers Prize",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-KCL_UK",
@@ -14195,7 +15929,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Track",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-KEYSTONE",
@@ -14212,7 +15947,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Korea_HS",
@@ -14229,7 +15965,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "iGEMers Prize",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-KU_ISTANBUL",
@@ -14246,7 +15983,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Lambert_GA",
@@ -14270,8 +16008,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Leiden",
@@ -14295,7 +16038,30 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Poster",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
+      },
+      {
+        "name": "Track",
+        "status": "Winner"
       }
+    ],
+    "countries": [
+      "Netherlands"
     ]
   },
   {
@@ -14313,7 +16079,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-LINKS_China",
@@ -14334,7 +16101,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Manchester",
@@ -14351,7 +16119,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Supporting Entrepreneurship",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Mingdao",
@@ -14376,7 +16145,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-NCKU_Tainan",
@@ -14400,8 +16170,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Poster",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-NCTU_Formosa",
@@ -14418,7 +16197,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Nottingham",
@@ -14435,7 +16215,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-OhioState",
@@ -14452,7 +16233,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-OUC-China",
@@ -14469,7 +16251,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Paris_Bettencourt",
@@ -14486,7 +16269,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Poster",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-PYMS_GZ_China",
@@ -14503,7 +16287,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-QHFZ-China",
@@ -14524,7 +16309,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Queens_Canada",
@@ -14541,7 +16327,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Model",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Rochester",
@@ -14565,8 +16352,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-SDU-Denmark",
@@ -14590,8 +16382,17 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
+      },
+      {
+        "name": "Track",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Shanghai_SFLS_SPBS",
@@ -14612,7 +16413,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-SHSBNU_China",
@@ -14633,7 +16435,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Poster",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-SMS_Shenzhen",
@@ -14650,7 +16453,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Sorbonne_U_Paris",
@@ -14667,7 +16471,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Plant Synthetic Biology",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Stanford",
@@ -14688,7 +16493,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Track",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Stockholm",
@@ -14709,7 +16515,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Track",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-SZ-SHD",
@@ -14726,7 +16533,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best New Composite Part",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-TAS_Taipei",
@@ -14750,7 +16558,50 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Integrated Human Practices",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Measurement",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Model",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best New Basic Part",
+        "status": "Winner"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Poster",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Taiwan"
     ]
   },
   {
@@ -14775,8 +16626,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Software Tool",
         "status": "Winner"
+      },
+      {
+        "name": "Track",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Technion-Israel",
@@ -14793,7 +16649,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Inclusivity Award",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Toulouse_INSA-UPS",
@@ -14817,7 +16674,22 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "France"
     ]
   },
   {
@@ -14843,7 +16715,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Track",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-TU_Kaiserslautern",
@@ -14868,7 +16741,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Track",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-TUDelft",
@@ -14892,8 +16766,49 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Basic Part",
         "status": "Winner"
+      },
+      {
+        "name": "Best New Composite Part",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Poster",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Winner"
+      },
+      {
+        "name": "Best Supporting Entrepreneurship",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Sustainable Development Impact",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
+      },
+      {
+        "name": "iGEMers Prize",
+        "status": "Winner"
+      },
+      {
+        "name": "Safety Commendation",
+        "status": "Winner"
+      },
+      {
+        "name": "Track",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-UCopenhagen",
@@ -14917,8 +16832,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Basic Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-UCSC",
@@ -14935,7 +16855,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Track",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-UiOslo_Norway",
@@ -14952,7 +16873,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Software Tool",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-UNILausanne",
@@ -14976,8 +16898,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Composite Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Part Collection",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-UNSW_Australia",
@@ -15001,8 +16928,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best New Basic Part",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-UofUppsala",
@@ -15019,7 +16951,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Track",
         "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-UPF_Barcelona",
@@ -15043,8 +16976,13 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Winner"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-UZurich",
@@ -15065,7 +17003,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Part Collection",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Vilnius-Lithuania",
@@ -15089,7 +17028,26 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Model",
         "status": "Nominee"
+      },
+      {
+        "name": "Best Poster",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Presentation",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Software Tool",
+        "status": "Nominee"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "Lithuania"
     ]
   },
   {
@@ -15107,7 +17065,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Education",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-Waterloo",
@@ -15128,7 +17087,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Wiki",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-William_and_Mary",
@@ -15153,7 +17113,8 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Poster",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   },
   {
     "id": "2020-XMU-China",
@@ -15177,7 +17138,14 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
       {
         "name": "Best Presentation",
         "status": "Winner"
+      },
+      {
+        "name": "Best Wiki",
+        "status": "Nominee"
       }
+    ],
+    "countries": [
+      "China"
     ]
   },
   {
@@ -15195,6 +17163,7 @@ export const TEAM_AWARD_RECORDS: TeamAwardRecord[] = [
         "name": "Best Hardware",
         "status": "Nominee"
       }
-    ]
+    ],
+    "countries": []
   }
 ];
