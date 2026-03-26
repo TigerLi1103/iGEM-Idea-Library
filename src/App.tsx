@@ -23,6 +23,7 @@ import { DeliverablesGuide } from './pages/DeliverablesGuide';
 import { OfficialResources } from './pages/OfficialResources';
 import { FAQPage } from './pages/FAQPage';
 import { PartsBlast } from './pages/PartsBlast';
+import { PartDetail } from './pages/PartDetail';
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode; adminOnly?: boolean }> = ({ children, adminOnly }) => {
   const { user, loading, isAdmin } = useAuth();
@@ -48,6 +49,7 @@ const AppContent: React.FC = () => {
           <Route path="/resources" element={<OfficialResources />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="/parts-blast" element={<PartsBlast />} />
+          <Route path="/parts/:id" element={<PartDetail />} />
           <Route path="/villages" element={<VillagesOverview />} />
           <Route path="/villages/:id" element={<VillageDetail />} />
           <Route path="/ideas" element={<IdeasLibrary />} />

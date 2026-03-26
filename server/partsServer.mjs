@@ -7,6 +7,8 @@ const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const app = express();
 const PORT = process.env.PARTS_PORT || 3031;
 const FASTA_PATH = process.env.IGEM_FASTA_PATH || path.resolve(__dirname, '../data/igem_all_parts.fasta');
+const KMER = Number(process.env.PARTS_KMER || 8);
+const MAX_CANDIDATES = Number(process.env.PARTS_MAX_CANDIDATES || 2500);
 
 const normalize = (sequence = '') => sequence.replace(/[^ATCG]/gi, '').toUpperCase();
 const reverseComplement = (sequence) =>
@@ -33,12 +35,13 @@ function parseHeader(header) {
 function parseFasta(filePath) {
   const text = fs.readFileSync(filePath, 'utf8');
   const chunks = text.split(/^>/m).filter(Boolean);
-  return chunks.map((chunk) => {
+  return chunks.map((chunk, index) => {
     const lines = chunk.split(/\r?\n/);
     const header = '>' + lines.shift();
     const sequence = normalize(lines.join(''));
     const meta = parseHeader(header);
     return {
+      idx: index,
       ...meta,
       sequence,
       length: sequence.length,
@@ -83,12 +86,57 @@ function scorePart(query, target) {
   };
 }
 
+function kmers(sequence, k = KMER) {
+  const seq = normalize(sequence);
+  const out = new Set();
+  if (seq.length < k) {
+    if (seq) out.add(seq);
+    return out;
+  }
+  for (let i = 0; i <= seq.length - k; i += 1) out.add(seq.slice(i, i + k));
+  return out;
+}
+
 console.log(`[parts] loading FASTA from ${FASTA_PATH}`);
 const parts = parseFasta(FASTA_PATH);
 console.log(`[parts] loaded ${parts.length} parts`);
 
+console.log(`[parts] building ${KMER}-mer index`);
+const kmerIndex = new Map();
+for (const part of parts) {
+  for (const token of kmers(part.sequence, KMER)) {
+    const arr = kmerIndex.get(token);
+    if (arr) arr.push(part.idx);
+    else kmerIndex.set(token, [part.idx]);
+  }
+}
+console.log(`[parts] k-mer index ready (${kmerIndex.size} unique tokens)`);
+
+function candidateParts(query, type, category, mode) {
+  const filtered = (part) => (type === 'all' || part.type === type) && (category === 'all' || part.category === category);
+  if (mode === 'exact') return parts.filter(filtered);
+
+  const counts = new Map();
+  const qKmers = kmers(query, Math.min(KMER, Math.max(3, normalize(query).length)));
+  for (const token of qKmers) {
+    const ids = kmerIndex.get(token);
+    if (!ids) continue;
+    for (const idx of ids) counts.set(idx, (counts.get(idx) || 0) + 1);
+  }
+
+  const candidates = [...counts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, MAX_CANDIDATES)
+    .map(([idx]) => parts[idx])
+    .filter(Boolean)
+    .filter(filtered);
+
+  if (candidates.length) return candidates;
+  return parts.filter(filtered).slice(0, MAX_CANDIDATES);
+}
+
 app.get('/api/parts/health', (_req, res) => {
-  res.json({ ok: true, count: parts.length, fastaPath: FASTA_PATH });
+  res.json({ ok: true, count: parts.length, fastaPath: FASTA_PATH, kmer: KMER });
 });
 
 app.get('/api/parts/search', (req, res) => {
@@ -96,25 +144,40 @@ app.get('/api/parts/search', (req, res) => {
   const type = String(req.query.type || 'all');
   const category = String(req.query.category || 'all');
   const minIdentity = Number(req.query.minIdentity || 0);
-  const limit = Math.min(Number(req.query.limit || 20), 50);
+  const limit = Math.min(Number(req.query.limit || 20), 100);
+  const mode = String(req.query.mode || 'approximate');
+  const sortBy = String(req.query.sortBy || 'score');
 
   if (!query) return res.json({ queryLength: 0, total: parts.length, hits: [] });
 
-  const hits = parts
-    .filter((part) => type === 'all' || part.type === type)
-    .filter((part) => category === 'all' || part.category === category)
-    .map((part) => ({ part: { ...part, sequence: undefined }, result: scorePart(query, part.sequence) }))
+  const pool = candidateParts(query, type, category, mode);
+
+  const hits = pool
+    .map((part) => ({ part, result: scorePart(query, part.sequence) }))
     .filter(({ result }) => result.identity * 100 >= minIdentity)
-    .sort((a, b) => b.result.score - a.result.score || b.result.matches - a.result.matches)
+    .sort((a, b) => {
+      if (sortBy === 'identity') return b.result.identity - a.result.identity || b.result.matches - a.result.matches;
+      if (sortBy === 'length') return b.part.length - a.part.length;
+      return b.result.score - a.result.score || b.result.matches - a.result.matches;
+    })
     .slice(0, limit)
     .map(({ part, result }) => ({
-      ...part,
+      id: part.id,
+      name: part.name,
+      type: part.type,
+      category: part.category,
+      description: part.description,
+      length: part.length,
+      preview: part.preview,
       result,
     }));
 
   res.json({
     queryLength: query.length,
     total: parts.length,
+    scannedCandidates: pool.length,
+    mode,
+    sortBy,
     hits,
     availableTypes: Array.from(new Set(parts.map((p) => p.type))).sort(),
     availableCategories: Array.from(new Set(parts.map((p) => p.category))).sort(),
