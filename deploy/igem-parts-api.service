@@ -1,0 +1,16 @@
+[Unit]
+Description=iGEM Parts API
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/tiger/.openclaw/workspace/iGEM-Idea-Library
+EnvironmentFile=/home/tiger/.openclaw/workspace/iGEM-Idea-Library/.env.parts
+ExecStart=/root/.nvm/versions/node/v22.22.0/bin/node /home/tiger/.openclaw/workspace/iGEM-Idea-Library/server/partsServer.mjs
+Restart=always
+RestartSec=5
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
