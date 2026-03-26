@@ -6,3 +6,5 @@ coverage/
 *.log
 .env*
 !.env.example
+data/igem_all_parts.fasta
+data/__MACOSX/
