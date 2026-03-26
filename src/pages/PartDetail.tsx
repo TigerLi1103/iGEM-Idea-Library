@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Badge, Button, Card } from '../components/UI';
 import { PARTS_LIBRARY } from '../data/parts';
+import { partsApiUrl } from '../lib/partsApi';
 import { ArrowLeft, Copy, Dna, ExternalLink, Info } from 'lucide-react';
 
 export const PartDetail: React.FC = () => {
@@ -11,7 +12,7 @@ export const PartDetail: React.FC = () => {
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
-    fetch('/api/parts/health')
+    fetch(partsApiUrl('/api/parts/health'))
       .then((res) => (res.ok ? res.json() : Promise.reject(new Error('no server'))))
       .then(() => setServerAvailable(true))
       .catch(() => setServerAvailable(false));
@@ -24,7 +25,7 @@ export const PartDetail: React.FC = () => {
       setPart(local ?? null);
       return;
     }
-    fetch(`/api/parts/${encodeURIComponent(id)}`)
+    fetch(partsApiUrl(`/api/parts/${encodeURIComponent(id)}`))
       .then((res) => (res.ok ? res.json() : Promise.reject(new Error('not found'))))
       .then((data) => setPart(data))
       .catch(() => setPart(null));

@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "parts:server": "node server/partsServer.mjs"
+    "parts:server": "node server/partsServer.mjs",
+    "parts:server:public": "PARTS_ALLOW_ORIGIN=* node server/partsServer.mjs"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",

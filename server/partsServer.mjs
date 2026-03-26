@@ -9,6 +9,7 @@ const PORT = process.env.PARTS_PORT || 3031;
 const FASTA_PATH = process.env.IGEM_FASTA_PATH || path.resolve(__dirname, '../data/igem_all_parts.fasta');
 const KMER = Number(process.env.PARTS_KMER || 8);
 const MAX_CANDIDATES = Number(process.env.PARTS_MAX_CANDIDATES || 2500);
+const ALLOW_ORIGIN = process.env.PARTS_ALLOW_ORIGIN || 'http://localhost:3000';
 
 const normalize = (sequence = '') => sequence.replace(/[^ATCG]/gi, '').toUpperCase();
 const reverseComplement = (sequence) =>
@@ -112,6 +113,18 @@ for (const part of parts) {
 }
 console.log(`[parts] k-mer index ready (${kmerIndex.size} unique tokens)`);
 
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+  if (ALLOW_ORIGIN === '*' || !origin || origin === ALLOW_ORIGIN) {
+    res.header('Access-Control-Allow-Origin', ALLOW_ORIGIN === '*' ? '*' : (origin || ALLOW_ORIGIN));
+    res.header('Vary', 'Origin');
+    res.header('Access-Control-Allow-Methods', 'GET,OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  }
+  if (req.method === 'OPTIONS') return res.sendStatus(204);
+  next();
+});
+
 function candidateParts(query, type, category, mode) {
   const filtered = (part) => (type === 'all' || part.type === type) && (category === 'all' || part.category === category);
   if (mode === 'exact') return parts.filter(filtered);
@@ -136,7 +149,7 @@ function candidateParts(query, type, category, mode) {
 }
 
 app.get('/api/parts/health', (_req, res) => {
-  res.json({ ok: true, count: parts.length, fastaPath: FASTA_PATH, kmer: KMER });
+  res.json({ ok: true, count: parts.length, fastaPath: FASTA_PATH, kmer: KMER, allowOrigin: ALLOW_ORIGIN });
 });
 
 app.get('/api/parts/search', (req, res) => {

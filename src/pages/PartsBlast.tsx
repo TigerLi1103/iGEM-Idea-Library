@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Badge, Button, Card } from '../components/UI';
 import { PARTS_LIBRARY } from '../data/parts';
+import { PARTS_API_BASE, partsApiUrl } from '../lib/partsApi';
 import { Dna, Search, Sparkles, Filter, TableProperties, Target, Server, Download, ArrowUpDown, ExternalLink } from 'lucide-react';
 
 const normalize = (sequence: string) => sequence.replace(/[^ATCG]/gi, '').toUpperCase();
@@ -108,7 +109,7 @@ export const PartsBlast: React.FC = () => {
   const [scannedCandidates, setScannedCandidates] = useState<number | null>(null);
 
   useEffect(() => {
-    fetch('/api/parts/health')
+    fetch(partsApiUrl('/api/parts/health'))
       .then((res) => (res.ok ? res.json() : Promise.reject(new Error('no server'))))
       .then((data) => {
         setServerAvailable(true);
@@ -164,7 +165,7 @@ export const PartsBlast: React.FC = () => {
         mode,
         sortBy,
       });
-      const res = await fetch(`/api/parts/search?${params.toString()}`);
+      const res = await fetch(partsApiUrl(`/api/parts/search?${params.toString()}`));
       const data = await res.json();
       setServerHits(data.hits ?? []);
       setServerTypes(data.availableTypes ?? []);
@@ -224,6 +225,11 @@ export const PartsBlast: React.FC = () => {
           <Server className="w-4 h-4" />
           {serverAvailable ? `Live dataset online · ${serverCount ?? '…'} parts` : 'Demo fallback mode'}
         </div>
+        {PARTS_API_BASE && (
+          <div className="mt-3 text-sm text-slate-500">
+            API base: <code className="px-2 py-1 rounded bg-slate-100 text-slate-700">{PARTS_API_BASE}</code>
+          </div>
+        )}
       </section>
 
       <section className="max-w-5xl">
