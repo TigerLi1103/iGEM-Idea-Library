@@ -17,26 +17,26 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-slate-200">
+    <nav className="sticky top-0 z-50 w-full border-b border-emerald-100/70 bg-white/70 backdrop-blur-2xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center gap-4">
           <div className="flex items-center gap-8 min-w-0">
-            <Link to="/" className="flex items-center gap-2 shrink-0">
-              <div className="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center">
-                <Compass className="text-white w-5 h-5" />
+            <Link to="/" className="flex items-center gap-2.5 shrink-0">
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center igem-dark-panel">
+                <Compass className="text-emerald-200 w-4.5 h-4.5" />
               </div>
               <span className="font-bold text-xl tracking-tight text-slate-900">iGEM Navigator</span>
             </Link>
 
             <div className="hidden xl:flex items-center gap-5 text-sm font-medium text-slate-600 min-w-0">
-              <Link to="/guide" className="hover:text-emerald-600 transition-colors">Guide</Link>
-              <Link to="/timeline" className="hover:text-emerald-600 transition-colors">Timeline</Link>
-              <Link to="/glossary" className="hover:text-emerald-600 transition-colors">Glossary</Link>
-              <Link to="/deliverables" className="hover:text-emerald-600 transition-colors">Deliverables</Link>
-              <Link to="/resources" className="hover:text-emerald-600 transition-colors">Resources</Link>
-              <Link to="/faq" className="hover:text-emerald-600 transition-colors">FAQ</Link>
-              <Link to="/parts-blast" className="hover:text-emerald-600 transition-colors">Parts BLAST</Link>
-              <Link to="/ideas" className="hover:text-emerald-600 transition-colors">Library</Link>
+              <Link to="/guide" className="hover:text-emerald-700 transition-colors">Guide</Link>
+              <Link to="/timeline" className="hover:text-emerald-700 transition-colors">Timeline</Link>
+              <Link to="/glossary" className="hover:text-emerald-700 transition-colors">Glossary</Link>
+              <Link to="/deliverables" className="hover:text-emerald-700 transition-colors">Deliverables</Link>
+              <Link to="/resources" className="hover:text-emerald-700 transition-colors">Resources</Link>
+              <Link to="/faq" className="hover:text-emerald-700 transition-colors">FAQ</Link>
+              <Link to="/parts-blast" className="hover:text-emerald-700 transition-colors">Parts BLAST</Link>
+              <Link to="/ideas" className="hover:text-emerald-700 transition-colors">Library</Link>
             </div>
           </div>
 
@@ -48,7 +48,7 @@ export const Navbar: React.FC = () => {
                 placeholder="Search library..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-10 pr-4 py-1.5 bg-slate-100 border-transparent focus:bg-white focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 rounded-full text-sm w-56 transition-all outline-none"
+                className="pl-10 pr-4 py-1.5 bg-white/70 border border-emerald-100 focus:bg-white focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 rounded-full text-sm w-56 transition-all outline-none"
               />
             </form>
 
