@@ -17,7 +17,7 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-emerald-100/70 bg-white/70 backdrop-blur-2xl">
+    <nav className="sticky top-0 z-50 w-full border-b border-black/5 bg-white/72 backdrop-blur-2xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center gap-4">
           <div className="flex items-center gap-8 min-w-0">
@@ -29,14 +29,14 @@ export const Navbar: React.FC = () => {
             </Link>
 
             <div className="hidden xl:flex items-center gap-5 text-sm font-medium text-slate-600 min-w-0">
-              <Link to="/guide" className="hover:text-emerald-700 transition-colors">Guide</Link>
-              <Link to="/timeline" className="hover:text-emerald-700 transition-colors">Timeline</Link>
-              <Link to="/glossary" className="hover:text-emerald-700 transition-colors">Glossary</Link>
-              <Link to="/deliverables" className="hover:text-emerald-700 transition-colors">Deliverables</Link>
-              <Link to="/resources" className="hover:text-emerald-700 transition-colors">Resources</Link>
-              <Link to="/faq" className="hover:text-emerald-700 transition-colors">FAQ</Link>
-              <Link to="/parts-blast" className="hover:text-emerald-700 transition-colors">Parts BLAST</Link>
-              <Link to="/ideas" className="hover:text-emerald-700 transition-colors">Library</Link>
+              <Link to="/guide" className="hover:text-[#0E7A4B] transition-colors">Guide</Link>
+              <Link to="/timeline" className="hover:text-[#0E7A4B] transition-colors">Timeline</Link>
+              <Link to="/glossary" className="hover:text-[#0E7A4B] transition-colors">Glossary</Link>
+              <Link to="/deliverables" className="hover:text-[#0E7A4B] transition-colors">Deliverables</Link>
+              <Link to="/resources" className="hover:text-[#0E7A4B] transition-colors">Resources</Link>
+              <Link to="/faq" className="hover:text-[#0E7A4B] transition-colors">FAQ</Link>
+              <Link to="/parts-blast" className="hover:text-[#0E7A4B] transition-colors">Parts BLAST</Link>
+              <Link to="/ideas" className="hover:text-[#0E7A4B] transition-colors">Library</Link>
             </div>
           </div>
 
@@ -48,7 +48,7 @@ export const Navbar: React.FC = () => {
                 placeholder="Search library..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-10 pr-4 py-1.5 bg-white/70 border border-emerald-100 focus:bg-white focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 rounded-full text-sm w-56 transition-all outline-none"
+                className="pl-10 pr-4 py-1.5 bg-white/85 border border-black/10 focus:bg-white focus:border-[#0E7A4B] focus:ring-2 focus:ring-emerald-100 rounded-full text-sm w-56 transition-all outline-none"
               />
             </form>
 
@@ -72,7 +72,7 @@ export const Navbar: React.FC = () => {
                     )}
                   </button>
 
-                  <div className="absolute right-0 mt-2 w-48 bg-white border border-slate-200 rounded-xl shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-1">
+                  <div className="absolute right-0 mt-2 w-48 bg-white border border-black/10 rounded-xl shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-1">
                     <div className="px-4 py-2 border-b border-slate-100">
                       <p className="text-xs font-semibold text-slate-900 truncate">{user.name}</p>
                       <p className="text-[10px] text-slate-500 truncate">{user.email}</p>
