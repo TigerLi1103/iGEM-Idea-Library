@@ -29,12 +29,12 @@ export const Home: React.FC = () => {
           <div className="igem-surface rounded-3xl p-8 md:p-12">
             <Badge variant="verified" className="mb-6 px-4 py-1">Start Here · iGEM Navigator</Badge>
             <h1 className="text-4xl md:text-6xl font-extrabold text-[var(--text-primary)] tracking-tight mb-6 max-w-5xl leading-[1.06]">
-              别瞎忙，
+              先别急着定题，
               <br />
-              先把 <span className="text-[var(--brand-600)]">比赛流程</span> 走顺。
+              先把 <span className="text-[var(--brand-600)]">路走对</span>。
             </h1>
             <p className="text-lg text-[var(--text-secondary)] max-w-3xl leading-relaxed mb-8">
-              你现在要看哪页、先做哪步、卡住了去哪查，我都放好了。
+              这站就干一件事：告诉你现在该看什么，下一步做什么。
             </p>
             <div className="flex flex-wrap gap-3">
               <Link to="/guide"><Button variant="primary">先了解 iGEM 是什么</Button></Link>
@@ -108,10 +108,10 @@ export const Home: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 relative z-10">
             <div className="max-w-2xl">
               <div className="inline-flex items-center gap-2 text-emerald-200 text-sm font-medium mb-3"><Dna className="w-4 h-4" /> New feature</div>
-              <h2 className="text-3xl font-bold mb-3">Parts BLAST 现在就能用</h2>
+              <h2 className="text-3xl font-bold mb-3">Parts BLAST 现在能直接用</h2>
               <p className="text-emerald-50/85 leading-7">
-                把 DNA 序列贴进来，先找到最像的 parts。
-                之后再加筛选和对齐这些进阶功能。
+                贴一段 DNA 序列，就能先搜到最像的 parts。
+                后面再加筛选、对齐这些功能。
               </p>
             </div>
             <Link to="/parts-blast"><Button variant="secondary">打开 Parts BLAST</Button></Link>
