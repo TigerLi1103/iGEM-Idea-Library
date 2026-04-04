@@ -28,45 +28,45 @@ export interface GlossaryTerm {
 export const START_PATHS: GuidePath[] = [
   {
     title: '我想了解 iGEM 是什么',
-    description: '先建立整体认知：比赛是什么、队伍怎么运作、项目和评审是什么关系。',
+    description: '先把基本盘搞懂：比赛怎么跑、队伍怎么分工、评审看什么。',
     to: '/guide',
     badge: '新手起点',
   },
   {
     title: '我准备组队',
-    description: '快速看赛季流程、常见角色、前期准备重点，避免一开始就走偏。',
+    description: '先看赛季流程和角色分工，开局别跑偏。',
     to: '/timeline',
     badge: '组队前必看',
   },
   {
     title: '我已经加入队伍',
-    description: '搞清楚自己现在在哪个阶段、该读哪些模块、哪些概念最先补。',
+    description: '判断你现在在哪一步，先补最该补的那块。',
     to: '/glossary',
   },
   {
     title: '我是队长或负责人',
-    description: '优先看节奏安排、交付物规划、评审逻辑与资源入口的重组导航。',
+    description: '重点看节奏、交付物和评审要求，方便你带队控盘。',
     to: '/deliverables',
     badge: '负责人视角',
   },
   {
     title: '我在做项目设计',
-    description: '保留现有 Idea Library，继续看案例、villages、award archive 和灵感资源。',
+    description: '直接去看 Idea Library、villages 和往届案例找方向。',
     to: '/ideas',
   },
   {
     title: '我在查 parts / sequence',
-    description: '进入 Parts BLAST，用序列做相似搜索，快速找可能相关的构件。',
+    description: '去 Parts BLAST 贴序列，先把可能相关的 parts 找出来。',
     to: '/parts-blast',
     badge: 'MVP',
   },
 ];
 
 export const QUICK_LINKS: GuidePath[] = [
-  { title: '赛季时间线', description: '按阶段看“现在该做什么”。', to: '/timeline' },
-  { title: '交付物与评审', description: '把 wiki / judging / medal / special prize 讲清楚。', to: '/deliverables' },
-  { title: '官方资源导航', description: '按任务重组官方入口，而不是照搬官网结构。', to: '/resources' },
-  { title: 'FAQ', description: '快速解决最常见的新手问题。', to: '/faq' },
+  { title: '赛季时间线', description: '按月份看你现在该做啥。', to: '/timeline' },
+  { title: '交付物与评审', description: 'wiki、judging、medal 一次讲明白。', to: '/deliverables' },
+  { title: '官方资源导航', description: '把官网入口按任务重排，少绕路。', to: '/resources' },
+  { title: 'FAQ', description: '新手最常问的问题都在这。', to: '/faq' },
 ];
 
 export const TIMELINE_STAGES: TimelineStage[] = [
