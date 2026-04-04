@@ -74,7 +74,7 @@ export const TIMELINE_STAGES: TimelineStage[] = [
     id: 'explore',
     title: '前期了解与准备',
     period: '赛季前 / 刚接触 iGEM',
-    summary: '先建立全局认识，而不是急着定题。理解比赛结构、交付物、团队角色比“先想一个酷项目”更重要。',
+    summary: '先把比赛规则看懂，再定题。开局最怕的是方向错了还猛做。',
     tasks: ['了解 iGEM 的基本结构与赛季节奏', '认识 team / project / wiki / judging / awards 的关系', '明确学校/实验室/成员资源边界'],
     pitfalls: ['把 iGEM 误解为单纯科研竞赛', '没搞清 deliverables 就开始冲项目', '只看项目案例，不看比赛规则'],
     recommendedLinks: [
@@ -86,7 +86,7 @@ export const TIMELINE_STAGES: TimelineStage[] = [
     id: 'forming',
     title: '组队与初步规划',
     period: '确定参赛意向后',
-    summary: '这一阶段重点不是“把题目一步做完”，而是建立分工、节奏和初步方向。',
+    summary: '这阶段先把人和节奏排好，不要一上来就把题做死。',
     tasks: ['确定队长/负责人/核心模块分工', '判断项目方向与 village 的大致匹配', '建立记录机制，别把 wiki 留到最后'],
     pitfalls: ['队伍角色不清晰', '过早追求宏大题目', '没有同步记录与版本管理'],
     recommendedLinks: [
@@ -98,7 +98,7 @@ export const TIMELINE_STAGES: TimelineStage[] = [
     id: 'execution',
     title: '项目设计与执行',
     period: '赛季中段',
-    summary: '进入执行阶段后，要同时推进实验/建模/HP/展示素材，而不是单线程推进。',
+    summary: '进执行期后，实验、建模、HP、展示要一起推进，别只冲一条线。',
     tasks: ['推进项目设计、验证与模块协作', '同步整理 wiki 素材与项目叙事', '提早理解 judges 将从哪里认识你的项目'],
     pitfalls: ['只推进 wet lab，忽略叙事结构', '等临近截止才整理 wiki', '模块之间信息断裂'],
     recommendedLinks: [
@@ -110,7 +110,7 @@ export const TIMELINE_STAGES: TimelineStage[] = [
     id: 'finale',
     title: '收尾、展示与评审',
     period: '提交与答辩前',
-    summary: '最后阶段的本质是“把项目讲清楚、展示完整、证据对应好”。',
+    summary: '收尾阶段就三件事：讲清楚、交齐材料、证据对上评审点。',
     tasks: ['核对交付物完整性', '统一 presentation / wiki / judging narrative', '对照 medal 与 prize 要求查漏补缺'],
     pitfalls: ['只顾着补实验，不顾评审叙事', '奖项目标与证据链不对应', '最后几天才集中做全部展示材料'],
     recommendedLinks: [
@@ -180,23 +180,23 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
 export const FAQS = [
   {
     question: '没有实验室还能不能参加 iGEM？',
-    answer: '可以，但需要更早评估资源边界。你可以围绕 dry lab、建模、设计、教育、HP、系统规划等方向组织项目，同时尽早明确实验条件与合作路径。',
+    answer: '能。没实验室也可以做 dry lab、建模、设计和 HP。关键是早点把资源边界和合作路径谈清楚。',
   },
   {
     question: '只有 coding 或设计背景，可以做什么？',
-    answer: '完全可以参与。你可以负责建模、工具开发、数据可视化、wiki 架构、信息设计、展示逻辑、材料整合，甚至成为项目叙事的关键角色。',
+    answer: '当然可以。coding 和设计背景在 iGEM 很有用：建模、工具、可视化、wiki 结构、展示逻辑都靠这类能力。',
   },
   {
     question: 'wiki 可以最后再做吗？',
-    answer: '不建议。wiki 不是赛季末的排版工作，而是整个项目的记录与表达容器。越晚开始，越容易出现素材缺失与逻辑断裂。',
+    answer: '别拖到最后。wiki 不是排版作业，是全程记录。你晚做一天，后面就多补一天坑。',
   },
   {
     question: '项目一定要非常“硬核”才有竞争力吗？',
-    answer: '不一定。比起表面上的“高难度”，更重要的是问题定义清晰、设计逻辑完整、证据链自洽，以及项目与展示的一致性。',
+    answer: '不一定。比“看起来很硬核”更重要的是：问题讲得清楚、方案能落地、证据能自证。',
   },
   {
     question: '队伍规模多大比较合理？',
-    answer: '没有绝对标准，但要覆盖核心模块并避免管理失控。小团队也能做，只是更需要明确分工和节奏管理。',
+    answer: '没有标准人数。能把核心模块覆盖住就行。人少也能打，但分工一定要清楚。',
   },
 ];
 

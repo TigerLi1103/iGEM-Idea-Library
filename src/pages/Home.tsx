@@ -29,13 +29,12 @@ export const Home: React.FC = () => {
           <div className="igem-surface rounded-3xl p-8 md:p-12">
             <Badge variant="verified" className="mb-6 px-4 py-1">Start Here · iGEM Navigator</Badge>
             <h1 className="text-4xl md:text-6xl font-extrabold text-[var(--text-primary)] tracking-tight mb-6 max-w-5xl leading-[1.06]">
-              别先卷项目，
+              别瞎忙，
               <br />
-              先搞清楚 <span className="text-[var(--brand-600)]">现在该干嘛</span>。
+              先把 <span className="text-[var(--brand-600)]">比赛流程</span> 走顺。
             </h1>
             <p className="text-lg text-[var(--text-secondary)] max-w-3xl leading-relaxed mb-8">
-              这里不讲空话，直接给你：赛季节奏、交付物、术语、官方入口。
-              新人能快速上手，老队员也能少走弯路。
+              你现在要看哪页、先做哪步、卡住了去哪查，我都放好了。
             </p>
             <div className="flex flex-wrap gap-3">
               <Link to="/guide"><Button variant="primary">先了解 iGEM 是什么</Button></Link>
@@ -89,7 +88,7 @@ export const Home: React.FC = () => {
             <h2 className="text-2xl font-bold text-[var(--text-primary)]">资源区</h2>
           </div>
           <div className="space-y-4 text-[var(--text-secondary)]">
-            <p>原来的内容都在，只是我帮你按“先后顺序”重新排好了。</p>
+            <p>内容没删，我只是按“先看什么、后看什么”重排了。</p>
             <ul className="space-y-2">
               <li className="flex gap-2"><span className="text-[var(--brand-600)]">•</span><span>{ideas.length} 条 Idea Library 内容</span></li>
               <li className="flex gap-2"><span className="text-[var(--brand-600)]">•</span><span>{villages.length} 个 villages 方向入口</span></li>
@@ -109,10 +108,10 @@ export const Home: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 relative z-10">
             <div className="max-w-2xl">
               <div className="inline-flex items-center gap-2 text-emerald-200 text-sm font-medium mb-3"><Dna className="w-4 h-4" /> New feature</div>
-              <h2 className="text-3xl font-bold mb-3">Parts BLAST 现在能直接用了</h2>
+              <h2 className="text-3xl font-bold mb-3">Parts BLAST 现在就能用</h2>
               <p className="text-emerald-50/85 leading-7">
-                你可以直接贴 DNA 序列做相似搜索，先拿到一版可用结果。
-                后面再补 Registry 实时数据、过滤器和对齐视图。
+                把 DNA 序列贴进来，先找到最像的 parts。
+                之后再加筛选和对齐这些进阶功能。
               </p>
             </div>
             <Link to="/parts-blast"><Button variant="secondary">打开 Parts BLAST</Button></Link>
